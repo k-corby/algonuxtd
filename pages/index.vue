@@ -24,9 +24,9 @@
             </div>
           </div>
        <PortfolioList />
-          <div class="row-fluid img-fluid bg-white" data-anchor="Page 3">
-            <div class="col-span pl pr pt-vw10 pb bg-blue text-white">
-              <h1 class="mrg-top poppins trans-stroke">Recent work.</h1>
+          <div class="row_fluid img_fluid bg_white" data-anchor="Page 3">
+            <div class="col_span pl pr pt_10 pb bg_blue text_white">
+              <h1 class="mt poppins trans_stroke">Recent work.</h1>
               <p class="caption">
                 Learn how to solve simple to complex programming problems.
               </p>
@@ -69,7 +69,7 @@
           </div>
 
           <div
-            class="row-fluid bg-white"
+            class="row_fluid bg_white"
             style="padding-top: 250px"
             data-anchor="Page 4"
           >
@@ -81,7 +81,7 @@
               data-aos="fade-up"
               data-aos-duration="3000"
             >
-              <h1 class="br-top mrg-top poppins">
+              <h1 class="mt poppins">
                 Featured<br />
                 algorithms
               </h1>

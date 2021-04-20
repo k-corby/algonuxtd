@@ -4,28 +4,32 @@
   grid-gap: 1em;
 }
 
-.mrg-top-50 {
-  margin-top: 50px;
+.valign_mid{
+  margin-top:10vw;
 }
 
-.mrg-top-200 {
-  margin-top: 200px;
+.pt_10{
+  padding-top:10vw;
 }
 
-.mrg-top-35 {
-  margin-top: 35%;
+.pb_10{
+  padding-bottom:10vw;
 }
 
-.mrg-top-45 {
-  margin-top: 45%;
+.pt_15{
+  padding-top:15vw;
 }
 
-.pb-200 {
-  padding-bottom: 13vw;
+.pb_20{
+  padding-bottom:20vw;
 }
 
-.vw40 {
-  width: 40vw;
+.width_70{
+  width:70%;
+}
+
+.width_30{
+  width:30%;
 }
 
 .rel {
@@ -66,7 +70,7 @@ header nav {
   grid-template-columns: auto auto;
 }
 
-main .pt-fs {
+main .pt_fs {
   /*padding-top: 100vh;*/
 }
 
@@ -74,7 +78,7 @@ main .fs{
   height:100vh;
 }
 
-main .row-fluid.fs {
+main .row_fluid.fs {
   height: 100vh;
 }
 
@@ -93,11 +97,11 @@ main .fixed {
 
 }
 
-main .row-fixed #banner {
+main .row_fixed #banner {
   width: 100%;
 }
 
-main .row-fixed.header {
+main .row_fixed.header {
   position: fixed;
   z-index: 1;
   top: 0;
@@ -109,7 +113,7 @@ main .row-fixed.header {
   background-repeat: no-repeat;*/
 }
 
-main .row-fixed.header #banner {
+main .row_fixed.header #banner {
   position: relative;
   top: max(260px, 24vw);
   left: 0;  
@@ -123,7 +127,7 @@ main .fs.header #banner {
 
 
 
-main .row-fluid, footer .row-fluid {
+main .row_fluid, footer .row_fluid {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -131,19 +135,23 @@ main .row-fluid, footer .row-fluid {
   z-index: 2;
 }
 
-main .col-2 {
+
+
+main .col_2 {
+  width:100%;
+  display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 20px;
 }
 
-main .row-fluid-three {
+main .row_fluid_three {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 10vw;
 }
 
-main .row-fluid .col-span {
+main .row_fluid .col_span {
   grid-column: 1 / -1;
 }
 
@@ -151,11 +159,11 @@ main .row-fluid .col-span {
   text-align: justify;
 }
 
-.width-70 {
+.width_70 {
   width: 70%;
 }
 
-.width-80 {
+.width_80 {
   width: 80%;
 }
 
@@ -171,29 +179,13 @@ main .ar {
   text-align: right;
 }
 
-main .row-fluid-one-three {
+main .row_fluid_one_three {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
 main .sa {
   margin: 0 0 4vw 4vw;
-}
-
-main .pt-vw3 {
-  padding-top: 3vw;
-}
-
-main .pt-vw5 {
-  padding-top: 5vw;
-}
-
-main .mt-vw5 {
-  margin-top: 5vw;
-}
-
-main .pt-vw10 {
-  padding-top: 10vw;
 }
 
 main .ml {
@@ -208,43 +200,48 @@ main .mr {
   margin-right: 7vw;
 }
 
-main .mt {
-  margin-top: 4vw;
+main .mt_10 {
+  margin-top: 10vw;
 }
 
-main .mb {
-  margin-bottom: 4vw;
+main .mb_10 {
+  margin-bottom: 10vw;
+}
+
+main .mb_15{
+  margin-bottom:15vw;
 }
 
 main .pl {
-  padding-left: 7vw;
+  padding-left: 10vw;
 }
 
-main .pl9vw {
-  padding-left: 9.5vw
-}
 
 main .pr {
-  padding-right: 7vw;
+  padding-right: 10vw;
 }
 
 main .pb {
   padding-bottom: 7vw;
 }
 
+main .pt{
+  padding-top:7vw;
+}
+
 main .pbs {
   padding-bottom: 2vw;
 }
 
-main .row-fluid.img-fluid {
+main .row_fluid.img_fluid {
   margin-bottom: -4px;
 }
 
-main .row-fluid.banner-fluid {
+main .row_fluid.banner_fluid {
   height: 20vw;
 }
 
-main .row-fluid.grid-colour {
+main .row_fluid.grid_colour {
   background: linear-gradient(#ccb4fa, #ccb4fa) 0% 0% / 50% 50%, linear-gradient(#fbee7f, #fbee7f) 50% 0% / 100% 50%, linear-gradient(#f1b3ee, #f1b3ee) 0% 50% / 50% 100%, linear-gradient(#aef2f6, #aef2f6) 50% 50% / 100% 100%;
   background-repeat: no-repeat;
 }
@@ -258,7 +255,7 @@ main .row-fluid.grid-colour {
 
 @media screen and (max-width: 1800px) {
 
-  main .row-fixed.header #banner {
+  main .row_fixed.header #banner {
     top: max(260px, 45%);
   }
   /*main .row-fluid.img-fluid article:nth-child(odd) {
@@ -271,17 +268,17 @@ main .row-fluid.grid-colour {
 }
 
 @media screen and (max-width: 900px) {
-  main .row-fluid.img-fluid, main .row-fluid {
+  main .row_fluid.img_fluid, main .row_fluid {
     grid-template-columns: 1fr;
     height: unset;
   }
-  main .row-fluid.banner-fluid article {
+  main .row_fluid.banner_fluid article {
     height: 18vw;
   }
 }
 
 @media screen and (max-width: 1000px) {
-  main .row-fixed.header #banner {
+  main .row_fixed.header #banner {
     top: max(260px, 28vw);
   }
 }
@@ -289,7 +286,7 @@ main .row-fluid.grid-colour {
 @media screen and (max-width: 750px) {}
 
 @media screen and (max-width: 1000px) {
-  main .row-fixed {
+  main .row_fixed {
     padding: 0 4.7vw;
   }
 }

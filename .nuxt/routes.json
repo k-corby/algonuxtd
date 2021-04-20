@@ -2,29 +2,29 @@
   {
     "name": "about",
     "path": "/about",
-    "component": "/Users/kanecorby/Documents/projects/algonuxtdark/pages/about.vue",
+    "component": "/Users/kanecorby/Documents/projects/algonuxtd/pages/about.vue",
     "chunkName": "pages/about",
-    "_name": "_162481f6"
+    "_name": "_2dd647cc"
   },
   {
     "name": "portfolio",
     "path": "/portfolio",
-    "component": "/Users/kanecorby/Documents/projects/algonuxtdark/pages/portfolio/index.vue",
+    "component": "/Users/kanecorby/Documents/projects/algonuxtd/pages/portfolio/index.vue",
     "chunkName": "pages/portfolio/index",
-    "_name": "_5fe13b74"
+    "_name": "_c45b8ed0"
   },
   {
     "name": "portfolio-id",
     "path": "/portfolio/:id",
-    "component": "/Users/kanecorby/Documents/projects/algonuxtdark/pages/portfolio/_id.vue",
+    "component": "/Users/kanecorby/Documents/projects/algonuxtd/pages/portfolio/_id.vue",
     "chunkName": "pages/portfolio/_id",
-    "_name": "_44a0ea48"
+    "_name": "_ad74fe00"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/Users/kanecorby/Documents/projects/algonuxtdark/pages/index.vue",
+    "component": "/Users/kanecorby/Documents/projects/algonuxtd/pages/index.vue",
     "chunkName": "pages/index",
-    "_name": "_35dc5cbb"
+    "_name": "_08ccb6df"
   }
 ]
