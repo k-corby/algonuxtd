@@ -4,7 +4,7 @@
       :key="item.id"
       class="bg-white row_fluid fs mt_10 mb_15">
       
-      <div class="pl pr valign_mid ">
+      <div class="pl pr valign_mid">
        <p class="num">
           <!--<a class="btn btn-fixed" href="/home/philosophy">Explore &rarr;</a>-->
           0{{item.id}}
@@ -73,11 +73,6 @@ main #services .row_fluid:nth-child(even) .service_img{
 
 
 main #services p{
-  font-size:132%;
-  line-height: 36px;
-  font-weight: 400;
-  letter-spacing: 0.1vw;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 main #services p.num{

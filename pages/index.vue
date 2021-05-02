@@ -2,7 +2,7 @@
   <div>
     <div class="grid">
       <main>
-        <div class="pt-fs" data-scroll-section>
+        <div class="" data-scroll-section>
              <AppNavigation />
           <div
             data-scroll
@@ -18,28 +18,19 @@
               <p data-scroll data-scroll-speed="1" class="slogan">
               A design agency built to build modern brands.
               </p>
-              <p class="bold"><br></p>
-             <div id="scroll-down">
-             <DownArrow /></div>
+             <!--<div id="scroll-down">
+             <DownArrow /></div>-->
             </div>
           </div>
        <PortfolioList />
-          <div class="row_fluid img_fluid bg_white" data-anchor="Page 3">
+          <div class="bg_white" data-anchor="Page 3">
             <div class="col_span pl pr pt_10 pb bg_blue text_white">
               <h1 class="mt poppins trans_stroke">Recent work.</h1>
               <p class="caption">
                 Learn how to solve simple to complex programming problems.
               </p>
             </div>
-            <article class="">
-              <img src="~../assets/img/banner/programming.jpg" />
-              <div class="overlay">
-                <div class="text">
-                  <h1>Depth First Search</h1>
-                  <p>algorithm</p>
-                </div>
-              </div>
-            </article>
+            
             <article class="">
               <img src="~../assets/img/banner/ui-design.jpg" />
               <div class="overlay">
