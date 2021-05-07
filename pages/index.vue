@@ -2,20 +2,14 @@
   <div>
     <div class="grid">
       <main>
-        <div class="" data-scroll-section>
+        <div class="">
              <AppNavigation />
-          <div
-            data-scroll
-            data-scroll-speed="1"
-            class="header bg-banner"
-            data-anchor="Page 1"
-          >
-        
+          <div class="header bg-banner">
             <div id="banner">
               <div id="scroll-down">Facebook Dribble</div>
-              <h1 data-scroll data-scroll-speed="1.5" class="br-top">ideas, brands<span class="break"> & concepts.</span>          
+              <h1 class="br-top">ideas, brands<span class="break"> <span>&</span> concepts.</span>          
               </h1>
-              <p data-scroll data-scroll-speed="1" class="slogan">
+              <p class="slogan">
               A design agency built to build modern brands.
               </p>
              <!--<div id="scroll-down">
@@ -23,7 +17,7 @@
             </div>
           </div>
        <PortfolioList />
-          <div class="bg_white" data-anchor="Page 3">
+          <div data-aos="fade-in" data-aos-duration="2000" class="bg_white" data-anchor="Page 3">
             <div class="col_span pl pr pt_10 pb bg_blue text_white">
               <h1 class="mt poppins trans_stroke">Recent work.</h1>
               <p class="caption">
@@ -31,7 +25,7 @@
               </p>
             </div>
             
-            <article class="">
+            <article data-aos="fade-in" data-aos-duration="2000" class="">
               <img src="~../assets/img/banner/ui-design.jpg" />
               <div class="overlay">
                 <div class="text">
@@ -40,7 +34,7 @@
                 </div>
               </div>
             </article>
-            <article class="">
+            <article data-aos="fade-in" data-aos-duration="2000" class="">
               <img src="~../assets/img/banner/ipad.jpg" />
               <div class="overlay">
                 <div class="text">
@@ -49,7 +43,7 @@
                 </div>
               </div>
             </article>
-            <article class="">
+            <article data-aos="fade-in" data-aos-duration="2000" class="">
               <div class="overlay">
                 <div class="text">
                   <h1>Tablet Solutions</h1>
@@ -62,15 +56,12 @@
           <div
             class="row_fluid bg_white"
             style="padding-top: 250px"
-            data-anchor="Page 4"
           >
             <div>
               <img width="100%" src="../assets/img/services.png" />
             </div>
             <div
               class="row-space-right pl pr"
-              data-aos="fade-up"
-              data-aos-duration="3000"
             >
               <h1 class="mt poppins">
                 Featured<br />

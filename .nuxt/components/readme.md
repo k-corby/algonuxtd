@@ -10,7 +10,6 @@ You can directly use them in pages and other components without the need to impo
 - `<DownArrow>` | `<down-arrow>` (components/ui/DownArrow.vue)
 - `<Logo>` | `<logo>` (components/ui/Logo.vue)
 - `<Sidebar>` | `<sidebar>` (components/ui/Sidebar.vue)
-- `<Slide>` | `<slide>` (components/ui/Slide.vue)
 - `<Portfolio>` | `<portfolio>` (components/portfolio/Portfolio.vue)
 - `<PortfolioItem>` | `<portfolio-item>` (components/portfolio/PortfolioItem.vue)
 - `<PortfolioList>` | `<portfolio-list>` (components/portfolio/PortfolioList.vue)

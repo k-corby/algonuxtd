@@ -11,9 +11,6 @@
   "Sidebar": {
     "description": "Auto imported from components/ui/Sidebar.vue"
   },
-  "Slide": {
-    "description": "Auto imported from components/ui/Slide.vue"
-  },
   "Portfolio": {
     "description": "Auto imported from components/portfolio/Portfolio.vue"
   },

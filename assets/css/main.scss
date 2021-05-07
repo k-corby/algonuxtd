@@ -20,11 +20,12 @@ html {
 
 body {
   /*cursor: url('~../img/cursor.svg') 16 16, auto!important;*/
-  font-family: 'Poppins','Verdana', Arial, sans-serif;
-  font-weight:300;
-  font-size: 15px;
+  font-family: "hero-new", -apple-system, BlinkMacSystemFont, San Francisco,
+    Roboto, Segoe UI, Ubuntu, Helvetica Neue, Helvetica, Noto, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
   margin: 0;
-  color: #555555;
+  color: #333333;
   height: 100%;
   overflow: auto;
 
@@ -36,6 +37,22 @@ body {
     line-height: 1.2em;
   }
 
+  a {
+    color: #333333;
+    text-decoration: none;
+  }
+
+  a:hover {
+    /*cursor: url('~../img/cursor-purple.svg') 16 16, auto!important;*/
+    color: #000000;
+    transition: 0.3s;
+  }
+
+  p {
+    font-size: 145%;
+    line-height: 36px;
+    letter-spacing: 2px;
+  }
 }
 
 @supports (-webkit-text-stroke: 1px black) {
@@ -46,43 +63,23 @@ body {
   }
 }
 
-.sticky{
-
-  h1 {
-    padding-bottom: 0px;
-    font-family: 'new-hero', 'martel', Georgia, 'Times New Roman', Times, serif;
-    text-transform: none;
-    font-size: 22vw;
-    line-height: 90%;
-    font-weight: 700;
-    letter-spacing: -2vw;
-    margin: 0;
-    height: 18vw;
-    width: auto;
-    overflow: initial;
-}
-
-.num{
-  margin-left: -4vw;
-  margin-top: -50px;
-  font-family: sans-serif;
-  font-size: 4vw;
-  font-weight: 900;
-  text-align: left;
-  width: 10px;
-  color:#000;
-  position: absolute;
-  }
-
-}
 h2 {
   font-weight: 900;
   font-size: 8vw;
   letter-spacing: 0px;
-  font-family: 'Libre Baskerville','Poppins','Martel', 'Pacifico', sans-serif;
+  font-family: "Libre Baskerville", "Poppins", "Martel", "Pacifico", sans-serif;
   text-transform: none;
-  color:rgb(223, 223, 223);
+  color: rgb(223, 223, 223);
+}
 
+h3 {
+  font-weight: 800;
+  font-size: 1.7vw;
+  letter-spacing: 0px;
+  font-family: "", "hero-new", "Martel", "Pacifico", sans-serif;
+  text-transform: none;
+  color: rgb(88, 88, 88);
+  margin: 0 0 1vw 0;
 }
 
 h4 {
@@ -91,8 +88,8 @@ h4 {
   font-weight: 400;
   margin: 10px 0 30px 0;
   line-height: 130%;
-  color:#222;
-  font-family: 'Martel', Georgia, 'Times New Roman', Times, serif;
+  color: #222;
+  font-family: "Martel", Georgia, "Times New Roman", Times, serif;
 }
 
 hr {
@@ -101,39 +98,18 @@ hr {
   margin-bottom: 40px;
 }
 
-.poppins {
-  font-family: 'Poppins';
-}
-
 /* Links */
 
-a {
-  color: #333333;
-  text-decoration: none;
-}
-
-a:hover {
-  /*cursor: url('~../img/cursor-purple.svg') 16 16, auto!important;*/
-  color: #000000;
-  transition: 0.3s;
-}
-
-p {
-  font-size: 145%;
-  line-height: 36px;
-  letter-spacing: 0.19vw;
-}
-
-.bold{
-  font-weight:900;
-  font-family:'Martel';
-  font-size:3vw;
-  letter-spacing:-3px;
+.bold {
+  font-weight: 900;
+  font-family: "Martel";
+  font-size: 3vw;
+  letter-spacing: -3px;
 }
 
 .btn {
   background-color: #1325f9;
-  color: #FFFFFF;
+  color: #ffffff;
   display: block;
   font-size: 14px;
   cursor: pointer;
@@ -144,19 +120,15 @@ p {
   letter-spacing: 3px;
   text-transform: uppercase;
   border-radius: 0;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-transition: width 2s;
   /* Safari prior 6.1 */
   transition: 0.3s;
-  
-  :hover{
-    color: #FFF;
+
+  :hover {
+    color: #fff;
     background-color: #1021da;
   }
-}
-
-.btn-fixed {
-  width: fit-content;
 }
 /* Header */
 
@@ -164,41 +136,28 @@ p {
 
 main {
   #logo {
-    margin-top: 1vw;
-    padding-left: 4vw;
+    margin: 4vw 0 0 5vw;
 
-      a{
-        cursor: pointer;
-        font-size: 4.3em;
-        font-family: 'hero-new','Poppins','Martel', 'Pacifico',lemongrass-script, sans-serif;
-        font-weight:800;
-        letter-spacing: -5px;
-        color:#ffffff;
-        text-transform: lowercase;
-        margin:0;
-        padding-left:1vw;
-        border-left:0.5vw solid #fde637;
-      }
-      /*a img{
-        
-        
-        width: 7vw;
-        opacity: 0.6;
-      }*/
-  }
-  
-  #menu {
-    margin: 1vw 5vw 0 0;
-    width:5vw;
-  }
-
-  @media (max-width: 1400px){
-    #menu{
-      width:70px;
+    a {
+      cursor: pointer;
+      font-size: 5em;
+      font-family: "Poppins", "Martel", "Pacifico", lemongrass-script,
+        sans-serif;
+      font-weight: 800;
+      letter-spacing: -5px;
+      text-decoration: underline;
+      text-decoration-color: #fde637;
+      text-decoration-thickness: 0.5vw;
+      color: #ffffff;
+      text-transform: lowercase;
+      margin: 0;
+      padding-left: 1vw;
     }
+  }
 
-    #logo a img{
-      width:100px;
+  @media (max-width: 1400px) {
+    #logo a img {
+      width: 100px;
     }
   }
 }
@@ -207,55 +166,40 @@ main {
 
 /* Services */
 
-
 /* Header */
 
-main{
+main {
   #banner {
-    padding:0 5vw 0 8vw;
+    padding: 0 5vw 0 7vw;
     max-width: 1600px;
     margin: 0 auto;
-
-    .bg_fixed{
-      background: linear-gradient(to bottom, transparent, transparent 50%, #58b5f3c5 50%, #58b5f3c5 75%);
-    }
   }
-  
-  .dot{
-      transform:rotate(0deg);
-      height:4vw;
-      width:1vw;
-      bottom:0;
-      right:5vw;
-      background-color:#fde637;
-      z-index:-1;
-      position: absolute;
-    }  
 }
 
-main .bg-banner{
-  background-color:#111;
-  padding:21vw 0 15vw 0;
+main .bg-banner {
+  background-color: #111;
+  padding: 21vw 0 15vw 0;
 }
 
 @media (max-width: 1400px) {
-  main .bg_banner{
-    padding:670px 0 100px 0;
+  main .bg_banner {
+    padding: 670px 0 100px 0;
   }
 }
 
 main #banner h1 {
-  font-family:/*mostra-nuova, sans-serif'PT Serif', , */'Libre Baskerville','Poppins', Tiro Bangla, Georgia, 'Times New Roman', Times, serif;
-  font-size: min(max(2vw, 12vw), 21vw);
+  font-family:/*mostra-nuova, sans-serif'PT Serif', , */ "", "Libre Baskerville",
+    "Poppins", Tiro Bangla, Georgia, "Times New Roman", Times, serif;
+  font-size: min(max(2vw, 13vw), 21vw);
   letter-spacing: -12px;
-  line-height:80%;
-  font-weight: 700; 
-  color:#F4F4F4;
-  text-transform:lowercase;
+  line-height: 80%;
+  font-weight: 700;
+  color: #f1f1f1;
+  text-transform: lowercase;
   margin: 0 0 5vw 0;
 }
 
-main .break{
+main .break {
   display: block;
 }
 
@@ -266,88 +210,82 @@ main .break{
   }
 }
 
-
 main #banner .slogan {
   max-width: 100%;
   line-height: 32px;
   font-weight: 300;
   font-size: 130%;
-  letter-spacing: 0.9vw;  
-  font-family: 'Martel', sans-serif;
-  color:rgba(255,255,255,0.6);
+  letter-spacing: 0.9vw;
+  font-family: "Martel", sans-serif;
+  color: rgba(255, 255, 255, 0.6);
 }
-
 
 @media (min-width: 1300px) and (max-width: 1800px) {
-
   main #banner .slogan {
     font-size: 1.5vw;
-    letter-spacing: 0.9vw; 
+    letter-spacing: 0.9vw;
   }
-
-  
 }
 
-@media (max-width: 1000px){
+@media (max-width: 1000px) {
   main #banner {
-    padding:0 5vw 0 5vw;
+    padding: 0 5vw 0 5vw;
   }
-  main #banner h1, main #banner h1 b{
-    font-size:20vw;
-}
-
-main .bg-banner{
-  background-color:#111;
-  padding:30vw 0 15vw 0;
-}
-
-  main .break{
-    display:contents;
+  main #banner h1,
+  main #banner h1 b {
+    font-size: 20vw;
   }
 
+  main .bg-banner {
+    background-color: #111;
+    padding: 30vw 0 15vw 0;
+  }
+
+  main .break {
+    display: contents;
+  }
 }
 
 /* Define max font size */
-@media (min-width: 1700px) {
-
+@media (min-width: 1600px) {
   main #banner .slogan {
     font-size: 1.6rem;
     font-weight: 300;
-    letter-spacing: 1.1rem;  
+    letter-spacing: 1.1rem;
   }
 
-  main #banner h1{
-    font-size:13rem;
+  main #banner h1 {
+    font-size: 13rem;
   }
 
   main #banner {
-    padding:0 4vw 0 5vw;
+    padding: 0 4vw 0 6vw;
   }
 }
 
-main #banner #scroll-down{
+main #banner #scroll-down {
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
   right: 6%;
-  letter-spacing:4px;
-  text-transform:uppercase;
-  color:#FFF;
-  background-color:none;
-  padding:0px 0px;
-  height:80px;
-  font-family:'Poppins';
-  font-size:100%; 
-  font-weight:600;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: none;
+  padding: 0px 0px;
+  height: 80px;
+  font-family: "Poppins";
+  font-size: 100%;
+  font-weight: 600;
   padding: 700px 10px 39px 10px;
-  background: url('~../img/2.png') no-repeat center;
+  background: url("~../img/2.png") no-repeat center;
   background-size: 40px;
   writing-mode: vertical-rl;
 }
 
-main #banner #scroll-down p{
-  height:25px;
-  float:left;
-  margin-bottom:10px;
+main #banner #scroll-down p {
+  height: 25px;
+  float: left;
+  margin-bottom: 10px;
 }
 
 /* Thumbnail */
@@ -412,7 +350,7 @@ main .img_fluid .text {
 }
 
 main .img_fluid .text h1 {
-  font-family: stix-two-text, Georgia, 'Times New Roman', Times, serif;
+  font-family: stix-two-text, Georgia, "Times New Roman", Times, serif;
   color: #ffffff;
   text-align: center;
   letter-spacing: 0.01em;
@@ -467,131 +405,32 @@ main .img-fluid .img-description {
 }
 
 main .img-fluid .img-description h1 {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   font-size: 16px;
   padding: 16px 32px;
 }
 
-main .faded {
-  position: relative;
-  display: inline-block;
-  color: white;
-}
-
-main .faded:after {
-  content: "";
-  position: absolute;
-  display: block;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-collapse: separate;
-}
-
-main .gray-scale {
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
-  transition: all 1s ease;
-}
-
-main .gray-scale:hover {
-  -webkit-filter: grayscale(0%);
-  -moz-filter: grayscale(0%);
-  filter: grayscale(0%);
-}
-
-main .faded.faded-all:after {
-  box-shadow: inset 0 0 40px 16px;
-}
-
 @media screen and (max-width: 1400px) {
-  /*main .img-fluid img {
-    height: 240px;
-  }
-  main .img-fluid article:hover .middle {
-    height: 240px;
-  }*/
-  header #logo a {
-    font-size: 3.7em;    
+  #logo a {
+    font-size: 4.5em;
   }
 }
 
-@media screen and (max-width: 1800px){
-  header #logo a {
-    font-size: 4.3em;    
+@media screen and (max-width: 1800px) {
+  #logo a {
+    font-size: 5em;
   }
-
 }
 
 @media screen and (max-width: 1000px) {
   nav #menu {
-    margin-right:6vw;
+    margin-right: 6vw;
   }
-  header #logo {
-    padding-left: 4.5vw;
-  }
- 
 }
 
 @media screen and (max-width: 900px) {
   main #banner p {
     font-size: 1em;
-  }
-}
-
-@media screen and (max-width: 575px) {
-}
-
-@media screen and (max-width: 800px) {
-  header #logo a {
-    font-size: 3.8em;
-  }
-}
-
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-
-@media screen and (max-width: 1000px) {
-  nav.responsive #menu {
-    display: block;
-    padding: 0;
-  }
-  nav.responsive a.icon, .nav a.icon {
-    position: absolute;
-    right: 20px;
-    font-size: 30px;
-    top: 20;
-    color: #000;
-    padding: 13px 12px;
-  }
-  nav.responsive #menu a {
-    display: block;
-    text-align: left;
-    background-color: rgba(255, 255, 255, 0.97);
-    color: #333333;
-    text-align: center;
-    padding: 26px 3px;
-    border-top: 1px solid rgb(235, 235, 235);
-    ;
-    width: 100%;
-    margin: 0;
-  }
-  nav.responsive #menu a:hover {
-    background-color: rgba(245, 245, 245, 1);
-  }
-  header #menu .main-link label:hover {
-    background-color: unset;
-  }
-  nav.responsive #menu {
-    position: absolute;
-    margin-top: 110px;
-  }
-  nav.responsive #menu .main-link:first-child {
-    margin-top: 0px;
-  }
-  header #menu .main-link label {
-    padding: 0;
   }
 }

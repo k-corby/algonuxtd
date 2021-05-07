@@ -29,8 +29,14 @@ export default {
   plugins: [
     //'~plugins/vuetify.js'
     //{ src: '~/plugins/vue-burger-menu.js', mode: 'client' }
+    { src: "@/plugins/aos", mode: "client" },
     ],
 
+    /*purgeCSS: {
+      whitelist: ["aos-init", "aos-animate", "data-aos-delay", "data-aos-duration", "fade-up", "zoom-in"],
+  },*/
+  
+   
   /*server: {
     port:3000,
   },*/
@@ -65,8 +71,9 @@ export default {
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
-     'nuxt-buefy',
-    //'@nuxtjs/vuetify'
+     //'nuxt-buefy',
+    //'@nuxtjs/vuetify',
+    'bootstrap-vue/nuxt'
   ],
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
@@ -75,6 +82,12 @@ export default {
       app: ({ isDev }) => isDev ? '[name].[hash].js' : '[chunkhash].js',
       chunk: ({ isDev }) => isDev ? '[name].[hash].js' : '[chunkhash].js'
     },
+    babel:{
+      plugins: [
+        ['@babel/plugin-proposal-private-methods', { loose: true }],
+      ]
+    },
+    
     //vendor: ['vuetify'],
     //vendor: ['vue-burger-menu']
   }

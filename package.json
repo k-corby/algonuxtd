@@ -10,19 +10,21 @@
     "heroku-postbuild": "npm run build"
   },
   "dependencies": {
-    "@luxdamore/vue-cursor-fx": "^1.4.0",
+    "@luxdamore/vue-cursor-fx": "^1.6.2",
     "@mdi/font": "^5.8.55",
-    "@nuxt/typescript-runtime": "^2.0.0",
-    "core-js": "^3.6.5",
-    "nuxt": "^2.14.6",
-    "nuxt-buefy": "^0.4.4",
+    "@nuxt/typescript-runtime": "^2.1.0",
+    "aos": "^2.3.4",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.11.2",
+    "nuxt": "^2.15.4",
+    "nuxt-buefy": "^0.4.7",
     "vue-kinesis": "^1.2.3"
   },
   "devDependencies": {
-    "@nuxt/types": "^2.15.2",
-    "@nuxt/typescript-build": "^2.0.5",
+    "@nuxt/types": "^2.15.4",
+    "@nuxt/typescript-build": "^2.1.0",
     "@nuxtjs/vuetify": "^1.11.3",
-    "sass": "^1.32.8",
+    "sass": "^1.32.12",
     "sass-loader": "^8.0.0"
   }
 }
