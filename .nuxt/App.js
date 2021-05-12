@@ -10,8 +10,6 @@ import '../node_modules/bootstrap/dist/css/bootstrap.css'
 
 import '../node_modules/bootstrap-vue/dist/bootstrap-vue.css'
 
-import '../node_modules/bulma/bulma.sass'
-
 import '../assets/css/global.scss'
 
 import '../assets/css/main.scss'

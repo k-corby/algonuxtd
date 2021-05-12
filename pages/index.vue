@@ -6,7 +6,7 @@
              <AppNavigation />
           <div class="header bg-banner">
             <div id="banner">
-              <div id="scroll-down">Facebook Dribble</div>
+              <div id="scroll-down"></div>
               <h1 class="br-top">ideas, brands<span class="break"> <span>&</span> concepts.</span>          
               </h1>
               <p class="slogan">
@@ -18,7 +18,7 @@
           </div>
        <PortfolioList />
           <div data-aos="fade-in" data-aos-duration="2000" class="bg_white" data-anchor="Page 3">
-            <div class="col_span pl pr pt_10 pb bg_blue text_white">
+            <div class="pl pr pt_10 pb bg_blue text_white">
               <h1 class="mt poppins trans_stroke">Recent work.</h1>
               <p class="caption">
                 Learn how to solve simple to complex programming problems.
@@ -26,30 +26,12 @@
             </div>
             
             <article data-aos="fade-in" data-aos-duration="2000" class="">
-              <img src="~../assets/img/banner/ui-design.jpg" />
-              <div class="overlay">
-                <div class="text">
-                  <h1>Mobile Development Concepts</h1>
-                  <p>User Interface Design</p>
-                </div>
-              </div>
+              <img class="scale-crop" src="~../assets/img/banner/ui-design.jpg" />
+              
             </article>
             <article data-aos="fade-in" data-aos-duration="2000" class="">
-              <img src="~../assets/img/banner/ipad.jpg" />
-              <div class="overlay">
-                <div class="text">
-                  <h1>Cross Platform Development</h1>
-                  <p>PROGRAMMING</p>
-                </div>
-              </div>
-            </article>
-            <article data-aos="fade-in" data-aos-duration="2000" class="">
-              <div class="overlay">
-                <div class="text">
-                  <h1>Tablet Solutions</h1>
-                  <p>Development</p>
-                </div>
-              </div>
+              <img class="scale-crop" src="~../assets/img/banner/ipad.jpg" />
+              
             </article>
           </div>
 
