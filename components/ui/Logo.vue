@@ -1,5 +1,5 @@
 <template>
   <div>
-    <NuxtLink to="/">algo<!--<img src="~/assets/img/logo.png">--></NuxtLink>
+    <NuxtLink to="/">a<!--<img src="~/assets/img/logo.png">--></NuxtLink>
   </div>
 </template>

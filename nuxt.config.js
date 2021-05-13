@@ -19,6 +19,7 @@ export default {
       }
     ]
   },
+  loading: "~/components/ui/LoadingBar.vue",
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
@@ -59,7 +60,12 @@ export default {
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
 
-  components: ["~/components/", "~/components/ui/", "~/components/portfolio/"],
+  components: [
+    "~/components/",
+    "~/components/ui/",
+    "~/components/portfolio/",
+    "~/components/section/"
+  ],
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
@@ -69,11 +75,13 @@ export default {
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
-  modules: [
-    //'nuxt-buefy',
-    //'@nuxtjs/vuetify',
-    "bootstrap-vue/nuxt"
-  ],
+  //'nuxt-buefy',
+  //'@nuxtjs/vuetify',
+  modules: ["bootstrap-vue/nuxt"],
+  bootstrapVue: {
+    // Install the `IconsPlugin` plugin (in addition to `BootstrapVue` plugin)
+    icons: true
+  },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {

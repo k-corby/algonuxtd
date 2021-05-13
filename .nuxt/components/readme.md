@@ -6,13 +6,14 @@ You can directly use them in pages and other components without the need to impo
 
 **Tip:** If a component is conditionally rendered with `v-if` and is big, it is better to use `Lazy` or `lazy-` prefix to lazy load.
 
-- `<Button>` | `<button>` (components/ui/Button.vue)
-- `<DownArrow>` | `<down-arrow>` (components/ui/DownArrow.vue)
+- `<LoadingBar>` | `<loading-bar>` (components/ui/LoadingBar.vue)
 - `<Logo>` | `<logo>` (components/ui/Logo.vue)
+- `<MenuItems>` | `<menu-items>` (components/ui/MenuItems.vue)
+- `<NavButton>` | `<nav-button>` (components/ui/NavButton.vue)
 - `<Sidebar>` | `<sidebar>` (components/ui/Sidebar.vue)
+- `<Social>` | `<social>` (components/ui/Social.vue)
 - `<Portfolio>` | `<portfolio>` (components/portfolio/Portfolio.vue)
 - `<PortfolioItem>` | `<portfolio-item>` (components/portfolio/PortfolioItem.vue)
 - `<PortfolioList>` | `<portfolio-list>` (components/portfolio/PortfolioList.vue)
-- `<AppFooter>` | `<app-footer>` (components/AppFooter.vue)
-- `<AppMenuItems>` | `<app-menu-items>` (components/AppMenuItems.vue)
-- `<AppNavigation>` | `<app-navigation>` (components/AppNavigation.vue)
+- `<AppFooter>` | `<app-footer>` (components/section/AppFooter.vue)
+- `<AppNavigation>` | `<app-navigation>` (components/section/AppNavigation.vue)

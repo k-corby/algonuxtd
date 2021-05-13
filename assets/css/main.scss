@@ -28,6 +28,7 @@ body {
   color: #333333;
   height: 100%;
   overflow: auto;
+  background-color: #fff;
 
   h1 {
     font-size: min(max(48px, 8vw), 110px);
@@ -68,7 +69,7 @@ h2 {
   font-weight: 900;
   font-size: 8vw;
   letter-spacing: 0px;
-  font-family: "Libre Baskerville", "Poppins", "Martel", "Pacifico", sans-serif;
+  font-family: "Libre Baskerville", "Poppins", "Martel", sans-serif;
   text-transform: none;
   color: rgb(223, 223, 223);
 }
@@ -77,7 +78,7 @@ h3 {
   font-weight: 800;
   font-size: 1.7vw;
   letter-spacing: 0px;
-  font-family: "", "hero-new", "Martel", "Pacifico", sans-serif;
+  font-family: "hero-new", "Martel", "Pacifico", sans-serif;
   text-transform: none;
   color: rgb(88, 88, 88);
   margin: 0 0 1vw 0;
@@ -141,18 +142,21 @@ main {
 
     a {
       cursor: pointer;
-      font-size: 5em;
+      font-size: 4.9em;
       font-family: "Poppins", "Martel", "Pacifico", lemongrass-script,
         sans-serif;
       font-weight: 800;
       letter-spacing: -5px;
-      text-decoration: underline;
+      color: blue;
+      padding: 0 28px 4px 25px;
+      background-color: #fde637;
+      /*text-decoration: underline;
       text-decoration-color: #ffeb51;
       text-decoration-thickness: 0.5vw;
       color: #ffffff;
       text-transform: lowercase;
       margin: 0;
-      padding-left: 1vw;
+      padding-left: 1vw;*/
     }
   }
 
@@ -163,23 +167,38 @@ main {
   }
 }
 
-/* Main Content Styles */
+/* Page Transitions */
 
-/* Services */
-
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.25s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
 /* Header */
 
 main {
   #banner {
-    padding: 0 5vw 0 7vw;
+    padding: 0 6vw 0 6vw;
     max-width: 1600px;
     margin: 0 auto;
+  }
+
+  .header {
+    padding: 0 0 10vw 0;
+    padding-top: max(250px, 20vw);
+  }
+
+  .difference {
+    mix-blend-mode: difference;
   }
 }
 
 main .bg-banner {
-  background-color: #111;
-  padding: 21vw 0 15vw 0;
+  padding: 0 0 15vw 0;
+  padding-top: max(300px, 21.2vw);
 }
 
 @media (max-width: 1400px) {
@@ -191,13 +210,18 @@ main .bg-banner {
 main #banner h1 {
   font-family:/*mostra-nuova, sans-serif'PT Serif', , */ "", "Libre Baskerville",
     "Poppins", Tiro Bangla, Georgia, "Times New Roman", Times, serif;
-  font-size: min(max(2vw, 13vw), 21vw);
-  letter-spacing: -12px;
+  font-size: min(max(2vw, 14.2vw), 21vw);
+  letter-spacing: -0.8vw;
   line-height: 80%;
   font-weight: 700;
-  color: #f1f1f1;
   text-transform: lowercase;
   margin: 0 0 5vw 0;
+}
+
+main #banner h1#title {
+  line-height: 70%;
+  letter-spacing: -1.5vw;
+  font-size: min(max(2vw, 18vw), 23vw);
 }
 
 main .break {
@@ -248,15 +272,15 @@ main #banner .slogan {
 }
 
 /* Define max font size */
-@media (min-width: 1600px) {
+@media (min-width: 1550px) {
   main #banner .slogan {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: 300;
     letter-spacing: 1.1rem;
   }
 
   main #banner h1 {
-    font-size: 13rem;
+    font-size: 14rem;
   }
 
   main #banner {
@@ -273,12 +297,12 @@ main #banner #scroll-down {
   color: #fff;
   background-color: none;
   height: 80px;
-  width: 8px;
+  width: 0.5vw;
   font-family: "Poppins";
   font-size: 100%;
   font-weight: 600;
-  /*padding: 300px 10px 39px 10px;
-  background: url("~../img/2.png") no-repeat center;*/
+  padding: 100px 2px 39px 2px;
+  /*background: url("~../img/2.png") no-repeat center;*/
   background-color: #ffeb51;
   background-size: 40px;
   writing-mode: vertical-rl;
@@ -289,6 +313,8 @@ main #banner #scroll-down p {
   float: left;
   margin-bottom: 10px;
 }
+
+/* Banner Graphics */
 
 /* Thumbnail */
 

@@ -1,5 +1,5 @@
 <template>
-  <div id="services" class="">
+  <div id="services" class="bg-white">
     <div
       v-for="item in data.items"
       :key="item.id"
