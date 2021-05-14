@@ -10,15 +10,11 @@
     "heroku-postbuild": "npm run build"
   },
   "dependencies": {
-    "@luxdamore/vue-cursor-fx": "^1.6.2",
     "@mdi/font": "^5.8.55",
     "@nuxt/typescript-runtime": "^2.1.0",
-    "aos": "^2.3.4",
     "bootstrap-vue": "^2.21.2",
     "core-js": "^3.11.2",
-    "nuxt": "^2.15.4",
-    "nuxt-buefy": "^0.4.7",
-    "vue-kinesis": "^1.2.3"
+    "nuxt": "^2.15.4"
   },
   "devDependencies": {
     "@nuxt/types": "^2.15.4",

@@ -1,15 +1,9 @@
 {
-  "LoadingBar": {
-    "description": "Auto imported from components/ui/LoadingBar.vue"
-  },
   "Logo": {
     "description": "Auto imported from components/ui/Logo.vue"
   },
   "MenuItems": {
     "description": "Auto imported from components/ui/MenuItems.vue"
-  },
-  "NavButton": {
-    "description": "Auto imported from components/ui/NavButton.vue"
   },
   "Sidebar": {
     "description": "Auto imported from components/ui/Sidebar.vue"
@@ -25,9 +19,6 @@
   },
   "PortfolioList": {
     "description": "Auto imported from components/portfolio/PortfolioList.vue"
-  },
-  "AppFooter": {
-    "description": "Auto imported from components/section/AppFooter.vue"
   },
   "AppNavigation": {
     "description": "Auto imported from components/section/AppNavigation.vue"
