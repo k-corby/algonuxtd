@@ -1,4 +1,7 @@
 {
+  "Accordion": {
+    "description": "Auto imported from components/ui/Accordion.vue"
+  },
   "Logo": {
     "description": "Auto imported from components/ui/Logo.vue"
   },

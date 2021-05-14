@@ -3,24 +3,28 @@
     "name": "about",
     "path": "/about",
     "component": "/Users/kcorby/Documents/Applications/algonuxtd/pages/about.vue",
-    "chunkName": "pages/about"
+    "chunkName": "pages/about",
+    "_name": "_4429c201"
   },
   {
     "name": "portfolio",
     "path": "/portfolio",
     "component": "/Users/kcorby/Documents/Applications/algonuxtd/pages/portfolio/index.vue",
-    "chunkName": "pages/portfolio/index"
+    "chunkName": "pages/portfolio/index",
+    "_name": "_1e2a29bf"
   },
   {
     "name": "portfolio-id",
     "path": "/portfolio/:id",
     "component": "/Users/kcorby/Documents/Applications/algonuxtd/pages/portfolio/_id.vue",
-    "chunkName": "pages/portfolio/_id"
+    "chunkName": "pages/portfolio/_id",
+    "_name": "_9d34e032"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/kcorby/Documents/Applications/algonuxtd/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_63e19cc6"
   }
 ]

@@ -7,6 +7,26 @@ $border-dark: rgba($base-color, 0.88);
   border: 1px solid $border-dark;
 }
 
+.container-fluid,
+.row {
+  padding: 0;
+  margin: 0;
+}
+
+.poppins {
+  font-family: "Poppins", "Libre Baskerville", Georgia, "Times New Roman", Times,
+    serif;
+}
+
+.hero-new {
+  font-family: "hero-new", "Libre Baskerville", Georgia, "Times New Roman",
+    Times, serif;
+}
+
+.libre {
+  font-family: "Libre Baskerville", Georgia, "Times New Roman", Times, serif;
+}
+
 /* Global Sizing */
 .fh {
   height: 100vh;
@@ -25,6 +45,10 @@ $border-dark: rgba($base-color, 0.88);
 
 .bg-dark-grey {
   background-color: #111;
+}
+
+.bg-mustard {
+  background-color: #f8c000;
 }
 
 .bg-white {

@@ -1,5 +1,6 @@
 import { wrapFunctional } from './utils'
 
+export { default as Accordion } from '../../components/ui/Accordion.vue'
 export { default as Logo } from '../../components/ui/Logo.vue'
 export { default as MenuItems } from '../../components/ui/MenuItems.vue'
 export { default as Sidebar } from '../../components/ui/Sidebar.vue'
@@ -9,6 +10,7 @@ export { default as PortfolioItem } from '../../components/portfolio/PortfolioIt
 export { default as PortfolioList } from '../../components/portfolio/PortfolioList.vue'
 export { default as AppNavigation } from '../../components/section/AppNavigation.vue'
 
+export const LazyAccordion = import('../../components/ui/Accordion.vue' /* webpackChunkName: "components/accordion" */).then(c => wrapFunctional(c.default || c))
 export const LazyLogo = import('../../components/ui/Logo.vue' /* webpackChunkName: "components/logo" */).then(c => wrapFunctional(c.default || c))
 export const LazyMenuItems = import('../../components/ui/MenuItems.vue' /* webpackChunkName: "components/menu-items" */).then(c => wrapFunctional(c.default || c))
 export const LazySidebar = import('../../components/ui/Sidebar.vue' /* webpackChunkName: "components/sidebar" */).then(c => wrapFunctional(c.default || c))

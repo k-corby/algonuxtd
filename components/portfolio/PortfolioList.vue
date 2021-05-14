@@ -1,5 +1,5 @@
 <template>
-  <div id="services" class="bg-white">
+  <div class="container-fluid bg-white" id="services">
     <div
       v-for="item in data.items"
       :key="item.id"
@@ -8,10 +8,7 @@
       data-aos-duration="2000"
     >
       <div class="pl pr valign_mid">
-        <p class="num">
-          <!--<a class="btn btn-fixed" href="/home/philosophy">Explore &rarr;</a>-->
-          0{{ item.id }}
-        </p>
+        <p class="num">0{{ item.id }}</p>
         <h2>{{ item.section }}</h2>
 
         <p>
@@ -29,8 +26,6 @@
 </template>
 <script>
 import json from "./data.json";
-//import PortfolioData from "../portfolio/Portfolio.vue";
-console.log(json);
 export default {
   data() {
     return { data: json };
@@ -39,13 +34,7 @@ export default {
     order: function() {
       return console.log(1);
     }
-    //images() {
-    //return require("../../assets/img/research.jpg");
-    //},
   }
-  //async fetch() {
-  //this.data = await this.$content(json.CONTENT).fetch();
-  // },
 };
 </script>
 
@@ -84,7 +73,7 @@ main #services h4 {
 }
 
 main #services h2 {
-  font-size: 10.5vw;
+  font-size: 11.5vw;
   font-family: "Libre Baskerville", Georgia, "Times New Roman", Times, serif;
   font-weight: 900;
   letter-spacing: -0.5vw;
