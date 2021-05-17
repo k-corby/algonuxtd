@@ -149,7 +149,7 @@ main {
       font-weight: 800;
       letter-spacing: -5px;
       color: blue;
-      padding: 0 28px 4px 25px;
+      padding: 2px 33px 6px 28px;
       background-color: #fde637;
       /*text-decoration: underline;
       text-decoration-color: #ffeb51;
@@ -198,15 +198,12 @@ main {
 }
 
 main .bg-banner {
-  padding: 0 0 15vw 0;
+  padding: 0 0 0 0;
   padding-top: max(300px, 21.2vw);
-  height: 80vw;
+  height: 65vw;
 }
 
-@media (max-width: 1400px) {
-  main .bg_banner {
-    padding: 670px 0 100px 0;
-  }
+@media (max-width: 1000px) {
 }
 
 main #banner h1 {
@@ -266,6 +263,7 @@ main #banner .slogan {
   main .bg-banner {
     background-color: #111;
     padding: 30vw 0 15vw 0;
+    height: 100vw;
   }
 
   main .break {

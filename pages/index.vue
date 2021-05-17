@@ -3,7 +3,7 @@
     <div class="container-fluid bg-banner bg-dark-grey">
       <div class="row" id="banner">
         <div id="scroll-down"></div>
-        <div style="position:absolute; z-index:100;">
+        <div style="position:absolute; z-index:100; mix-blend-mode:difference;">
           <h1 class="br-top text-white">
             ideas, brands<span class="break"> <span>&</span> concepts.</span>
           </h1>
@@ -16,13 +16,13 @@
             <g>
               <title>Layer 1</title>
               <ellipse
-                stroke-width="12vw"
+                stroke-width="10vw"
                 ry="362.5"
                 rx="362.5"
                 id="svg_2"
                 cy="495.5"
                 cx="485"
-                stroke="blue"
+                stroke=""
                 fill="transparent"
               />
             </g>
@@ -40,7 +40,7 @@
       <div class="pl pr pt_10 pb bg-blue text-white">
         <h1 class="mt poppins trans_stroke">Recent work.</h1>
         <p class="caption">
-          Learn how to solve simple to complex programming problems.
+          custom designs web, apps, print media utilising the technologies.
         </p>
       </div>
 
