@@ -4,7 +4,7 @@
       <NuxtLink to="/about"><span class="num">01</span>about</NuxtLink>
     </h2>
     <h2>
-      <NuxtLink to="/about"><span class="num">02</span>services</NuxtLink>
+      <NuxtLink to="/approach"><span class="num">02</span>approach</NuxtLink>
     </h2>
     <h2>
       <NuxtLink to="/about"><span class="num">03</span>work</NuxtLink>
@@ -26,7 +26,9 @@
     text-decoration: none;
   }
   a:hover {
-    color: rgb(32, 32, 255);
+    font-size: 16.2vw;
+    text-decoration-color: rgb(32, 32, 255);
+    text-decoration-line: underline;
   }
   .num {
     font-size: 3.4vw;
@@ -41,12 +43,14 @@
   h2 {
     color: #fff;
     margin-left: 2vw;
-    letter-spacing: -0.9vw;
-    font-weight: 800;
-    font-size: 15vw;
-    margin: -5vw 0;
-    font-family: "Poppins", "Libre Baskerville", Verdana, Geneva, Tahoma,
-      sans-serif;
+    letter-spacing: -0.7vw;
+    font-weight: 1000;
+    font-size: 16vw;
+    margin: -5.5vw 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    /*font-family: "Georgia", "Libre Baskerville", Verdana, Geneva, Tahoma,
+      sans-serif;*/
   }
 }
 </style>

@@ -7,7 +7,9 @@
           <h1 class="br-top text-white">
             ideas, brands<span class="break"> <span>&</span> concepts.</span>
           </h1>
-          <p class="slogan">A design agency built to build modern brands.</p>
+          <p class="slogan text-offwhite">
+            A design agency built to build modern brands.
+          </p>
         </div>
         <!--<div id="scroll-down">
       <DownArrow /></div>-->
@@ -22,7 +24,7 @@
                 id="svg_2"
                 cy="495.5"
                 cx="485"
-                stroke=""
+                stroke="transparent"
                 fill="transparent"
               />
             </g>

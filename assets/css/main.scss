@@ -67,6 +67,15 @@ body {
   }
 }
 
+@supports (-webkit-text-stroke: 1px black) {
+  .stroke {
+    -webkit-text-stroke: 0.6vw #ffffff;
+    -webkit-text-fill-color: transparent;
+    font-size: min(max(2vw, 16vw), 18vw);
+    line-height: 80%;
+  }
+}
+
 h2 {
   font-weight: 900;
   font-size: 8vw;
@@ -140,25 +149,6 @@ hr {
 main {
   #logo {
     margin: 4vw 0 0 5vw;
-
-    a {
-      cursor: pointer;
-      font-size: 4.9em;
-      font-family: "Poppins", "Martel", "Pacifico", lemongrass-script,
-        sans-serif;
-      font-weight: 800;
-      letter-spacing: -5px;
-      color: blue;
-      padding: 2px 33px 6px 28px;
-      background-color: #fde637;
-      /*text-decoration: underline;
-      text-decoration-color: #ffeb51;
-      text-decoration-thickness: 0.5vw;
-      color: #ffffff;
-      text-transform: lowercase;
-      margin: 0;
-      padding-left: 1vw;*/
-    }
   }
 
   @media (max-width: 1400px) {
@@ -234,14 +224,13 @@ main .break {
   }
 }
 
-main #banner .slogan {
+main .slogan {
   max-width: 100%;
   line-height: 32px;
   font-weight: 300;
   font-size: 130%;
   letter-spacing: 0.9vw;
   font-family: "Martel", sans-serif;
-  color: rgba(255, 255, 255, 0.6);
 }
 
 @media (min-width: 1300px) and (max-width: 1800px) {
@@ -261,7 +250,6 @@ main #banner .slogan {
   }
 
   main .bg-banner {
-    background-color: #111;
     padding: 30vw 0 15vw 0;
     height: 100vw;
   }
@@ -296,12 +284,12 @@ main #banner #scroll-down {
   text-transform: uppercase;
   color: #fff;
   background-color: none;
-  height: 80px;
-  width: 0.5vw;
+  height: 4vw;
+  width: 0.35vw;
   font-family: "Poppins";
   font-size: 100%;
   font-weight: 600;
-  padding: 100px 2px 39px 2px;
+  padding: 3vw 2px 39px 2px;
   /*background: url("~../img/2.png") no-repeat center;*/
   background-color: #ffeb51;
   background-size: 40px;

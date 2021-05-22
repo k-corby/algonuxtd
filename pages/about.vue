@@ -1,15 +1,21 @@
 <template>
   <div>
-    <div class="bg-red container-fluid" style="overflow:hidden;">
-      <div class="header circle-pattern">
-        <div id="banner" class="">
-          <h1 class="br-top text-offwhite" id="title">
-            <span style="font-size:26vw;">Our Approach.</span>
-          </h1>
-        </div>
+    <div class="pt-20 pb-5 bg-blue container-fluid" style="overflow:hidden;">
+      <div id="banner" class="row">
+        <div id="scroll-down"></div>
+        <h1 class="br-top text-white " id="title" style="">
+          <span style="font-size:17vw; line-height:80%;">about algo.</span>
+        </h1>
+        <p
+          class="slogan pl text-offwhite"
+          style="padding-top:0; margin-top:-2vw;"
+        >
+          a full service digital agency.
+        </p>
       </div>
     </div>
-    <div class="container-fluid" style="padding-top: 18vw;">
+
+    <div class="container-fluid" style="padding-top: 10vw;">
       <div class="row pl pr">
         <div class="col-12">
           <h2 class="poppins" style="line-height:85%;">
@@ -29,7 +35,6 @@
         </div>
       </div>
     </div>
-
     <div class="container-fluid">
       <div class="row">
         <img
@@ -38,7 +43,6 @@
         />
       </div>
     </div>
-
     <div class="container-fluid bg-mustard" style="padding-top: 18vw;">
       <div class="row pl pr">
         <div class="col-12">

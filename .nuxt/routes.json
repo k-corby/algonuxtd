@@ -7,6 +7,13 @@
     "_name": "_4429c201"
   },
   {
+    "name": "approach",
+    "path": "/approach",
+    "component": "/Users/kcorby/Documents/Applications/algonuxtd/pages/approach.vue",
+    "chunkName": "pages/approach",
+    "_name": "_16ba6338"
+  },
+  {
     "name": "portfolio",
     "path": "/portfolio",
     "component": "/Users/kcorby/Documents/Applications/algonuxtd/pages/portfolio/index.vue",

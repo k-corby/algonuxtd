@@ -36,12 +36,10 @@
         <div>
           <MenuItems />
         </div>
-        <div class="pt">
+        <div class="pt pl">
           <hr />
-          <p>
-            Objectives inform students the learning outcomes of the class. What
-            will they know? What will they be able to do? Why is this important
-            to know? It's an effective way to assess their learning progress.
+          <p class="slogan">
+            Terms & Conditions | Privacy Policy &#169; Algo
           </p>
         </div>
       </div>
@@ -63,7 +61,7 @@ export default {};
   top: 1%;
   right: 0;
   z-index: 2000;
-  margin: 4vw 6vw 0 0;
+  margin: 4vw 3vw 0 0;
   background: none;
   border: none;
 }
@@ -78,31 +76,37 @@ export default {};
   overflow-y: scroll;
 }
 #menu-logo {
-  padding: 30px 15px 40px 20px;
   position: fixed;
   top: 0vw;
-  left: 1vw;
+  left: 4vw;
   z-index: 1000;
   writing-mode: vertical-rl;
   text-orientation: mixed;
-  background-color: #ffffff;
   height: 150px;
+  color: #222;
+
   a {
+    padding: 30px 15px 40px 20px;
     cursor: pointer;
     font-size: 3em;
     font-family: "hero-new", "Martel", sans-serif;
     font-weight: 800;
     letter-spacing: -3px;
-    color: #222;
     text-transform: lowercase;
     text-decoration: none;
+    background-color: #ffffff;
     margin: 0;
+  }
+
+  a:hover {
+    background-color: blue;
+    color: #fff;
   }
 }
 .center {
   background-color: #fde637 /* ffeb51 9fc1e0  #fde637 ffec5b  b7ccbb*/;
   color: #000000;
-  padding-top: max(120px, 12vw);
+  padding-top: max(200px, 14vw);
   padding-bottom: 10vw;
   overflow-y: scroll;
 }
