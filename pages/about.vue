@@ -1,15 +1,15 @@
 <template>
   <div>
-    <div class="pt-20 pb-5 bg-blue container-fluid" style="overflow:hidden;">
+    <div
+      class="pt-20 pb-5 bg-blue container-fluid pattern-1"
+      style="overflow:hidden;"
+    >
       <div id="banner" class="row">
         <div id="scroll-down"></div>
         <h1 class="br-top text-white " id="title" style="">
-          <span style="font-size:17vw; line-height:80%;">about algo.</span>
+          <span style="font-size:24vw; line-height:80%;">about.</span>
         </h1>
-        <p
-          class="slogan pl text-offwhite"
-          style="padding-top:0; margin-top:-2vw;"
-        >
+        <p class="slogan text-offwhite" style="padding-top:0; margin-top:-2vw;">
           a full service digital agency.
         </p>
       </div>
