@@ -6,9 +6,9 @@
         <div style="position:absolute; z-index:100; mix-blend-mode:difference;">
           <h1
             class="br-top text-white"
-            style="font-size:25vw; line-height:60%; letter-spacing:-2.5vw;"
+            style="font-size:16vw; line-height:70%; letter-spacing:-1.8vw;"
           >
-            ideas & concepts
+            ideas, brands & concepts
           </h1>
           <p class="slogan text-offwhite">
             A design agency built to build modern brands.
