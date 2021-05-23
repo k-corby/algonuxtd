@@ -1,13 +1,18 @@
 <template>
   <div>
-    <div class="pt-15 pb-5 bg-white container-fluid" style="overflow:hidden;">
+    <div
+      class="pt-10 bg-blue container-fluid pattern-1"
+      style="overflow:hidden;"
+    >
       <div id="banner" class="pl-5 pt-5 row">
         <div class="col-12 pl-5">
-          <h1 class="br-top pt-5 text-dark-grey" id="title" style="">
-            <span style="font-size:20vw; line-height:45%;">Our Story.</span>
+          <h1 class="br-top pt-5 pl-5 text-white" id="title" style="">
+            <span style="font-size:25vw; letter-spacing:-2vw; line-height:45%;"
+              >Our Story.</span
+            >
           </h1>
           <p
-            class="slogan text-dark-grey"
+            class="slogan pl-5 text-dark-grey"
             style="padding-top:0; margin-top:-2vw;"
           >
             a full service digital agency.
@@ -17,8 +22,8 @@
     </div>
 
     <div class="container-fluid">
-      <div class="row pl pr">
-        <div class="col-12">
+      <div class="row pl pr pt-10">
+        <div class="col-12" style="height:37vw;">
           <img
             class="scale-crop"
             src="https://images.pexels.com/photos/273230/pexels-photo-273230.jpeg?cs=srgb&dl=pexels-pixabay-273230.jpg&fm=jpg"
@@ -29,12 +34,15 @@
 
     <div class="container-fluid" style="padding-top: 10vw;">
       <div class="row pl pr">
-        <div class="col-12">
-          <hr />
-        </div>
+        <div class="col-12"></div>
       </div>
       <div class="row pl pr pb">
-        <div class="col-7">
+        <div class="col-12">
+          <h2 class="poppins" style="line-height:85%;">
+            Simple<br />
+            done right.
+          </h2>
+          <hr />
           <p>
             Objectives inform students the learning outcomes of the class. What
             will they know? What will they be able to do? Why is this important
