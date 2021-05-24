@@ -6,7 +6,7 @@
         <div style="position:absolute; z-index:100; mix-blend-mode:difference;">
           <h1
             class="br-top text-white"
-            style="font-size:16vw; line-height:70%; letter-spacing:-1.8vw;"
+            style="font-size:15.5vw; line-height:70%; letter-spacing:-1.6vw;"
           >
             ideas, brands & concepts
           </h1>

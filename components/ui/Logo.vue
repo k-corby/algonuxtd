@@ -17,8 +17,8 @@
     text-decoration: underline;
     text-decoration-color: #ffeb51;
     font-family: "Poppins", "Martel", "Pacifico", lemongrass-script, sans-serif;
-    font-weight: 800;
-    letter-spacing: -5px;
+    font-weight: 1000;
+    letter-spacing: -4px;
     color: #fff;
     color: blue;
     padding: 2px 33px 6px 28px;
