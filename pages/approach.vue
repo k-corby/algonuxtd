@@ -2,9 +2,9 @@
   <div>
     <div class="bg-red container-fluid" style="overflow:hidden;">
       <div class="header circle-pattern">
-        <div id="banner" class="">
-          <h1 class="br-top text-offwhite" id="title">
-            <span style="font-size:26vw;">Our Approach.</span>
+        <div id="banner">
+          <h1 class="br-top text-offwhite title">
+            Our Approach.
           </h1>
         </div>
       </div>
@@ -42,7 +42,10 @@
     <div class="container-fluid bg-mustard" style="padding-top: 18vw;">
       <div class="row pl pr">
         <div class="col-12">
-          <h2 class="text-white libre" style="font-size:17vw;">
+          <h2
+            class="text-white libre"
+            style="font-size:19vw; line-height:65%; letter-spacing:-1.7vw;"
+          >
             user centred
           </h2>
           <hr />
@@ -78,6 +81,17 @@ h2 {
   line-height: 75%;
   letter-spacing: -0.8vw;
   color: #222;
+}
+
+.title {
+  font-size: 26vw;
+  line-height: 60%;
+  letter-spacing: -2.6vw;
+  font-family: "Libre Baskerville", "Poppins", Tiro Bangla, Georgia,
+    "Times New Roman", Times, serif;
+  font-weight: 700;
+  text-transform: lowercase;
+  margin: 0 0 5vw 0;
 }
 
 p {

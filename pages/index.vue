@@ -5,13 +5,13 @@
         <div id="scroll-down"></div>
         <div>
           <h1 class="br-top text-white title">
-            ideas
+            <span style="font-weight:400; font-size:21vw;">i</span>deas
             <span
               class="stroke"
               style="font-size:28vw; letter-spacing:-4vw; margin-left:-2vw;border-color:#ffeb51;"
               >&</span
             >
-            concepts.
+            concepts
           </h1>
           <p class="slogan text-offwhite" style="mix-blend-mode:difference;">
             A design agency built to build modern brands.
@@ -92,7 +92,7 @@
 }
 
 .title {
-  font-size: 22vw;
+  font-size: 21.8vw;
   line-height: 40%;
   letter-spacing: -2.1vw;
   font-family: "Libre Baskerville", "Poppins", Tiro Bangla, Georgia,

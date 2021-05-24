@@ -185,6 +185,18 @@ main {
   .difference {
     mix-blend-mode: difference;
   }
+
+  .title {
+    font-size: 22vw;
+    line-height: 40%;
+    letter-spacing: -2.1vw;
+    font-family: "Libre Baskerville", "Poppins", Tiro Bangla, Georgia,
+      "Times New Roman", Times, serif;
+    font-weight: 700;
+    text-transform: lowercase;
+    margin: 0 0 5vw 0;
+    opacity: 0.95;
+  }
 }
 
 main .bg-banner {
