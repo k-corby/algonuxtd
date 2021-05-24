@@ -3,14 +3,17 @@
     <div class="container-fluid bg-banner bg-dark-grey">
       <div class="row" id="banner">
         <div id="scroll-down"></div>
-        <div style="position:absolute; z-index:100; mix-blend-mode:difference;">
-          <h1
-            class="br-top text-white"
-            style="font-size:15.5vw; line-height:70%; letter-spacing:-1.6vw;"
-          >
-            ideas, brands & concepts
+        <div>
+          <h1 class="br-top text-white title">
+            ideas
+            <span
+              class="stroke"
+              style="font-size:28vw; letter-spacing:-4vw; margin-left:-2vw;border-color:#ffeb51;"
+              >&</span
+            >
+            concepts.
           </h1>
-          <p class="slogan text-offwhite">
+          <p class="slogan text-offwhite" style="mix-blend-mode:difference;">
             A design agency built to build modern brands.
           </p>
         </div>
@@ -86,5 +89,17 @@
   right: 0vw;
   top: 10vw;
   overflow: hidden;
+}
+
+.title {
+  font-size: 22vw;
+  line-height: 40%;
+  letter-spacing: -2.1vw;
+  font-family: "Libre Baskerville", "Poppins", Tiro Bangla, Georgia,
+    "Times New Roman", Times, serif;
+  font-weight: 700;
+  text-transform: lowercase;
+  margin: 0 0 5vw 0;
+  opacity: 0.95;
 }
 </style>

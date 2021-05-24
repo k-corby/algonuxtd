@@ -69,7 +69,7 @@ body {
 
 @supports (-webkit-text-stroke: 1px black) {
   .stroke {
-    -webkit-text-stroke: 0.6vw #ffffff;
+    -webkit-text-stroke: 1vw #fde637;
     -webkit-text-fill-color: transparent;
     font-size: min(max(2vw, 16vw), 18vw);
     line-height: 80%;
@@ -189,15 +189,15 @@ main {
 
 main .bg-banner {
   padding: 0 0 0 0;
-  padding-top: max(300px, 21.2vw);
+  padding-top: max(250px, 13.5vw);
   height: 65vw;
 }
 
 @media (max-width: 1000px) {
 }
 
-main #banner h1 {
-  font-family:/*mostra-nuova, sans-serif'PT Serif', , */ "", "Libre Baskerville",
+/*main #banner h1 {
+  font-family:"Libre Baskerville",
     "Poppins", Tiro Bangla, Georgia, "Times New Roman", Times, serif;
   font-size: min(max(2vw, 14.2vw), 21vw);
   letter-spacing: -0.8vw;
@@ -211,7 +211,7 @@ main #banner h1#title {
   line-height: 70%;
   letter-spacing: -1.5vw;
   font-size: min(max(2vw, 18vw), 23vw);
-}
+}*/
 
 main .break {
   display: block;
@@ -244,10 +244,6 @@ main .slogan {
   main #banner {
     padding: 0 5vw 0 5vw;
   }
-  main #banner h1,
-  main #banner h1 b {
-    font-size: 20vw;
-  }
 
   main .bg-banner {
     padding: 30vw 0 15vw 0;
@@ -265,10 +261,6 @@ main .slogan {
     font-size: 1.4rem;
     font-weight: 300;
     letter-spacing: 1.1rem;
-  }
-
-  main #banner h1 {
-    font-size: 14rem;
   }
 
   main #banner {

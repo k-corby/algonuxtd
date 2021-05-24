@@ -1,6 +1,6 @@
 <template>
   <div id="logo">
-    <NuxtLink to="/">a<!--<img src="~/assets/img/logo.png">--></NuxtLink>
+    <NuxtLink to="/">algo<!--<img src="~/assets/img/logo.png">--></NuxtLink>
   </div>
 </template>
 
@@ -10,17 +10,17 @@
   z-index: 1000;
   top: 0;
   left: 1vw;
-  mix-blend-mode: normal;
+  mix-blend-mode: difference;
   a {
     cursor: pointer;
-    font-size: 4.9em;
+    font-size: min(max(1vw, 4.4vw), 4.4vw);
     text-decoration: underline;
     text-decoration-color: #ffeb51;
     font-family: "Poppins", "Martel", "Pacifico", lemongrass-script, sans-serif;
-    font-weight: 1000;
-    letter-spacing: -4px;
-    color: #fff;
-    color: blue;
+    font-weight: 800;
+    letter-spacing: -0.25vw;
+    color: rgb(255, 255, 255);
+    /*color: blue;
     padding: 2px 33px 6px 28px;
     background-color: #fde637;
     /*text-decoration: underline;
