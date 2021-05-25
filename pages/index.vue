@@ -5,10 +5,10 @@
         <div id="scroll-down"></div>
         <div>
           <h1 class="br-top text-white title">
-            <span style="font-weight:400; font-size:16vw;">i</span>deas, brands
+            <span style="font-weight:400; font-size:20vw;">i</span>deas
             <span
               class="stroke"
-              style="font-size:15vw; letter-spacing:-2vw; margin-left:-2vw;border-color:#ffeb51;"
+              style="font-size:28vw; letter-spacing:-2vw; margin-left:-2vw;border-color:#ffeb51;"
               >&</span
             >
             concepts.
@@ -92,9 +92,9 @@
 }
 
 .title {
-  font-size: 15vw;
-  line-height: 60%;
-  letter-spacing: -1.5vw;
+  font-size: 21vw;
+  line-height: 30%;
+  letter-spacing: -2.1vw;
   font-family: "Libre Baskerville", "Poppins", Tiro Bangla, Georgia,
     "Times New Roman", Times, serif;
   font-weight: 700;
