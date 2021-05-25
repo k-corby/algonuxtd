@@ -61,13 +61,13 @@ export default {};
   top: 1%;
   right: 0;
   z-index: 2000;
-  margin: 4vw 3vw 0 0;
+  margin: 3vw 6vw 0 0;
   background: none;
   border: none;
 }
 
 #nav-btn svg {
-  width: 240px;
+  width: 7vw;
   height: 100px;
 }
 

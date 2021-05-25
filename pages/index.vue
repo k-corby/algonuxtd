@@ -5,13 +5,13 @@
         <div id="scroll-down"></div>
         <div>
           <h1 class="br-top text-white title">
-            <span style="font-weight:400; font-size:21vw;">i</span>deas
+            <span style="font-weight:400; font-size:16vw;">i</span>deas, brands
             <span
               class="stroke"
-              style="font-size:28vw; letter-spacing:-4vw; margin-left:-2vw;border-color:#ffeb51;"
+              style="font-size:15vw; letter-spacing:-2vw; margin-left:-2vw;border-color:#ffeb51;"
               >&</span
             >
-            concepts
+            concepts.
           </h1>
           <p class="slogan text-offwhite" style="mix-blend-mode:difference;">
             A design agency built to build modern brands.
@@ -92,14 +92,14 @@
 }
 
 .title {
-  font-size: 21.8vw;
-  line-height: 40%;
-  letter-spacing: -2.1vw;
+  font-size: 15vw;
+  line-height: 60%;
+  letter-spacing: -1.5vw;
   font-family: "Libre Baskerville", "Poppins", Tiro Bangla, Georgia,
     "Times New Roman", Times, serif;
   font-weight: 700;
   text-transform: lowercase;
-  margin: 0 0 5vw 0;
+  margin: 0 0 5vw 1vw;
   opacity: 0.95;
 }
 </style>
