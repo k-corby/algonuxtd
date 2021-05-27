@@ -1,28 +1,29 @@
 <template>
   <div id="logo">
-    <NuxtLink to="/">algo<!--<img src="~/assets/img/logo.png">--></NuxtLink>
+    <NuxtLink to="/">a<!--<img src="~/assets/img/logo.png">--></NuxtLink>
   </div>
 </template>
 
 <style lang="scss" scoped>
 #logo {
   position: fixed;
-  z-index: 1000;
+  z-index: 2000;
   top: 0;
-  left: 1vw;
+  left: 0vw;
   mix-blend-mode: difference;
+  margin: 3.5vw 0 0 4vw;
   a {
     cursor: pointer;
-    font-size: min(max(1vw, 4.4vw), 4.4vw);
-    text-decoration: underline;
-    text-decoration-color: #ffeb51;
-    font-family: "Poppins", "Martel", "Pacifico", lemongrass-script, sans-serif;
+    font-size: max(60px, 4.6vw);
+    font-family: "hero-new", "Martel", "Pacifico", lemongrass-script, sans-serif;
     font-weight: 800;
-    letter-spacing: -0.25vw;
-    color: rgb(255, 255, 255);
-    /*color: blue;
-    padding: 2px 33px 6px 28px;
-    background-color: #fde637;
+    letter-spacing: -0.325vw;
+
+    padding: 0px 30px 4px 25px;
+
+    color: blue;
+    background-color: #ffeb51;
+
     /*text-decoration: underline;
       text-decoration-color: #ffeb51;
       text-decoration-thickness: 0.5vw;

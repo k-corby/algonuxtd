@@ -14,8 +14,8 @@
         fill="rgb(255, 255, 255, 0.9)"
       >
         <g>
-          <rect y="254" width="500" height="14" />
-          <rect y="210" width="500" height="14" />
+          <rect y="254" width="500" height="12" />
+          <rect y="210" width="500" height="12" />
         </g>
       </svg>
     </b-button>
@@ -84,6 +84,7 @@ export default {};
   text-orientation: mixed;
   height: 150px;
   color: #222;
+  display: none;
 
   a {
     padding: 30px 15px 40px 20px;
@@ -99,7 +100,7 @@ export default {};
   }
 
   a:hover {
-    background-color: blue;
+    background-color: #181829;
     color: #fff;
   }
 }
