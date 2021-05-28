@@ -64,7 +64,9 @@ export default {
     "~/components/",
     "~/components/ui/",
     "~/components/portfolio/",
-    "~/components/section/"
+    "~/components/section/",
+    "~/components/section/footer",
+    "~/components/section/menu"
   ],
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)

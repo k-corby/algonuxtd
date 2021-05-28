@@ -27,10 +27,10 @@
         />
       </div>
     </div>
-    <div class="container-fluid bg-mustard" style="padding-top: 18vw;">
+    <div class="container-fluid bg-fluro-yellow" style="padding-top: 18vw;">
       <div class="row pl pr">
         <div class="col-12">
-          <h2 class="text-white libre" style="font-size:17vw;">
+          <h2 class="text-dark-grey libre" style="font-size:17vw;">
             user centred
           </h2>
           <hr />

@@ -1,10 +1,14 @@
-$base-color: #132d7d;
-$white: #ffffff;
-$base_blue: rgba(109, 199, 250, 0.8);
-$border-dark: rgba($base-color, 0.88);
-
-.alert {
-  border: 1px solid $border-dark;
+:root {
+  --red: #e54a3e;
+  --fluro-yellow: rgb(249, 250, 13);
+  --dark-blue: #181828;
+  --mustard: #f8c000;
+  --blue: #00b;
+  --white: #ffffff;
+  --black: #000000;
+  --dark-grey: #222222;
+  --off-white: #f2eddb;
+  --fullwidth: 100%;
 }
 
 .container-fluid,
@@ -44,15 +48,19 @@ $border-dark: rgba($base-color, 0.88);
 }
 
 .bg-dark-grey {
-  background-color: #111;
+  background-color: var(--dark-grey);
 }
 
 .bg-dark-blue {
-  background-color: #181820;
+  background-color: var(--dark-blue);
 }
 
 .bg-mustard {
-  background-color: #f8c000;
+  background-color: var(--mustard);
+}
+
+.bg-fluro-yellow {
+  background-color: var(--fluro-yellow);
 }
 
 .bg-white {
@@ -108,11 +116,11 @@ $border-dark: rgba($base-color, 0.88);
 }
 
 .text-white {
-  color: #ffffff;
+  color: var(--white);
 }
 
 .text-offwhite {
-  color: #f2eddb;
+  color: var(--off-white);
 }
 
 .text-lgrey {
@@ -120,19 +128,19 @@ $border-dark: rgba($base-color, 0.88);
 }
 
 .text-black {
-  color: #000;
+  color: var(--black);
 }
 
 .text-dark-grey {
-  color: #222;
+  color: var(--dark-grey);
 }
 
 .text-yellow {
-  color: #fae75d;
+  color: var(--fluro-yellow);
 }
 
 .text-blue {
-  color: blue;
+  color: var(--blue);
 }
 
 /*.bg-purple:hover {

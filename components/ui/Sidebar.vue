@@ -105,7 +105,7 @@ export default {};
   }
 }
 .center {
-  background-color: #fde637 /* ffeb51 9fc1e0  #fde637 ffec5b  b7ccbb*/;
+  background-color: rgb(249, 250, 13) /* ffeb51 9fc1e0  #fde637 ffec5b  b7ccbb*/;
   color: #000000;
   padding-top: max(200px, 14vw);
   padding-bottom: 10vw;
