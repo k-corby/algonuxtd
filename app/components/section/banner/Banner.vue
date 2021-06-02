@@ -1,51 +1,56 @@
 <template>
-  <div class="banner row">
-    <h1 class="br-top text-white title" style="margin-top:max(250px, 24vw);">
-      ideas<span style="letter-spacing:-3vw;">,</span>
-      brands
-      <span class="stroke symbol" style="">&</span>
-      concepts
-    </h1>
-    <p class="slogan text-offwhite" style="mix-blend-mode:difference;">
-      A design agency built to build modern brands.
-    </p>
+  <div class="row">
+    <div class="banner">
+      <h1 class="br-top text-white title" style="margin-top:max(300px, 24vw);">
+        ideas<span style="letter-spacing:-3vw;">,</span> brands
+        <span class="stroke symbol" style="">&</span>
+        concepts
+      </h1>
+      <p class="slogan text-offwhite" style="mix-blend-mode:difference;">
+        A design agency built to build modern brands.
+      </p>
+    </div>
   </div>
 </template>
 <style lang="scss" scoped>
-.banner {
-  padding: 0 6vw 0 6vw;
-  max-width: 1600px;
-  margin: 0 auto;
-  padding-bottom: 10vw;
+.row {
   height: 100vh;
+}
+.banner {
+  padding: 0 0 0 6vw;
+  max-width: 1600px;
 }
 
 p {
-  margin-top: -4vw;
   font-weight: 300;
   max-width: 100%;
-  font-size: min(26px, 1.8vw);
-  letter-spacing: 0.9vw;
+  font-size: max(18px, 1.4vw);
+  letter-spacing: 1.1vw;
   font-family: "Martel", sans-serif;
+  margin-top: -2vw;
+  @media (max-width: 1000px) {
+    margin-top: 8vw;
+  }
 }
-.caption {
-  font-weight: 300;
-  max-width: 60%;
-  font-size: min(24px, 1.8vw);
-  letter-spacing: 0.7vw;
-  font-family: "Martel", sans-serif;
+
+.symbol {
+  font-size: 20vw;
+  letter-spacing: -2vw;
+  margin-left: -2vw;
+  border-color: #ffeb51;
 }
 
 h1 {
-  font-size: 15vw;
+  font-size: 15.3vw;
   line-height: 20%;
-  letter-spacing: -1.5vw;
-  font-family: "Libre Baskerville", "Poppins", Tiro Bangla, Georgia,
+  letter-spacing: -1.3vw;
+  font-family: "", "Libre Baskerville", "Poppins", Tiro Bangla, Georgia,
     "Times New Roman", Times, serif;
   font-weight: 700;
   text-transform: lowercase;
   margin: 0 0 5vw 0vw;
   opacity: 0.95;
+  text-align: initial;
 }
 
 .title2 {
@@ -60,17 +65,32 @@ h1 {
   opacity: 0.95;
 }
 
+.stroke {
+  -webkit-text-stroke: 0.5vw var(--fluro-yellow);
+  -webkit-text-fill-color: transparent;
+  line-height: 80%;
+}
+
 @media (max-width: 1000px) {
+  .banner {
+    padding: 0 0 0 4vw;
+  }
   h1 {
-    font-size: 22vw;
-    line-height: 60%;
+    font-size: 24vw;
+    letter-spacing: -2.5vw;
+    text-transform: lowercase;
+    line-height: 70%;
   }
 
   .symbol {
-    font-size: 24vw;
-    letter-spacing: -2vw;
-    margin-left: -2vw;
+    font-size: 25vw;
     border-color: #ffeb51;
+    display: none;
+  }
+  .stroke {
+    -webkit-text-stroke: 1vw var(--fluro-yellow);
+    -webkit-text-fill-color: transparent;
+    line-height: 80%;
   }
 }
 </style>

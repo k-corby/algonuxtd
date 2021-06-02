@@ -51,6 +51,9 @@
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     /*font-family: "Georgia", "Libre Baskerville", Verdana, Geneva, Tahoma,
       sans-serif;*/
+    @media (max-width: 1000px) {
+      margin: -3vw 0;
+    }
   }
 }
 </style>

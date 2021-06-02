@@ -68,12 +68,6 @@ body {
 }
 
 @supports (-webkit-text-stroke: 1px black) {
-  .stroke {
-    -webkit-text-stroke: 0.5vw rgb(249, 250, 13);
-    -webkit-text-fill-color: transparent;
-    font-size: min(max(2vw, 16vw), 18vw);
-    line-height: 80%;
-  }
 }
 
 h2 {

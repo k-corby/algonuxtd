@@ -3,7 +3,7 @@
     <div class="bg-red container-fluid" style="overflow:hidden;">
       <div class="header circle-pattern">
         <div id="banner">
-          <h1 class="br-top text-offwhite title">
+          <h1 class="pl-5 pr br-top text-offwhite title">
             Our Approach.
           </h1>
         </div>

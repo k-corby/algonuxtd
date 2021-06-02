@@ -39,13 +39,13 @@ export default {
 </script>
 
 <style scoped>
-main #services .row_fluid:nth-child(even) {
+.row_fluid:nth-child(even) {
   display: flex;
   flex-direction: row-reverse;
   width: 100%;
 }
 
-main #services .row_fluid:nth-child(even) .service_img {
+.row_fluid:nth-child(even) .service_img {
   width: 80%;
 }
 

@@ -53,10 +53,11 @@
   </div>
 </template>
 <style lang="scss" scoped>
-.symbol {
-  font-size: 20vw;
-  letter-spacing: -2vw;
-  margin-left: -2vw;
-  border-color: #ffeb51;
+.caption {
+  font-weight: 300;
+  max-width: 60%;
+  font-size: min(24px, 1.8vw);
+  letter-spacing: 0.7vw;
+  font-family: "Martel", sans-serif;
 }
 </style>

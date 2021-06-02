@@ -52,29 +52,24 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-.bg-light {
-  background-color: transparent !important;
-}
 #nav-btn {
   mix-blend-mode: difference;
   position: fixed;
   top: 1%;
   right: 0;
   z-index: 2000;
-  margin: 3vw 6vw 0 0;
+  margin: 4.5vw 6vw 0 0;
   background: none;
   border: none;
+  svg {
+    width: 7vw;
+    height: 100px;
+    @media (max-width: 1000px) {
+      width: 80px;
+    }
+  }
 }
 
-#nav-btn svg {
-  width: 7vw;
-  height: 100px;
-}
-
-#siderbar-right {
-  width: 100%;
-  overflow-y: scroll;
-}
 #menu-logo {
   position: fixed;
   top: 0vw;
@@ -110,5 +105,12 @@ export default {};
   padding-top: max(200px, 14vw);
   padding-bottom: 10vw;
   overflow-y: scroll;
+
+  .slogan {
+    font-weight: 400;
+    font-size: min(20px, 1.8vw);
+    letter-spacing: 0.7vw;
+    font-family: "Martel", sans-serif;
+  }
 }
 </style>
