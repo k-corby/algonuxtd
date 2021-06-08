@@ -1,10 +1,11 @@
 :root {
   --red: #e54a3e;
-  --fluro-yellow: rgb(249, 250, 13);
+  --fluro-yellow: #f9fa0d;
   --yellow: #fde637;
-  --dark-blue: #181822;
+  --dark-blue: #111130; /* 3c47d6*/
   --mustard: #f8c000;
-  --blue: #00b;
+  --blue: #0000ff;
+  --light-blue: #8eb7ee;
   --white: #ffffff;
   --black: #000000;
   --dark-grey: #222222;
@@ -47,6 +48,10 @@
 
 .bg-dark-blue {
   background-color: var(--dark-blue);
+}
+
+.bg-light-blue {
+  background-color: var(--light-blue);
 }
 
 .bg-mustard {

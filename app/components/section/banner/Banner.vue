@@ -1,14 +1,28 @@
 <template>
   <div class="row">
     <div class="banner">
-      <h1 class="br-top text-white title" style="margin-top:max(300px, 24vw);">
+      <!--<h1 class="br-top text-white title" style="margin-top:max(300px, 24vw);">
         ideas<span style="letter-spacing:-3vw;">,</span> brands
         <span class="stroke symbol" style="">&</span>
         concepts
+      </h1>-->
+      <h1 class="br-top text-white title" style="margin-top:max(300px, 21vw);">
+        ideas<span style="letter-spacing:-3vw;">,</span> brands
+        <span class="stroke" style="">&</span>
+        concepts.
       </h1>
       <p class="slogan text-offwhite" style="mix-blend-mode:difference;">
-        A design agency built to build modern brands.
+        design agency built to build modern brands.
       </p>
+      <p
+        class="float-right"
+        style="position:absolute; right:1vw; top:50%; color:#CCC; writing-mode: vertical-rl; text-orientation: mixed; font-size:15px; letter-spacing:1px; font-weight:700; text-transform:lowercase;"
+      >
+        Algo - info@algo.com.au
+      </p>
+      <!--<p class="slogan text-offwhite" style="mix-blend-mode:difference;">
+        A design agency built to build modern brands.
+      </p>-->
     </div>
   </div>
 </template>
@@ -22,12 +36,13 @@
 }
 
 p {
-  font-weight: 300;
+  font-weight: 400;
   max-width: 100%;
-  font-size: max(18px, 1.4vw);
+  font-size: max(18px, 1.3vw);
   letter-spacing: 1.1vw;
   font-family: "Martel", sans-serif;
-  margin-top: -2vw;
+  margin-top: -4vw;
+  text-transform: lowercase;
   @media (max-width: 1000px) {
     margin-top: 8vw;
   }
@@ -41,13 +56,13 @@ p {
 }
 
 h1 {
-  font-size: 15.3vw;
-  line-height: 20%;
-  letter-spacing: -1.3vw;
-  font-family: "", "Libre Baskerville", "Poppins", Tiro Bangla, Georgia,
+  font-size: 12vw;
+  line-height: 90%;
+  letter-spacing: -0.8vw;
+  font-family: "hero-new", "Libre Baskerville", "Poppins", Tiro Bangla, Georgia,
     "Times New Roman", Times, serif;
-  font-weight: 700;
-  text-transform: lowercase;
+  font-weight: 900;
+  text-transform: uppercase;
   margin: 0 0 5vw 0vw;
   opacity: 0.95;
   text-align: initial;
@@ -56,7 +71,7 @@ h1 {
 .title2 {
   font-size: 11vw;
   line-height: 0%;
-  letter-spacing: -0.6vw;
+  letter-spacing: -0.8vw;
   font-family: "hero-new", "Libre Baskerville", "Poppins", Tiro Bangla, Georgia,
     "Times New Roman", Times, serif;
   font-weight: 900;

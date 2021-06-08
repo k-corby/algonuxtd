@@ -1,17 +1,20 @@
 <template>
-  <div></div>
+  <div>Scroll</div>
 </template>
 <style lang="scss" scoped>
 div {
   position: absolute;
   bottom: 0%;
-  right: 50%;
+  right: 8%;
   text-transform: uppercase;
-  font-size: 2.5vw;
+  font-size: 1vw;
   background-color: var(--fluro-yellow);
-  height: 6vw;
-  width: 0.2vw;
-  font-weight: 100;
+  padding: 2vw 1.4vw 1vw 1.4vw;
+  font-weight: 900;
+  letter-spacing: 2px;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
   font-family: "Poppins";
+  color: var(--blue);
 }
 </style>

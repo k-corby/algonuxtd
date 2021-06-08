@@ -10,6 +10,7 @@
     "heroku-postbuild": "npm run build"
   },
   "dependencies": {
+    "@luxdamore/vue-cursor-fx": "^1.6.2",
     "@mdi/font": "^5.8.55",
     "@nuxt/typescript-runtime": "^2.1.0",
     "bootstrap-vue": "^2.21.2",

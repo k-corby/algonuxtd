@@ -11,7 +11,7 @@
         viewBox="0 0 455 455"
         style="enable-background:new 0 0 455 455;"
         xml:space="preserve"
-        fill="rgb(255, 255, 255, 0.9)"
+        fill="#FFFFFF"
       >
         <g>
           <rect y="254" width="500" height="12" />

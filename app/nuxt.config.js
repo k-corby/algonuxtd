@@ -33,7 +33,7 @@ export default {
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
     //'~plugins/vuetify.js'
-    //{ src: '~/plugins/vue-burger-menu.js', mode: 'client' }
+    { src: "~/plugins/vue-cursor-fx.js", mode: "client" }
     //{ src: "@/plugins/aos", mode: "client" }
   ],
 

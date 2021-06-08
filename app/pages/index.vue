@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="container-fluid bg-banner bg-dark-blue">
+    <div class="container-fluid bg-banner " style="background-color:#0000FF;">
       <Banner />
       <ScrollDown />
     </div>

@@ -6,6 +6,7 @@ import scrollBehavior from './router.scrollBehavior.js'
 
 const _5af6ca93 = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
 const _529b2492 = () => interopDefault(import('../pages/approach.vue' /* webpackChunkName: "pages/approach" */))
+const _328644ed = () => interopDefault(import('../pages/index copy.vue' /* webpackChunkName: "pages/index copy" */))
 const _2e89b85e = () => interopDefault(import('../pages/portfolio/index.vue' /* webpackChunkName: "pages/portfolio/index" */))
 const _288df07b = () => interopDefault(import('../pages/work.vue' /* webpackChunkName: "pages/work" */))
 const _5db1e679 = () => interopDefault(import('../pages/portfolio/_id.vue' /* webpackChunkName: "pages/portfolio/_id" */))
@@ -30,6 +31,10 @@ export const routerOptions = {
     path: "/approach",
     component: _529b2492,
     name: "approach"
+  }, {
+    path: "/index%20copy",
+    component: _328644ed,
+    name: "index copy"
   }, {
     path: "/portfolio",
     component: _2e89b85e,

@@ -1,6 +1,13 @@
 <template>
-  <div id="logo">
-    <NuxtLink to="/">a</NuxtLink>
+  <div>
+    <div id="logo">
+      <NuxtLink to="/">a</NuxtLink>
+    </div>
+    <div
+      style="display:none;position:fixed; mix-blend-mode:difference; font-size:0.7vw; top:6.2vw; left: 9vw; writing-mode: vertical-rl; text-orientation: mixed; font-weight:700; z-index:3000;"
+    >
+      <p style="color:white; mix-blend-mode:difference;">ALGO</p>
+    </div>
   </div>
 </template>
 
@@ -11,25 +18,41 @@
   top: 0;
   left: 0vw;
   mix-blend-mode: normal;
-  margin: max(50px, 4.5vw) 0 0 max(30px, 5vw);
+  margin: max(50px, 5vw) 0 0 max(30px, 5vw);
 
   a {
-    cursor: pointer;
-    font-size: max(60px, 4vw);
-    font-family: "", "hero-new", "Martel", "Pacifico", lemongrass-script,
-      sans-serif;
-    font-weight: 800;
+    font-size: max(50px, 4vw);
+    font-family: "", "hero-new", "Libre Baskerville", "hero-new", sans-serif;
+    font-weight: 900;
     /*padding-top: max(10px, 0vw);
     padding-bottom: max(12px, 0.25vw);
     padding-left: max(28px, 1.8vw);
-    padding-right: max(32px, 2.1vw);*/
-    padding: max(22px, 1vw) max(28px, 1.8vw) max(24px, 1vw) max(28px, 1.8vw);
+    padding-right: max(32px, 2.1vw);
+    
+    
+    */
+    padding: max(22px, 1vw) max(34px, 2.4vw) max(22px, 1.3vw) max(28px, 2vw);
     line-height: 1;
     float: left;
-    text-decoration: none;
+
     margin-top: -1vw;
-    color: var(--fluro-yellow);
-    background-color: blue;
+    color: #ffffff;
+    letter-spacing: -6px;
+    text-decoration: none;
+    text-decoration-thickness: 5px;
+    text-decoration-color: var(--fluro-yellow);
+    text-transform: lowercase;
+    color: var(--blue);
+    background-color: var(--fluro-yellow); /* #FFCE09*/
+    :hover {
+      text-decoration: underline;
+      text-decoration-thickness: 5px;
+      text-decoration-color: var(--white);
+      text-transform: lowercase;
+      color: var(--white);
+      border: 0.3vw solid var(--white); /* #FFCE09*/
+      background-color: transparent;
+    }
   }
 }
 
