@@ -2,14 +2,23 @@
   "AppNavigation": {
     "description": "Auto imported from components/section/menu/AppNavigation.vue"
   },
+  "AppNavigation2": {
+    "description": "Auto imported from components/section/menu/AppNavigation2.vue"
+  },
   "Logo": {
     "description": "Auto imported from components/section/menu/Logo.vue"
+  },
+  "Logo2": {
+    "description": "Auto imported from components/section/menu/Logo2.vue"
   },
   "MenuItems": {
     "description": "Auto imported from components/section/menu/MenuItems.vue"
   },
   "Accordion": {
     "description": "Auto imported from components/ui/Accordion.vue"
+  },
+  "Lines": {
+    "description": "Auto imported from components/ui/Lines.vue"
   },
   "ScrollDown": {
     "description": "Auto imported from components/ui/ScrollDown.vue"
@@ -31,6 +40,9 @@
   },
   "Banner": {
     "description": "Auto imported from components/section/banner/Banner.vue"
+  },
+  "Banner2": {
+    "description": "Auto imported from components/section/banner/Banner2.vue"
   },
   "BannerCaption": {
     "description": "Auto imported from components/section/banner/Caption.vue"

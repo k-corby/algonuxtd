@@ -1,6 +1,8 @@
 <template>
   <div>
-    <div class="container-fluid bg-banner " style="background-color:#0000FF;">
+    <div class="container-fluid bg-banner " style="background-color:#3C47D6; ">
+      <div class="circle"></div>
+      <!--0000FF  0039FF -->
       <Banner />
       <ScrollDown />
     </div>
@@ -53,6 +55,21 @@
   </div>
 </template>
 <style lang="scss" scoped>
+.circle {
+  width: 200vh;
+  height: 200vh;
+  border-radius: 100%;
+  position: absolute;
+  right: -100vh;
+  top: 25%;
+  border: max(300px, 27vw) solid var(--yellow);
+}
+.bg-banner {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
 .caption {
   font-weight: 300;
   max-width: 60%;

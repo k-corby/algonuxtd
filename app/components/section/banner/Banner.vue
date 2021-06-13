@@ -6,33 +6,64 @@
         <span class="stroke symbol" style="">&</span>
         concepts
       </h1>-->
-      <h1 class="br-top text-white title" style="margin-top:max(300px, 21vw);">
-        ideas<span style="letter-spacing:-3vw;">,</span> brands
-        <span class="stroke" style="">&</span>
-        concepts.
-      </h1>
-      <p class="slogan text-offwhite" style="mix-blend-mode:difference;">
-        design agency built to build modern brands.
-      </p>
+      <div style="position:relative; z-index:100;">
+        <h1
+          class="br-top text-white title"
+          style="margin-top:max(300px, 20vw);"
+        >
+          brands<br />
+          <span class="stroke" style="">&</span>
+          ideas.
+        </h1>
+        <p class="slogan text-offwhite" style="color:#CCC;">
+          building morden brands.
+        </p>
+      </div>
       <p
         class="float-right"
-        style="position:absolute; right:1vw; top:50%; color:#CCC; writing-mode: vertical-rl; text-orientation: mixed; font-size:15px; letter-spacing:1px; font-weight:700; text-transform:lowercase;"
+        style="position:absolute; right:3vw; top:50%; color:#CCC; writing-mode: vertical-rl; text-orientation: mixed; font-size:15px; letter-spacing:5px; font-weight:700; text-transform:uppercase; font-family:'poppins';"
       >
-        Algo - info@algo.com.au
+        established in 2009
+      </p>
+      <!--<p
+        class="float-left"
+        style="position:absolute; left:3vw; top:40%; color:#CCC; writing-mode: vertical-rl; text-orientation: mixed; font-size:15px; letter-spacing:0.75vw; font-weight:600; text-transform:uppercase; font-family:'hero-new';"
+      >
+        Digital agency
+      </p>-->
+      <p
+        style="position:absolute; left:6vw; bottom:3vw; color:white; letter-spacing:0px; font-size:2.5vw; font-weight:700;"
+      >
+        01
       </p>
       <!--<p class="slogan text-offwhite" style="mix-blend-mode:difference;">
         A design agency built to build modern brands.
       </p>-->
+      <div class="circle"></div>
     </div>
   </div>
 </template>
 <style lang="scss" scoped>
+.circle {
+  overflow: hidden;
+  position: absolute;
+  height: 50vw;
+  top: 20%;
+  right: -0%;
+  p {
+    border: 10vw solid #e9ec32;
+    border-radius: 500vw;
+    height: 100%;
+    width: 100%;
+  }
+}
 .row {
   height: 100vh;
 }
 .banner {
-  padding: 0 0 0 6vw;
+  padding: 0 1vw 0 0vw;
   max-width: 1600px;
+  margin: 0 auto;
 }
 
 p {
@@ -56,6 +87,31 @@ p {
 }
 
 h1 {
+  font-size: 11.6vw;
+  line-height: 90%;
+  letter-spacing: 0.3vw;
+  font-family: "", "Libre Baskerville", "Poppins", Tiro Bangla, Georgia,
+    "Times New Roman", Times, serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 0 0 5vw 0vw;
+  opacity: 0.95;
+  text-align: initial;
+}
+
+.title2 {
+  font-size: 15.5vw;
+  line-height: 50%;
+  letter-spacing: -1.5vw;
+  font-family: "", "Libre Baskerville", "Poppins", Tiro Bangla, Georgia,
+    "Times New Roman", Times, serif;
+  font-weight: 900;
+  text-transform: lowercase;
+  margin: 0 0 5vw 0vw;
+  opacity: 0.95;
+}
+
+.title3 {
   font-size: 12vw;
   line-height: 90%;
   letter-spacing: -0.8vw;
@@ -66,18 +122,6 @@ h1 {
   margin: 0 0 5vw 0vw;
   opacity: 0.95;
   text-align: initial;
-}
-
-.title2 {
-  font-size: 11vw;
-  line-height: 0%;
-  letter-spacing: -0.8vw;
-  font-family: "hero-new", "Libre Baskerville", "Poppins", Tiro Bangla, Georgia,
-    "Times New Roman", Times, serif;
-  font-weight: 900;
-  text-transform: uppercase;
-  margin: 0 0 5vw 0vw;
-  opacity: 0.95;
 }
 
 .stroke {

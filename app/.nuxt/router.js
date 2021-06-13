@@ -4,13 +4,13 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _5af6ca93 = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
-const _529b2492 = () => interopDefault(import('../pages/approach.vue' /* webpackChunkName: "pages/approach" */))
-const _328644ed = () => interopDefault(import('../pages/index copy.vue' /* webpackChunkName: "pages/index copy" */))
-const _2e89b85e = () => interopDefault(import('../pages/portfolio/index.vue' /* webpackChunkName: "pages/portfolio/index" */))
-const _288df07b = () => interopDefault(import('../pages/work.vue' /* webpackChunkName: "pages/work" */))
-const _5db1e679 = () => interopDefault(import('../pages/portfolio/_id.vue' /* webpackChunkName: "pages/portfolio/_id" */))
-const _7aaea558 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _47fd2f56 = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
+const _05079790 = () => interopDefault(import('../pages/approach.vue' /* webpackChunkName: "pages/approach" */))
+const _7b86c988 = () => interopDefault(import('../pages/index2.vue' /* webpackChunkName: "pages/index2" */))
+const _3c34f713 = () => interopDefault(import('../pages/portfolio/index.vue' /* webpackChunkName: "pages/portfolio/index" */))
+const _2cb79279 = () => interopDefault(import('../pages/work.vue' /* webpackChunkName: "pages/work" */))
+const _eea8bb8a = () => interopDefault(import('../pages/portfolio/_id.vue' /* webpackChunkName: "pages/portfolio/_id" */))
+const _088d79cc = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -25,31 +25,31 @@ export const routerOptions = {
 
   routes: [{
     path: "/about",
-    component: _5af6ca93,
+    component: _47fd2f56,
     name: "about"
   }, {
     path: "/approach",
-    component: _529b2492,
+    component: _05079790,
     name: "approach"
   }, {
-    path: "/index%20copy",
-    component: _328644ed,
-    name: "index copy"
+    path: "/index2",
+    component: _7b86c988,
+    name: "index2"
   }, {
     path: "/portfolio",
-    component: _2e89b85e,
+    component: _3c34f713,
     name: "portfolio"
   }, {
     path: "/work",
-    component: _288df07b,
+    component: _2cb79279,
     name: "work"
   }, {
     path: "/portfolio/:id",
-    component: _5db1e679,
+    component: _eea8bb8a,
     name: "portfolio-id"
   }, {
     path: "/",
-    component: _7aaea558,
+    component: _088d79cc,
     name: "index"
   }],
 

@@ -1,7 +1,7 @@
 <template>
   <div>
     <div id="logo">
-      <NuxtLink to="/">a</NuxtLink>
+      <NuxtLink to="/">algo</NuxtLink>
     </div>
     <div
       style="display:none;position:fixed; mix-blend-mode:difference; font-size:0.7vw; top:6.2vw; left: 9vw; writing-mode: vertical-rl; text-orientation: mixed; font-weight:700; z-index:3000;"
@@ -12,6 +12,8 @@
 </template>
 
 <style lang="scss" scoped>
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Monoton&family=Zen+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Damion&family=Engagement&family=Molle:ital@1&family=Sulphur+Point:wght@400;700&display=swap");
 #logo {
   position: fixed;
   z-index: 2000;
@@ -22,8 +24,13 @@
 
   a {
     font-size: max(50px, 4vw);
-    font-family: "", "hero-new", "Libre Baskerville", "hero-new", sans-serif;
+    font-family: "", "Libre Baskerville", "hero-new", "Libre Baskerville",
+      "hero-new", sans-serif;
     font-weight: 900;
+    /*background: url("~/assets/img/logo.png") no-repeat center center;
+    background-size: 80px 80px;
+    width: 110px;
+    height: 110px;
     /*padding-top: max(10px, 0vw);
     padding-bottom: max(12px, 0.25vw);
     padding-left: max(28px, 1.8vw);
@@ -36,13 +43,15 @@
     float: left;
 
     margin-top: -1vw;
-    color: #ffffff;
-    letter-spacing: -6px;
-    text-decoration: none;
+    color: #ffffff; /*#e1ff00*/
+    letter-spacing: -5px;
     text-decoration-thickness: 5px;
-    text-decoration-color: var(--fluro-yellow);
     text-transform: lowercase;
-    color: var(--blue);
+    text-decoration: underline;
+    /*mix-blend-mode: ;text-decoration: none;
+    
+    text-decoration-thickness: 6px;
+    text-decoration-color: var(--fluro-yellow);
     background-color: var(--fluro-yellow); /* #FFCE09*/
     :hover {
       text-decoration: underline;
@@ -72,3 +81,5 @@
   }
 }
 </style>
+
+<script lang="ts"></script>

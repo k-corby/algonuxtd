@@ -18,10 +18,10 @@ import '../assets/css/grid.scss'
 
 import '../assets/css/fonts.scss'
 
-import _2d21d098 from '../layouts/blog.vue'
 import _6f6c098b from '../layouts/default.vue'
+import _7e152807 from '../layouts/default2.vue'
 
-const layouts = { "_blog": sanitizeComponent(_2d21d098),"_default": sanitizeComponent(_6f6c098b) }
+const layouts = { "_default": sanitizeComponent(_6f6c098b),"_default2": sanitizeComponent(_7e152807) }
 
 export default {
   render (h, props) {
