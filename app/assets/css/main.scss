@@ -70,35 +70,6 @@ body {
 @supports (-webkit-text-stroke: 1px black) {
 }
 
-h2 {
-  font-weight: 900;
-  font-size: 8vw;
-  letter-spacing: 0px;
-  font-family: "Libre Baskerville", "Poppins", "Martel", sans-serif;
-  text-transform: none;
-  color: rgb(223, 223, 223);
-}
-
-h3 {
-  font-weight: 800;
-  font-size: 1.7vw;
-  letter-spacing: 0px;
-  font-family: "hero-new", "Martel", "Pacifico", sans-serif;
-  text-transform: none;
-  color: rgb(88, 88, 88);
-  margin: 0 0 1vw 0;
-}
-
-h4 {
-  font-size: min(max(16px, 4vw), 34px);
-  letter-spacing: 2px;
-  font-weight: 400;
-  margin: 10px 0 30px 0;
-  line-height: 130%;
-  color: #222;
-  font-family: "Martel", Georgia, "Times New Roman", Times, serif;
-}
-
 hr {
   border: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.08);

@@ -5,10 +5,13 @@ export { default as AppNavigation2 } from '../../components/section/menu/AppNavi
 export { default as Logo } from '../../components/section/menu/Logo.vue'
 export { default as Logo2 } from '../../components/section/menu/Logo2.vue'
 export { default as MenuItems } from '../../components/section/menu/MenuItems.vue'
+export { default as Sidebar } from '../../components/section/menu/Sidebar.vue'
 export { default as Accordion } from '../../components/ui/Accordion.vue'
+export { default as Arrows } from '../../components/ui/Arrows.vue'
 export { default as Lines } from '../../components/ui/Lines.vue'
+export { default as QuarterRing } from '../../components/ui/QuarterRing.vue'
 export { default as ScrollDown } from '../../components/ui/ScrollDown.vue'
-export { default as Sidebar } from '../../components/ui/Sidebar.vue'
+export { default as Slashes } from '../../components/ui/Slashes.vue'
 export { default as Social } from '../../components/ui/Social.vue'
 export { default as Portfolio } from '../../components/portfolio/Portfolio.vue'
 export { default as PortfolioItem } from '../../components/portfolio/PortfolioItem.vue'
@@ -22,10 +25,13 @@ export const LazyAppNavigation2 = import('../../components/section/menu/AppNavig
 export const LazyLogo = import('../../components/section/menu/Logo.vue' /* webpackChunkName: "components/logo" */).then(c => wrapFunctional(c.default || c))
 export const LazyLogo2 = import('../../components/section/menu/Logo2.vue' /* webpackChunkName: "components/logo2" */).then(c => wrapFunctional(c.default || c))
 export const LazyMenuItems = import('../../components/section/menu/MenuItems.vue' /* webpackChunkName: "components/menu-items" */).then(c => wrapFunctional(c.default || c))
+export const LazySidebar = import('../../components/section/menu/Sidebar.vue' /* webpackChunkName: "components/sidebar" */).then(c => wrapFunctional(c.default || c))
 export const LazyAccordion = import('../../components/ui/Accordion.vue' /* webpackChunkName: "components/accordion" */).then(c => wrapFunctional(c.default || c))
+export const LazyArrows = import('../../components/ui/Arrows.vue' /* webpackChunkName: "components/arrows" */).then(c => wrapFunctional(c.default || c))
 export const LazyLines = import('../../components/ui/Lines.vue' /* webpackChunkName: "components/lines" */).then(c => wrapFunctional(c.default || c))
+export const LazyQuarterRing = import('../../components/ui/QuarterRing.vue' /* webpackChunkName: "components/quarter-ring" */).then(c => wrapFunctional(c.default || c))
 export const LazyScrollDown = import('../../components/ui/ScrollDown.vue' /* webpackChunkName: "components/scroll-down" */).then(c => wrapFunctional(c.default || c))
-export const LazySidebar = import('../../components/ui/Sidebar.vue' /* webpackChunkName: "components/sidebar" */).then(c => wrapFunctional(c.default || c))
+export const LazySlashes = import('../../components/ui/Slashes.vue' /* webpackChunkName: "components/slashes" */).then(c => wrapFunctional(c.default || c))
 export const LazySocial = import('../../components/ui/Social.vue' /* webpackChunkName: "components/social" */).then(c => wrapFunctional(c.default || c))
 export const LazyPortfolio = import('../../components/portfolio/Portfolio.vue' /* webpackChunkName: "components/portfolio" */).then(c => wrapFunctional(c.default || c))
 export const LazyPortfolioItem = import('../../components/portfolio/PortfolioItem.vue' /* webpackChunkName: "components/portfolio-item" */).then(c => wrapFunctional(c.default || c))

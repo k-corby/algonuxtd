@@ -26,7 +26,7 @@ export default {
     //'bulma',
     "@/assets/css/global.scss",
     "@/assets/css/main.scss",
-    "@/assets/css/grid.scss",
+    //"@/assets/css/grid.scss",
     "@/assets/css/fonts.scss"
   ],
 

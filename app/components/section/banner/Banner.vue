@@ -1,82 +1,49 @@
 <template>
-  <div class="row">
+  <div class="row pb">
     <div class="banner">
-      <!--<h1 class="br-top text-white title" style="margin-top:max(300px, 24vw);">
-        ideas<span style="letter-spacing:-3vw;">,</span> brands
-        <span class="stroke symbol" style="">&</span>
-        concepts
-      </h1>-->
       <div style="position:relative; z-index:100;">
-        <h1
-          class="br-top text-white title"
-          style="margin-top:max(300px, 20vw);"
+        <div
+          style="position:relative; z-index:20; top:0; mix-blend-mode:normal;"
         >
-          brands<br />
-          <span class="stroke" style="">&</span>
-          ideas.
-        </h1>
-        <p class="slogan text-offwhite" style="color:#CCC;">
-          building morden brands.
-        </p>
+          <h1
+            class="br-top text-white title"
+            style="margin-top:max(280px, 18vw);"
+          >
+            ideas <span class="stroke">&</span>
+            <span
+              style="background: linear-gradient(to bottom, transparent, transparent 50%, var(--pink) 50%, var(--pink) 100%);"
+              >brands</span
+            >.
+          </h1>
+          <p class="slogan text-offwhite" style="color:#CCC; display:block;">
+            digital agency building modern brands.
+          </p>
+        </div>
       </div>
       <p
         class="float-right"
-        style="position:absolute; right:3vw; top:50%; color:#CCC; writing-mode: vertical-rl; text-orientation: mixed; font-size:15px; letter-spacing:5px; font-weight:700; text-transform:uppercase; font-family:'poppins';"
+        style="position:absolute; right:1vw; top:40%; color:#FFF; writing-mode: vertical-rl; text-orientation: mixed; font-size:13px; letter-spacing:0.4vw; font-weight:400; text-transform:lowercase; font-family:'Libre Baskerville';"
       >
-        established in 2009
+        established 2009
       </p>
-      <!--<p
-        class="float-left"
-        style="position:absolute; left:3vw; top:40%; color:#CCC; writing-mode: vertical-rl; text-orientation: mixed; font-size:15px; letter-spacing:0.75vw; font-weight:600; text-transform:uppercase; font-family:'hero-new';"
-      >
-        Digital agency
-      </p>-->
-      <p
-        style="position:absolute; left:6vw; bottom:3vw; color:white; letter-spacing:0px; font-size:2.5vw; font-weight:700;"
-      >
-        01
-      </p>
-      <!--<p class="slogan text-offwhite" style="mix-blend-mode:difference;">
-        A design agency built to build modern brands.
-      </p>-->
-      <div class="circle"></div>
     </div>
   </div>
 </template>
 <style lang="scss" scoped>
-.circle {
-  overflow: hidden;
-  position: absolute;
-  height: 50vw;
-  top: 20%;
-  right: -0%;
-  p {
-    border: 10vw solid #e9ec32;
-    border-radius: 500vw;
-    height: 100%;
-    width: 100%;
-  }
-}
 .row {
-  height: 100vh;
 }
 .banner {
-  padding: 0 1vw 0 0vw;
+  padding: 0 0vw 0 8vw;
   max-width: 1600px;
-  margin: 0 auto;
 }
 
 p {
-  font-weight: 400;
+  font-weight: 500;
   max-width: 100%;
-  font-size: max(18px, 1.3vw);
-  letter-spacing: 1.1vw;
-  font-family: "Martel", sans-serif;
-  margin-top: -4vw;
+  font-size: max(18px, 1.2vw);
+  letter-spacing: 1.3vw;
+  font-family: "poppins", "Libre Baskerville", sans-serif;
   text-transform: lowercase;
-  @media (max-width: 1000px) {
-    margin-top: 8vw;
-  }
 }
 
 .symbol {
@@ -87,16 +54,20 @@ p {
 }
 
 h1 {
-  font-size: 11.6vw;
-  line-height: 90%;
-  letter-spacing: 0.3vw;
-  font-family: "", "Libre Baskerville", "Poppins", Tiro Bangla, Georgia,
-    "Times New Roman", Times, serif;
+  font-size: 16vw;
+  line-height: 80%;
+  letter-spacing: 0vw;
+  font-family: "", "", "Libre Baskerville", "hero-new", "Libre Baskerville",
+    "Poppins", Tiro Bangla, Georgia, "Times New Roman", Times, serif;
   font-weight: 900;
   text-transform: uppercase;
   margin: 0 0 5vw 0vw;
   opacity: 0.95;
   text-align: initial;
+
+  u {
+    text-decoration-color: var(--fluro-yellow);
+  }
 }
 
 .title2 {
@@ -125,11 +96,11 @@ h1 {
 }
 
 .stroke {
-  -webkit-text-stroke: 0.5vw var(--fluro-yellow);
+  -webkit-text-stroke: 0.7vw var(--fluro-yellow);
   -webkit-text-fill-color: transparent;
   line-height: 80%;
 }
-
+/*
 @media (max-width: 1000px) {
   .banner {
     padding: 0 0 0 4vw;
@@ -151,5 +122,5 @@ h1 {
     -webkit-text-fill-color: transparent;
     line-height: 80%;
   }
-}
+}*/
 </style>

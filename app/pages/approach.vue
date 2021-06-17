@@ -38,7 +38,11 @@
         />
       </div>
     </div>
-
+    <div class="container-fluid">
+      <div class="row">
+        <PortfolioList />
+      </div>
+    </div>
     <div class="container-fluid bg-mustard" style="padding-top: 18vw;">
       <div class="row pl pr">
         <div class="col-12">

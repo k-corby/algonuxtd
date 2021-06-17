@@ -14,14 +14,12 @@ import '../assets/css/global.scss'
 
 import '../assets/css/main.scss'
 
-import '../assets/css/grid.scss'
-
 import '../assets/css/fonts.scss'
 
+import _4a2bc944 from '../layouts/alternate.vue'
 import _6f6c098b from '../layouts/default.vue'
-import _7e152807 from '../layouts/default2.vue'
 
-const layouts = { "_default": sanitizeComponent(_6f6c098b),"_default2": sanitizeComponent(_7e152807) }
+const layouts = { "_alternate": sanitizeComponent(_4a2bc944),"_default": sanitizeComponent(_6f6c098b) }
 
 export default {
   render (h, props) {

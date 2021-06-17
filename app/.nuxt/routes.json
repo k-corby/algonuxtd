@@ -3,49 +3,42 @@
     "name": "about",
     "path": "/about",
     "component": "/Users/kcorby/Documents/Documents - Kane’s MacBook Pro - 1/Applications/algonuxtd/app/pages/about.vue",
-    "chunkName": "pages/about",
-    "_name": "_47fd2f56"
+    "chunkName": "pages/about"
   },
   {
     "name": "approach",
     "path": "/approach",
     "component": "/Users/kcorby/Documents/Documents - Kane’s MacBook Pro - 1/Applications/algonuxtd/app/pages/approach.vue",
-    "chunkName": "pages/approach",
-    "_name": "_05079790"
+    "chunkName": "pages/approach"
   },
   {
     "name": "index2",
     "path": "/index2",
     "component": "/Users/kcorby/Documents/Documents - Kane’s MacBook Pro - 1/Applications/algonuxtd/app/pages/index2.vue",
-    "chunkName": "pages/index2",
-    "_name": "_7b86c988"
+    "chunkName": "pages/index2"
   },
   {
     "name": "portfolio",
     "path": "/portfolio",
     "component": "/Users/kcorby/Documents/Documents - Kane’s MacBook Pro - 1/Applications/algonuxtd/app/pages/portfolio/index.vue",
-    "chunkName": "pages/portfolio/index",
-    "_name": "_3c34f713"
+    "chunkName": "pages/portfolio/index"
   },
   {
     "name": "work",
     "path": "/work",
     "component": "/Users/kcorby/Documents/Documents - Kane’s MacBook Pro - 1/Applications/algonuxtd/app/pages/work.vue",
-    "chunkName": "pages/work",
-    "_name": "_2cb79279"
+    "chunkName": "pages/work"
   },
   {
     "name": "portfolio-id",
     "path": "/portfolio/:id",
     "component": "/Users/kcorby/Documents/Documents - Kane’s MacBook Pro - 1/Applications/algonuxtd/app/pages/portfolio/_id.vue",
-    "chunkName": "pages/portfolio/_id",
-    "_name": "_eea8bb8a"
+    "chunkName": "pages/portfolio/_id"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/kcorby/Documents/Documents - Kane’s MacBook Pro - 1/Applications/algonuxtd/app/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_088d79cc"
+    "chunkName": "pages/index"
   }
 ]

@@ -39,6 +39,7 @@
     position: absolute;
     margin-left: -4vw;
     margin-top: 0vw;
+    background-color: var(--blue);
   }
   h2 {
     color: #fff;

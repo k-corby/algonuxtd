@@ -1,14 +1,16 @@
 :root {
   --red: #e54a3e;
   --fluro-yellow: #f9fa0d;
-  --yellow: #fde637;
+  --yellow: #e9e922;
   --dark-blue: #111130; /* 3c47d6*/
   --mustard: #f8c000;
-  --blue: #0000ff;
-  --light-blue: #8eb7ee;
+  --blue: #0022ff;
+  --light-blue: #0055ff;
   --white: #ffffff;
   --black: #000000;
   --dark-grey: #222222;
+  --purple: #3204c0;
+  --pink: #eb649f;
   --off-white: #f2eddb;
   --fullwidth: 100%;
 }
@@ -17,6 +19,10 @@
 .row {
   padding: 0;
   margin: 0;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 .poppins {
@@ -146,4 +152,41 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+/* Spacing */
+.pt-10 {
+  padding-top: 10vw;
+}
+
+.pb-10 {
+  padding-bottom: 10vw;
+}
+
+.pt-15 {
+  padding-top: 15vw;
+}
+
+.pt-20 {
+  padding-top: 20vw;
+}
+
+.pb-20 {
+  padding-bottom: 20vw;
+}
+
+.pl {
+  padding-left: 10vw;
+}
+
+.pr {
+  padding-right: 10vw;
+}
+
+.pb {
+  padding-bottom: 7vw;
+}
+
+.pt {
+  padding-top: 7vw;
 }

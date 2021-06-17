@@ -14,17 +14,26 @@
   "MenuItems": {
     "description": "Auto imported from components/section/menu/MenuItems.vue"
   },
+  "Sidebar": {
+    "description": "Auto imported from components/section/menu/Sidebar.vue"
+  },
   "Accordion": {
     "description": "Auto imported from components/ui/Accordion.vue"
+  },
+  "Arrows": {
+    "description": "Auto imported from components/ui/Arrows.vue"
   },
   "Lines": {
     "description": "Auto imported from components/ui/Lines.vue"
   },
+  "QuarterRing": {
+    "description": "Auto imported from components/ui/QuarterRing.vue"
+  },
   "ScrollDown": {
     "description": "Auto imported from components/ui/ScrollDown.vue"
   },
-  "Sidebar": {
-    "description": "Auto imported from components/ui/Sidebar.vue"
+  "Slashes": {
+    "description": "Auto imported from components/ui/Slashes.vue"
   },
   "Social": {
     "description": "Auto imported from components/ui/Social.vue"
