@@ -1,38 +1,32 @@
 export default {
   // Disable server-side rendering (https://go.nuxtjs.dev/ssr-mode)
-  ssr: false,
+  ssr: true,
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: "Algo",
+    title: "algo",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { hid: "description", name: "description", content: "" }
     ],
-    link: [
-      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
-      {
-        rel: "stylesheet",
-        href:
-          "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons"
-      }
-    ]
+    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
   },
-  //loading: "~/components/ui/LoadingBar.vue",
-
+  loading: "~/components/ui/Loading.vue",
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
     //'bulma',
+    "@/assets/css/normalise.scss",
     "@/assets/css/global.scss",
     "@/assets/css/main.scss",
-    //"@/assets/css/grid.scss",
+    "@/assets/css/locomotive.scss",
     "@/assets/css/fonts.scss"
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
-    //'~plugins/vuetify.js'
+    { src: "~/plugins/both.js" },
+    { src: "~/plugins/client.js", mode: "client" },
     { src: "~/plugins/vue-cursor-fx.js", mode: "client" }
     //{ src: "@/plugins/aos", mode: "client" }
   ],
@@ -41,22 +35,22 @@ export default {
       whitelist: ["aos-init", "aos-animate", "data-aos-delay", "data-aos-duration", "fade-up", "zoom-in"],
   },*/
 
-  /*server: {
-    port:3000,
-  },*/
+  server: {
+    host: "0" // default: localhost
+  },
 
-  devServe: {
-    host: "0",
+  /*devServe: {
+    host: "",
     //disableHostCheck: true,
     //public: require('child_process').execSync('gp url 8080').toString().trim(),
     // make HMR work - end
-    port: 3000
+    port: 8000
     //hot: true,
     //watchContentBase: true,
     //watchOptions: {
     //    poll: true
     //},
-  },
+  },*/
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
 

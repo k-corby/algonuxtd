@@ -7,6 +7,7 @@ import scrollBehavior from './router.scrollBehavior.js'
 const _47fd2f56 = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
 const _05079790 = () => interopDefault(import('../pages/approach.vue' /* webpackChunkName: "pages/approach" */))
 const _7b86c988 = () => interopDefault(import('../pages/index2.vue' /* webpackChunkName: "pages/index2" */))
+const _7b94e109 = () => interopDefault(import('../pages/index3.vue' /* webpackChunkName: "pages/index3" */))
 const _3c34f713 = () => interopDefault(import('../pages/portfolio/index.vue' /* webpackChunkName: "pages/portfolio/index" */))
 const _2cb79279 = () => interopDefault(import('../pages/work.vue' /* webpackChunkName: "pages/work" */))
 const _eea8bb8a = () => interopDefault(import('../pages/portfolio/_id.vue' /* webpackChunkName: "pages/portfolio/_id" */))
@@ -35,6 +36,10 @@ export const routerOptions = {
     path: "/index2",
     component: _7b86c988,
     name: "index2"
+  }, {
+    path: "/index3",
+    component: _7b94e109,
+    name: "index3"
   }, {
     path: "/portfolio",
     component: _3c34f713,

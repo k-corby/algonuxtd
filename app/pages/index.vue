@@ -1,36 +1,107 @@
 <template>
-  <div>
-    <div class="container-fluid bg-banner bg-blue">
-      <Banner />
-    </div>
+  <LocomotiveScroll
+    ref="scroller"
+    :getted-options="{
+      smooth: true,
+      direction: 'vertical',
+      smartphone: {
+        smooth: true,
+        direction: 'vertical'
+      },
+      tablet: {
+        smooth: true,
+        direction: 'vertical'
+      }
+    }"
+  >
     <div class="container-fluid pt-15">
-      <div class="row pl pr">
+      <div class="row pb">
         <div class="col-12">
-          <hr />
-          <h2
-            class="poppins uppercase pb"
-            style="line-height:85%; font-weight:400;"
+          <div class="pl pr">
+            <div
+              style="position:absolute; z-index:2; top:-5vw; right: 10vw; mix-blend-mode:normal;"
+            >
+              <img class="spinner" src="~/assets/img/oval-designapproach.svg" />
+            </div>
+            <hr />
+            <h2
+              class="poppins uppercase"
+              style="line-height:85%; font-weight:400;"
+            >
+              algo<br />
+              Digital<br />agency.
+            </h2>
+          </div>
+          <p
+            class="float-right"
+            style="position:absolute; right:1vw; top:40%; color:#222; writing-mode: vertical-rl; text-orientation: mixed; font-size:15px; letter-spacing:0.4vw; font-weight:400; text-transform:lowercase; font-family:'Libre Baskerville';"
           >
-            algo<br />
-            Digital<br />agency.
-          </h2>
-          <p class="pl p-5">
-            <img src="~/assets/img/app-dev.jpg" width="100%" />
+            We make special sh*t
           </p>
         </div>
       </div>
+    </div>
+    <div class="container-fluid bg-banner" style="position:relative;">
+      <div
+        class="pb"
+        style=" top:0; z-index:100; position:relative; background-color:rgba(255,255,255,1);"
+      >
+        <Banner />
+      </div>
+      <div style="position:absolute; top:0; background-color: blue;">
+        <img
+          src="~/assets/img/h.png"
+          width="100%"
+          style="mix-blend-mode: difference;"
+        />
+      </div>
+    </div>
+    <div class="container-fluid pb">
       <div class="row pl pr pb pt">
-        <div class="col-9">
+        <div class="col-10">
           <h4>
             We are a Digital design and development partner for advertising &
             marketing agencies, for both large and small businesses. Would you
             like to know more about our expertise or are you curious about our
-            approach? Contact us without obligation for an appointment.
+            approach?
           </h4>
         </div>
       </div>
     </div>
     <div class="container-fluid">
+      <div class="row">
+        <ApproachList />
+      </div>
+    </div>
+    <div class="container-fluid pt">
+      <div class="row pl pr pt-10 pb bg-blue text-white">
+        <h1 class="mt poppins trans_stroke">Recent work.</h1>
+        <p class="caption">
+          applications, print and digital media.
+        </p>
+      </div>
+
+      <article class="row">
+        <img class="scale-crop" src="~/assets/img/ui-design.jpg" />
+      </article>
+      <article class="row">
+        <img class="scale-crop" src="~/assets/img/ipad.jpg" />
+      </article>
+    </div>
+    <div class="container-fluid">
+      <div class="row pl pr pb pt-15">
+        <div class="col-12">
+          <h1
+            class="pb-5 d-flex justify-content-center"
+            style="line-height:85%; font-size:max(20px, 3vw); letter-spacing:0.3vw; font-weight:400;"
+          >
+            people we have worked with.
+          </h1>
+          <p><img width="100%" src="~/assets/img/client.png" /></p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid pb">
       <div class="row" style="position:relative;">
         <h2
           class="pr pl pb"
@@ -45,27 +116,7 @@
         />
       </div>
     </div>
-    <div
-      data-aos="fade-in"
-      data-aos-duration="2000"
-      class="bg-white container-fluid"
-      data-anchor="Page 3"
-    >
-      <div class="row pl pr pt-10 pb bg-blue text-white">
-        <h1 class="mt poppins trans_stroke">Recent work.</h1>
-        <p class="caption">
-          custom designs web, apps, print media utilising the technologies.
-        </p>
-      </div>
-
-      <article data-aos="fade-in" data-aos-duration="2000" class="row">
-        <img class="scale-crop" src="~/assets/img/ui-design.jpg" />
-      </article>
-      <article data-aos="fade-in" data-aos-duration="2000" class="row">
-        <img class="scale-crop" src="~/assets/img/ipad.jpg" />
-      </article>
-    </div>
-  </div>
+  </LocomotiveScroll>
 </template>
 <script></script>
 <style lang="scss" scoped>
@@ -76,7 +127,7 @@ hr {
   width: 10vw;
 }
 h2 {
-  font-size: 14vw;
+  font-size: 17vw;
   font-weight: 700;
   line-height: 75%;
   letter-spacing: -0.4vw;
@@ -85,8 +136,9 @@ h2 {
 
 h4 {
   font-family: "hero-new";
-  font-size: 2.5vw;
-  line-height: max(30px, 3.5vw);
+  font-size: max(24px, 3vw);
+  line-height: max(38px, 4vw);
+  letter-spacing: max(1px, 0.2vw);
 }
 
 p {
@@ -115,5 +167,6 @@ p {
 .bg-banner {
   width: 100%;
   overflow: hidden;
+  position: relative;
 }
 </style>

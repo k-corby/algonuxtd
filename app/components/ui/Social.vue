@@ -10,11 +10,11 @@
 <style lang="scss" scoped>
 #social {
   position: fixed;
-  left: 3vw;
+  left: 0vw;
   top: 35%;
   writing-mode: vertical-rl;
-  text-orientation: mixed; /*
-  text-transform: uppercase;*/
+  text-orientation: mixed;
+  /*text-transform: uppercase;*/
   padding: 1vw;
   p {
     font-weight: 800;
@@ -22,8 +22,8 @@
     letter-spacing: 0.5vw;
   }
   svg {
-    font-size: max(30px, 2.25vw);
-    color: #000;
+    font-size: max(30px, 2.2vw);
+    color: #222;
     font-weight: 900;
     margin-bottom: 1vw;
   }

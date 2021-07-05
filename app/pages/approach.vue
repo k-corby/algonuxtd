@@ -1,6 +1,7 @@
 <template>
   <div>
     <div class="bg-red container-fluid" style="overflow:hidden;">
+      <!-- #d4c9c9 -->
       <div class="header circle-pattern">
         <div id="banner">
           <h1 class="pl-5 pr br-top text-offwhite title">
@@ -21,11 +22,11 @@
       </div>
       <div class="row pl pr pb">
         <div class="col-7">
-          <p>
+          <h4>
             Objectives inform students the learning outcomes of the class. What
             will they know? What will they be able to do? Why is this important
             to know? It's an effective way to assess their learning progress.
-          </p>
+          </h4>
         </div>
       </div>
     </div>
@@ -36,11 +37,6 @@
           class="scale-crop"
           src="https://images.pexels.com/photos/273230/pexels-photo-273230.jpeg?cs=srgb&dl=pexels-pixabay-273230.jpg&fm=jpg"
         />
-      </div>
-    </div>
-    <div class="container-fluid">
-      <div class="row">
-        <PortfolioList />
       </div>
     </div>
     <div class="container-fluid bg-mustard" style="padding-top: 18vw;">
@@ -85,6 +81,13 @@ h2 {
   line-height: 75%;
   letter-spacing: -0.8vw;
   color: #222;
+}
+
+h4 {
+  font-family: "hero-new";
+  font-size: max(24px, 3vw);
+  line-height: max(38px, 4vw);
+  letter-spacing: max(1px, 0.2vw);
 }
 
 .title {

@@ -1,20 +1,28 @@
 <template>
-  <div>
-    <div class="container-fluid" style="padding-top: 20vw;">
+  <section class="c-section" data-scroll-section>
+    <div class="container-fluid" style="padding-top: 10vw;">
       <div class="row pl pr">
         <div class="col-12"></div>
       </div>
       <div class="row pl pr">
         <div class="col-12">
-          <h2 class="poppins" style="line-height:85%;">
-            Our Story.
-          </h2>
           <hr />
-          <p>
+          <h2
+            class="poppins uppercase pb"
+            style="line-height:85%; font-weight:400;"
+          >
+            Our<br />
+            story.
+          </h2>
+        </div>
+      </div>
+      <div class="row pl pr pb">
+        <div class="col-9 pb">
+          <h4>
             Objectives inform students the learning outcomes of the class. What
             will they know? What will they be able to do? Why is this important
             to know? It's an effective way to assess their learning progress.
-          </p>
+          </h4>
         </div>
       </div>
     </div>
@@ -70,7 +78,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <style lang="scss" scoped>
@@ -81,21 +89,28 @@ hr {
   width: 10vw;
 }
 h2 {
-  font-size: 13vw;
+  font-size: 15vw;
   font-weight: 800;
   line-height: 75%;
   letter-spacing: -0.8vw;
   color: #222;
 }
 
+h4 {
+  font-family: "hero-new";
+  font-size: max(24px, 2.4vw);
+  line-height: max(38px, 3.6vw);
+  letter-spacing: max(1px, 0.2vw);
+}
+
 p {
   margin: 0 0 5vw 0;
-  font-size: 180%;
+  font-size: max(22px, 2vw);
   line-height: 40px;
 }
 
 .col-4 p {
-  font-size: max(18px, 1.2vw);
+  font-size: max(20px, 1.4vw);
   letter-spacing: 0.03vw;
 }
 </style>

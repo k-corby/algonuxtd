@@ -25,7 +25,7 @@
   height: 100%;
   top: 0;
   left: 50%;
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.08);
   overflow: hidden;
 }
 .line::after {
