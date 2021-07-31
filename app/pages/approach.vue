@@ -13,15 +13,15 @@
     <div class="container-fluid" style="padding-top: 18vw;">
       <div class="row pl pr">
         <div class="col-12">
-          <h2 class="poppins" style="line-height:85%;">
+          <h2 class="poppins pb-4" style="line-height:85%;">
             Simple<br />
             done right.
           </h2>
           <hr />
         </div>
       </div>
-      <div class="row pl pr pb">
-        <div class="col-7">
+      <div class="row pl pr pb-15 pt-3">
+        <div class="col-9">
           <h4>
             Objectives inform students the learning outcomes of the class. What
             will they know? What will they be able to do? Why is this important
@@ -76,7 +76,7 @@ hr {
   width: 10vw;
 }
 h2 {
-  font-size: 13vw;
+  font-size: 14.5vw;
   font-weight: 800;
   line-height: 75%;
   letter-spacing: -0.8vw;

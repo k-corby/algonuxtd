@@ -1,11 +1,11 @@
 :root {
-  --red: #e54a3e;
+  --red: #ff1100;
   --fluro-yellow: #f9fa0d;
-  --yellow: #fff000; /* dcd726 fff000 */
+  --yellow: #fff237; /* dcd726 fff000 */
   --dark-blue: #111130; /* 3c47d6*/
   --mustard: #f8c000;
   --blue: #0022ff;
-  --light-blue: #0035ff;
+  --light-blue: #a1ddff;
   --white: #ffffff;
   --black: #000000;
   --dark-grey: #222222;
@@ -14,6 +14,7 @@
   --blue-grey: #3a668c;
   --orange: #ff724f;
   --off-white: #f1f0e9;
+  --light-brown: #faf9f8d0;
   --fullwidth: 100%;
 }
 
@@ -64,6 +65,10 @@
 
 .bg-mustard {
   background-color: var(--mustard);
+}
+
+.bg-light-brown {
+  background-color: var(--light-brown);
 }
 
 .bg-fluro-yellow {
@@ -177,6 +182,10 @@
   padding-top: 15vw;
 }
 
+.pb-15 {
+  padding-bottom: 15vw;
+}
+
 .pt-20 {
   padding-top: 20vw;
 }
@@ -186,11 +195,27 @@
 }
 
 .pl {
-  padding-left: 13vw;
+  padding-left: 10vw;
 }
 
 .pr {
   padding-right: 10vw;
+}
+
+.pl-7 {
+  padding-left: 7vw;
+}
+
+.pr-7 {
+  padding-right: 7vw;
+}
+
+.pl-5 {
+  padding-left: 5vw;
+}
+
+.pr-5 {
+  padding-right: 5vw;
 }
 
 .pb {

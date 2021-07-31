@@ -1,32 +1,58 @@
 <template>
-  <section class="c-section" data-scroll-section>
+  <section class="c-section" data-scroll-section style="background-color:#111;">
     <div class="container-fluid" style="padding-top: 10vw;">
       <div class="row pl pr">
         <div class="col-12"></div>
       </div>
-      <div class="row pl pr">
+      <div class="row pl pr pb-5">
         <div class="col-12">
-          <hr />
-          <h2
-            class="poppins uppercase pb"
-            style="line-height:85%; font-weight:400;"
-          >
+          <hr class="bg-red text-offwhite" />
+          <h2 class="pb text-offwhite">
             Our<br />
-            story.
+            Story.
           </h2>
         </div>
       </div>
       <div class="row pl pr pb">
         <div class="col-9 pb">
           <h4>
-            Objectives inform students the learning outcomes of the class. What
-            will they know? What will they be able to do? Why is this important
-            to know? It's an effective way to assess their learning progress.
+            Unlike other staffing agencies, our lead designers, with over 20
+            years of industry experience, provide oversight of every project to
+            ensure innovative, best-in-class work that drives real business
+            results.
           </h4>
         </div>
       </div>
     </div>
 
+    <div class="container-fluid bg-white pb-10 pt-15">
+      <div class="row pl pr">
+        <div class="col-12">
+          <h2 class="text-dark-grey libre" style="font-size:17vw;">
+            why us
+          </h2>
+          <hr class="bg-red ml-3" />
+        </div>
+      </div>
+      <div class="row pt-4">
+        <div class="col-6 pl pr-5">
+          <p>
+            Our designers are thoroughly vetted and reviewed. Each and every one
+            brings decades of experience in UX/UI design and financial services
+            while specializing in simplifying the industry’s complexities for
+            users.
+          </p>
+        </div>
+        <div class="col-6 pr pl-5">
+          <p>
+            You’ll find our talent at the crossroads of the financial industry
+            and design community’s latest trends and practices. This empowers
+            them to execute premium, modern experiences centered around the
+            user.
+          </p>
+        </div>
+      </div>
+    </div>
     <div class="container-fluid">
       <div class="row" style="position:relative;">
         <h2
@@ -42,58 +68,20 @@
         />
       </div>
     </div>
-    <div class="container-fluid bg-fluro-yellow" style="padding-top: 18vw;">
-      <div class="row pl pr">
-        <div class="col-12">
-          <h2 class="text-dark-grey libre" style="font-size:17vw;">
-            why us
-          </h2>
-          <hr />
-        </div>
-      </div>
-      <div class="row pl pr">
-        <div class="col-4">
-          <p style="">
-            Our designers are thoroughly vetted and reviewed. Each and every one
-            brings decades of experience in UX/UI design and financial services
-            while specializing in simplifying the industry’s complexities for
-            users.
-          </p>
-        </div>
-        <div class="col-4">
-          <p>
-            You’ll find our talent at the crossroads of the financial industry
-            and design community’s latest trends and practices. This empowers
-            them to execute premium, modern experiences centered around the
-            user.
-          </p>
-        </div>
-        <div class="col-4">
-          <p>
-            Unlike other staffing agencies, our lead designers, with over 20
-            years of industry experience, provide oversight of every project to
-            ensure innovative, best-in-class work that drives real business
-            results.
-          </p>
-        </div>
-      </div>
-    </div>
   </section>
 </template>
 
 <style lang="scss" scoped>
 hr {
-  background-color: black;
   margin: 4vw 0;
   height: 0.5vw;
   width: 10vw;
 }
 h2 {
-  font-size: 15vw;
+  font-size: 17vw;
   font-weight: 800;
-  line-height: 75%;
+  line-height: 80%;
   letter-spacing: -0.8vw;
-  color: #222;
 }
 
 h4 {
@@ -101,12 +89,14 @@ h4 {
   font-size: max(24px, 2.4vw);
   line-height: max(38px, 3.6vw);
   letter-spacing: max(1px, 0.2vw);
+  color: var(--white);
 }
 
 p {
   margin: 0 0 5vw 0;
-  font-size: max(22px, 2vw);
-  line-height: 40px;
+  font-size: max(17px, 1.5vw);
+  line-height: max(28px, 2.7vw);
+  font-weight: 400;
 }
 
 .col-4 p {

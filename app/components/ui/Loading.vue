@@ -10,7 +10,6 @@ export default {
   }),
   methods: {
     start() {
-      alert("loading");
       this.loading = true;
     },
     finish() {

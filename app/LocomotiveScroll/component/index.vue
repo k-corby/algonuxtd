@@ -49,7 +49,7 @@ export default {
    */
   mounted() {
     this.$nuxt.$on("update-locomotive", () => {
-      this?.locomotive?.update();
+      this?.locomotive?.update(); // ?. is the Optional Chaining operator (https://www.joshwcomeau.com/operator-lookup?match=optional-chaining)
     });
   },
   methods: {

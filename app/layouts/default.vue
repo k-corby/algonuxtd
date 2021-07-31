@@ -1,6 +1,6 @@
 <template>
   <section>
-    <AppNavigationLeft />
+    <NavigationLeft />
     <Nuxt />
   </section>
 </template>

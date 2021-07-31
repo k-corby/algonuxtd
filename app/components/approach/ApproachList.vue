@@ -3,24 +3,25 @@
     <div
       v-for="item in data.items"
       :key="item.id"
-      class="bg-white row_fluid fs mb-15 mt-10"
+      class="row fs mb-20 mt-20 pl-5 pr-5"
       style="position:relative;"
       data-scroll
+      data-scroll-offset="100"
     >
       <div class="ml mr">
         <p class="num">0{{ item.id }}</p>
-        <h2>{{ item.section }}</h2>
+        <h2 class="pb-5">{{ item.section }}</h2>
 
-        <p class="info">
+        <p class="info pt-5">
           {{ item.text }}
         </p>
       </div>
       <div class="ml mr" style="background-color:transparent; ">
-        <img
+        <!--<img
           class="scale-crop"
           :src="require('../../assets/img/uploads/' + item.img)"
-          style="mix-blend-mode:normal; opacity:0.6;"
-        />
+          style="mix-blend-mode:normal; opacity:1;"
+        />-->
       </div>
     </div>
   </section>
@@ -39,8 +40,11 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-.mt-10 {
-  margin-top: 10vw;
+.mt-20 {
+  margin-top: 20vw;
+}
+.mb-20 {
+  margin-bottom: 20vw;
 }
 
 .ml {
@@ -50,12 +54,24 @@ export default {
 .mr {
   margin-right: 13vw;
 }
-.mb-15 {
-  margin-bottom: 15vw;
-}
-.fs {
+
+.row {
   height: 90vh;
+  opacity: 0;
+  transform-origin: center top;
+  transform-style: preserve-3d;
+  transform: translateY(100%) rotateX(-80deg);
+  transition: opacity 0.8s cubic-bezier(0.215, 0.61, 0.355, 1),
+    transform 0.8s cubic-bezier(0.215, 0.61, 0.355, 1);
+  margin-top: 5.625rem;
 }
+
+.row.is-inview {
+  opacity: 1;
+  transition-delay: 0.2s;
+  transform: none;
+}
+
 .scale-crop {
   object-fit: cover;
   width: 100%;
@@ -63,49 +79,14 @@ export default {
 }
 
 .row_fluid {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  z-index: 2;
 }
 .row_fluid:nth-child(even) {
-  display: flex;
-  flex-direction: row-reverse;
-  width: 100%;
-}
-
-.row_fluid:nth-child(even) div:nth-child(2) {
-  width: 120%;
-}
-
-.row_fluid:nth-child(even) div:nth-child(1) h2,
-.row_fluid:nth-child(even) div:nth-child(1) p.num {
-  margin-left: -15vw;
-  top: 100;
-}
-
-.row_fluid:nth-child(even) div:nth-child(1) {
-  margin-left: 6vw;
-}
-
-.row_fluid:nth-child(odd) div:nth-child(2) {
-  margin-left: 6vw;
-}
-
-.row_fluid:nth-child(odd) div:nth-child(1) {
-  margin-right: 0;
-}
-
-.row_fluid:nth-child(even) div:nth-child(2) {
-  margin-left: 10vw;
-  margin-right: 0;
 }
 
 p.info {
-  margin: 32vw 0 5vw 1vw;
-  font-size: max(20px, 1.5vw);
-  line-height: max(33px, 2.7vw);
-  font-weight: 300;
+  font-size: max(22px, 1.9vw);
+  line-height: max(33px, 3vw);
+  font-weight: 400;
   color: #111;
   letter-spacing: 0.25vw;
   text-align: left;
@@ -124,14 +105,14 @@ p.info::after {
 }
 
 p.num {
-  font-size: 3vw;
+  font-size: 12vw;
   font-family: "Poppins", Georgia, "Times New Roman", Times, serif;
-  font-weight: 900;
-  color: rgb(221, 221, 221);
+  font-weight: 800;
+  letter-spacing: -1vw;
+  color: rgb(230, 230, 230);
   position: absolute;
   top: 0;
-  margin-top: 7vw;
-  margin-left: -3vw;
+  margin-left: -8vw;
 }
 
 h4 {
@@ -142,18 +123,18 @@ h4 {
 }
 
 h2 {
-  font-size: 18.5vw;
-  position: absolute;
+  font-size: 16.5vw;
+  position: relative;
+  z-index: 200;
   font-family: "", "Libre Baskerville", Georgia, "Times New Roman", Times, serif;
   font-weight: 900;
-  mix-blend-mode: difference;
+  color: #111;
   letter-spacing: -1vw;
-  color: #fff;
-  top: 5vw;
   text-decoration: underline;
   text-decoration-style: double;
-  text-underline-offset: 10px;
-  text-decoration-thickness: 2vw;
+  text-decoration-color: red;
+  text-underline-offset: 20px;
+  text-decoration-thickness: 1vw;
 }
 
 h3 {

@@ -1,33 +1,24 @@
 {
-  "AppNavigationLeft": {
-    "description": "Auto imported from components/section/menu/AppNavigationLeft.vue"
+  "Button": {
+    "description": "Auto imported from components/section/navigation/left/Button.vue"
   },
-  "AppNavigationTop": {
-    "description": "Auto imported from components/section/menu/AppNavigationTop.vue"
+  "Copyright": {
+    "description": "Auto imported from components/section/navigation/left/Copyright.vue"
+  },
+  "Menu": {
+    "description": "Auto imported from components/section/navigation/left/Menu.vue"
   },
   "MenuItems": {
-    "description": "Auto imported from components/section/menu/MenuItems.vue"
+    "description": "Auto imported from components/section/navigation/left/MenuItems.vue"
   },
-  "LeftButton": {
-    "description": "Auto imported from components/section/menu/left/Button.vue"
+  "NavigationLeft": {
+    "description": "Auto imported from components/section/navigation/left/NavigationLeft.vue"
   },
-  "LeftMenu": {
-    "description": "Auto imported from components/section/menu/left/Menu.vue"
+  "Sidebar": {
+    "description": "Auto imported from components/section/navigation/left/Sidebar.vue"
   },
-  "LeftSidebar": {
-    "description": "Auto imported from components/section/menu/left/Sidebar.vue"
-  },
-  "TopButton": {
-    "description": "Auto imported from components/section/menu/top/Button.vue"
-  },
-  "TopCopyright": {
-    "description": "Auto imported from components/section/menu/top/Copyright.vue"
-  },
-  "TopMenu": {
-    "description": "Auto imported from components/section/menu/top/Menu.vue"
-  },
-  "TopSidebar": {
-    "description": "Auto imported from components/section/menu/top/Sidebar.vue"
+  "NavigationTop": {
+    "description": "Auto imported from components/section/navigation/top/NavigationTop.vue"
   },
   "Accordion": {
     "description": "Auto imported from components/ui/Accordion.vue"
@@ -53,8 +44,8 @@
   "ScrollDown": {
     "description": "Auto imported from components/ui/ScrollDown.vue"
   },
-  "Sidebar": {
-    "description": "Auto imported from components/ui/Sidebar.vue"
+  "ScrollIndicator": {
+    "description": "Auto imported from components/ui/ScrollIndicator.vue"
   },
   "Slashes": {
     "description": "Auto imported from components/ui/Slashes.vue"
@@ -64,6 +55,15 @@
   },
   "SocialMedia": {
     "description": "Auto imported from components/ui/SocialMedia.vue"
+  },
+  "Logo": {
+    "description": "Auto imported from components/ui/logo/Logo.vue"
+  },
+  "Logo2": {
+    "description": "Auto imported from components/ui/logo/Logo2.vue"
+  },
+  "LogoTopLeft": {
+    "description": "Auto imported from components/ui/logo/LogoTopLeft.vue"
   },
   "Portfolio": {
     "description": "Auto imported from components/portfolio/Portfolio.vue"
@@ -86,19 +86,10 @@
   "Banner4": {
     "description": "Auto imported from components/section/banner/Banner4.vue"
   },
-  "Logo": {
-    "description": "Auto imported from components/section/logo/Logo.vue"
-  },
-  "Logo3": {
-    "description": "Auto imported from components/section/logo/Logo3.vue"
-  },
-  "LogoTopLeft": {
-    "description": "Auto imported from components/section/logo/LogoTopLeft.vue"
-  },
-  "IconLink": {
-    "description": "Auto imported from components/IconLink.vue"
-  },
   "ApproachList": {
     "description": "Auto imported from components/approach/ApproachList.vue"
+  },
+  "ApproachList2": {
+    "description": "Auto imported from components/approach/ApproachList2.vue"
   }
 }

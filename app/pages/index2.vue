@@ -42,7 +42,7 @@
       </div>
       <div class="container-fluid pb">
         <div class="row">
-          <ApproachList />
+          <ApproachList2 />
         </div>
       </div>
       <div class="container-fluid pb">

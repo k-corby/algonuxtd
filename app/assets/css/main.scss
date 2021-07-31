@@ -3,7 +3,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-::-webkit-scrollbar {
+/*::-webkit-scrollbar {
   width: 0;
 }
 
@@ -15,7 +15,7 @@
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
-}
+}*/
 
 /* General */
 
@@ -86,14 +86,17 @@ hr {
 }
 /* Page Transitions */
 
-/*.page-enter-active,
+.page-enter-active {
+  transition: opacity 1s;
+}
+
 .page-leave-active {
-  transition: opacity 0.25s;
+  transition: opacity 0.3s;
 }
 .page-enter,
 .page-leave-to {
   opacity: 0;
-}*/
+}
 /* Header */
 
 .caption {
@@ -113,18 +116,6 @@ hr {
 
 .difference {
   mix-blend-mode: difference;
-}
-
-.title {
-  font-size: 22vw;
-  line-height: 40%;
-  letter-spacing: -2.1vw;
-  font-family: "Libre Baskerville", "Poppins", Tiro Bangla, Georgia,
-    "Times New Roman", Times, serif;
-  font-weight: 700;
-  text-transform: lowercase;
-  margin: 0 0 5vw 0;
-  opacity: 0.95;
 }
 
 @supports (-webkit-text-stroke: 1px black) {
@@ -148,7 +139,7 @@ hr {
   height: 50vw;
 }
 
-.blend_mode {
+.blend-mode {
   mix-blend-mode: luminosity;
   background-color: #fde637;
 }

@@ -117,6 +117,105 @@
         </div>
       </div>
     </section>
+    <section class="c-section" data-scroll-section>
+      <div class="o-container">
+        <div
+          data-scroll
+          data-scroll-direction="horizontal"
+          data-scroll-speed="-10"
+          data-scroll-position="left"
+        >
+          <Banner />
+        </div>
+      </div>
+    </section>
+    <section class="c-section" data-scroll-section>
+      <div class="o-container">
+        <div class="c-cta">
+          <h1 class="o-title" data-scroll>
+            <span class="o-title_line">
+              <span>If you</span>
+            </span>
+            <span class="o-title_line">
+              <span>Enjoyed</span>
+            </span>
+            <span class="o-title_line u-white">
+              <span>Scrolling</span>
+            </span>
+          </h1>
+          <hr class="c-cta_line" data-scroll data-scroll-offset="100" />
+          <div class="c-cta_content">
+            <div class="o-layout -gutter">
+              <div class="o-layout_item u-2/5@from-medium">
+                <p class="u-label">
+                  Github
+                </p>
+              </div>
+              <div class="o-layout_item u-3/5@from-medium">
+                <div class="c-cta_section">
+                  <div
+                    class="c-cta_content_text"
+                    data-scroll
+                    data-scroll-offset="100"
+                  >
+                    <h3>Check out Locomotive Scroll</h3>
+                    <p>
+                      This library has evolved considerably over the years. The
+                      architecture and conventions shift according to our
+                      projects.
+                    </p>
+                    <p>
+                      Visit the GitHub repository page for a complete
+                      introduction and list of available options. Search the
+                      GitHub issue tracker carefully to check if your
+                      issue/feature has already been reported/requested before
+                      opening a new issue or submitting a pull request.
+                    </p>
+                  </div>
+                  <button
+                    class="c-cta_button o-button"
+                    href="https://github.com/locomotivemtl/locomotive-scroll"
+                    target="_blank"
+                    data-scroll
+                    data-scroll-offset="100"
+                  >
+                    <span class="o-button_icon"> </span>
+                    Check on Github
+                    <span class="o-button_arrow u-icon">
+                      →
+                    </span>
+                  </button>
+                </div>
+                <hr
+                  class="c-cta_line -margin"
+                  data-scroll
+                  data-scroll-offset="100"
+                />
+                <div class="c-cta_section">
+                  <div
+                    class="c-cta_content_text"
+                    data-scroll
+                    data-scroll-offset="100"
+                  >
+                    <h4>Neue Montreal <br />Pangram Pangram® Foundry</h4>
+                    <p>
+                      You like the font used on this page? Well this is your
+                      lucky day. You can get it on
+                      <a
+                        class="o-link -underline"
+                        href="https://pangrampangram.com/"
+                        target="_blank"
+                        >pangrampangram.com</a
+                      >! Thanks to our good friend Mathieu Desjardins ❤️
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section data-scroll-section>
       <div class="o-container">

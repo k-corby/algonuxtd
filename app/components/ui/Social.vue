@@ -15,7 +15,7 @@
   writing-mode: vertical-rl;
   text-orientation: mixed;
   /*text-transform: uppercase;*/
-  padding: 1vw;
+  padding: 0.5vw;
   p {
     font-weight: 800;
     font-size: max(12px, 1vw);

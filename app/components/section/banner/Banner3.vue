@@ -1,6 +1,6 @@
 <template>
   <div class="row pb-5">
-    <div class="banner" style="margin-top:max(150px, 18vw); position:relative;">
+    <div class="banner" style="margin-top:max(150px, 15vw); position:relative;">
       <div
         style="position:absolute; z-index:2; top:-5vw; right: 0; mix-blend-mode:difference;"
       >
@@ -16,8 +16,12 @@
         />
       </div>
       <p class="text-offwhite"></p>
-      <h1 class="text-offwhite">ideas &<br />brands.</h1>
-      <p class="slogan text-offwhite" style="display:block;">
+      <h1 class="text-black">
+        Algo<br />
+        digital<br />
+        agency<br />
+      </h1>
+      <p class="slogan text-black" style="display:block;">
         building modern brands.
       </p>
 
@@ -34,14 +38,14 @@
       class="float-right"
       style="position:absolute; left:1vw; top:25%; color:#FFF; writing-mode: vertical-rl; text-orientation: mixed; font-size:13px; letter-spacing:0.4vw; font-weight:400; text-transform:lowercase; font-family:'Libre Baskerville';"
     ></p>
-    <p
+    <!--<p
       class="float-right"
       style="position:absolute; left:1vw; bottom:0vw; color:var(--fluro-yellow); font-size:15px; letter-spacing:0vw; font-weight:800; text-transform:lowercase; font-family:'poppins';"
     >
       <span style="margin:0.1vw;">/ db</span><br />
       <span style="margin:0.1vw;">/ ig</span><br />
       <span style="margin:0.1vw;">/ tw</span>
-    </p>
+    </p>-->
   </div>
 </template>
 <style lang="scss" scoped>
@@ -83,17 +87,18 @@ p {
 
 h1 {
   position: relative;
-  font-size: 17vw;
-  line-height: 85%;
-  letter-spacing: -1.2vw;
-  font-family: "", "hero-new", "Libre Baskerville", "hero-new",
+  font-size: 20vw;
+  line-height: 80%;
+  letter-spacing: -1vw;
+  font-family: "hero-new", "hero-new", "Libre Baskerville", "hero-new",
     "Libre Baskerville", "Poppins", Tiro Bangla, Georgia, "Times New Roman",
     Times, serif;
-  font-weight: 900;
+  font-weight: 800;
   text-transform: uppercase;
   opacity: 0.95;
   margin: 4vw 0 5vw 0vw;
   text-align: left;
+  color: #111;
 
   u {
     text-decoration-color: var(--fluro-yellow);

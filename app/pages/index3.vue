@@ -3,12 +3,12 @@
     <div class="container-fluid bg-banner" style="position:relative;">
       <div
         class="pb"
-        style=" top:0; z-index:100; position:relative; background-color:rgba(0,0,0,0.2);"
+        style=" top:0; z-index:100; position:relative; background-color:rgba(255,255,255,1);"
       >
         <Banner3 />
       </div>
       <div
-        style="position:absolute; top:0; background-color: rgba(0,0,255,0.9);"
+        style="position:absolute; top:0; background-color: rgba(255,255,255,1);"
       >
         <img
           src="~/assets/img/app-dev.jpg"
@@ -53,7 +53,7 @@
       </div>
       <div class="container-fluid pb">
         <div class="row">
-          <ApproachList />
+          <ApproachList2 />
         </div>
       </div>
       <div class="container-fluid pb">
