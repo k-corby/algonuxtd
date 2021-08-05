@@ -5,7 +5,7 @@
         <div style=" mix-blend-mode:normal; margin:0 auto;">
           <h1
             class="br-top text-offwhite title"
-            style="margin-top:max(220px, 19vw);"
+            style="margin-top:max(130px, 19vw);"
           >
             brands<br />
             <span class="">&</span>
@@ -65,7 +65,7 @@ p {
 
 h1 {
   position: relative;
-  font-size: 12.5vw;
+  font-size: 14vw;
   line-height: 90%;
   letter-spacing: 0.1vw;
   font-family: "", "", "Libre Baskerville", "hero-new", "Libre Baskerville",
@@ -102,7 +102,7 @@ h1::after {
 }
 
 .title2 {
-  font-size: 15.5vw;
+  font-size: 17vw;
   line-height: 50%;
   letter-spacing: -1.5vw;
   font-family: "", "Libre Baskerville", "Poppins", Tiro Bangla, Georgia,

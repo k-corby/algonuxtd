@@ -1,7 +1,7 @@
 <template>
   <div>
     <div id="logo">
-      <NuxtLink to="/"></NuxtLink>
+      <NuxtLink to="/">a</NuxtLink>
     </div>
   </div>
 </template>
@@ -12,28 +12,21 @@
 #logo {
   position: fixed;
   z-index: 2000;
-  top: 0;
-  left: 0vw;
+  top: 2vw;
+  left: 2vw;
   mix-blend-mode: normal;
-  /*margin: 0vw 0 0 max(30px, 4vw);*/
-  padding: max(11px, 0.7vw) max(7px, 0.2vw);
 
   a {
-    font-size: 15px;
-    font-family: "", "poppins", "Libre Baskerville", "hero-new", sans-serif;
-    font-weight: 600;
-    background: url("~/assets/img/logo.png") no-repeat center center;
-    background-size: max(30px, 2.2vw) max(30px, 2.2vw);
-    height: 6vw;
-    width: 4.5vw;
+    font-size: max(35px, 2.9vw);
+    font-family: "", "", "Libre Baskerville", "hero-new", sans-serif;
+    font-weight: 900;
     display: block;
-    filter: invert(100%);
-    -webkit-filter: invert(100%);
-    opacity: 75%;
+    text-decoration: line-through;
     text-transform: lowercase;
-    color: #fff; /*#e1ff00*/
+    background-color: black;
+    color: rgb(255, 255, 255); /*#e1ff00*/
     text-align: right;
-    padding: 12px 0px 0 0px;
+    padding: max(16px, 1vw) max(27px, 1.9vw) max(21px, 1.2vw) max(28px, 1.9vw);
     :hover {
       text-decoration: none;
     }

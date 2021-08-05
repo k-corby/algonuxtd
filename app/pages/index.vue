@@ -15,43 +15,51 @@
       }
     }"
     data-scroll-container
-    class="bg-light-brown"
   >
+    <!--<section class="c-section container-fluid bg-red" data-scroll-section>
+      <div class="container-fluid bg-banner" style="position:relative;">
+        <div class="pb bg-red" style="position:relative;">
+          <Banner2 />
+          <QuarterCircle />
+        </div>
+      </div>
+    </section>-->
     <section
-      class="c-section container-fluid bg-light-brown"
+      class="c-section container-fluid bg-white"
       data-scroll-section
-      style="padding-top:max(100px,12vw);"
+      style="padding-top:max(150px,10vw);"
     >
       <div class="o-container">
         <div class="row">
           <div class="col-12">
-            <div class="pl pr">
-              <div
-                style="position:absolute; z-index:2; top:-4vw; right: 12vw; mix-blend-mode:normal;"
-              >
-                <img
-                  class=""
-                  width=""
-                  src="~/assets/img/oval-designapproach.svg"
-                  style="width:0vw;"
-                />
-              </div>
+            <div class="pl">
               <hr />
-              <h1 class="o-title" data-scroll data-scroll-speed="4">
+                <div style="position:fixed; top:0; right:0;">
+             <img class="" width="70%" src="~/assets/img/diamond.png" />
+          </div>
+              <Social />
+              <h1 class="o-title text-black" data-scroll data-scroll-speed="4">
                 <span
                   class="o-title-line"
                   style="padding-left:0vw; font-weight:600;"
-                  ><span>algo</span></span
+                  ><span style="font-weight:600; font-size:18vw;"
+                    >we</span
+                  ></span
+                >
+
+                <span
+                  class="o-title-line"
+                  style="padding-left:0vw; font-weight:600;"
+                  ><span style="font-weight:600; font-size:18vw;"
+                    >build</span
+                  ></span
                 >
                 <span
                   class="o-title-line"
-                  style="padding-left:3vw; font-weight:600;"
-                  ><span>digital</span></span
-                >
-                <span
-                  class="o-title-line"
-                  style="padding-left:3vw; font-weight:600;"
-                  ><span>agency</span></span
+                  style="padding-left:0vw; font-weight:600;"
+                  ><span style="font-weight:600; font-size:18vw;"
+                    >modern</span
+                  ></span
                 >
               </h1>
               <p
@@ -180,9 +188,9 @@ export default {
 hr {
   background-color: var(--fluro-yellow);
   background: linear-gradient(90deg, red 50%, blue 50%);
-  height: 0.4vw;
+  height: 0.6vw;
   width: 10vw;
-  margin: 0 0 4vw 0;
+  margin: 0 0 5vw 0;
 }
 h2 {
   font-size: 17vw;
@@ -234,14 +242,13 @@ p {
 
 .o-title-line span {
   display: inline-block;
-  font-size: 21vw;
-  line-height: 49%;
-  font-family: "Montserrat", "Libre Baskerville", "Cormorant+Garamond",
+  font-size: 20vw;
+  line-height: 40%;
+  font-family: "", "Montserrat", "Libre Baskerville", "Cormorant+Garamond",
     Tiro Bangla, Georgia, "Times New Roman", Times, serif;
   text-transform: uppercase;
-  font-weight: 500;
-  letter-spacing: -1.8vw;
-  color: #000;
+  font-weight: 400;
+  letter-spacing: -1.7vw;
 }
 .o-title.is-inview .o-title-line {
   transform: none;

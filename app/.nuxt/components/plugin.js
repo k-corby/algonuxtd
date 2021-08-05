@@ -3,6 +3,7 @@ import { wrapFunctional } from './utils'
 
 const components = {
   Button: () => import('../../components/section/navigation/left/Button.vue' /* webpackChunkName: "components/button" */).then(c => wrapFunctional(c.default || c)),
+  Button2: () => import('../../components/section/navigation/left/Button2.vue' /* webpackChunkName: "components/button2" */).then(c => wrapFunctional(c.default || c)),
   Copyright: () => import('../../components/section/navigation/left/Copyright.vue' /* webpackChunkName: "components/copyright" */).then(c => wrapFunctional(c.default || c)),
   Menu: () => import('../../components/section/navigation/left/Menu.vue' /* webpackChunkName: "components/menu" */).then(c => wrapFunctional(c.default || c)),
   MenuItems: () => import('../../components/section/navigation/left/MenuItems.vue' /* webpackChunkName: "components/menu-items" */).then(c => wrapFunctional(c.default || c)),
@@ -12,6 +13,8 @@ const components = {
   Accordion: () => import('../../components/ui/Accordion.vue' /* webpackChunkName: "components/accordion" */).then(c => wrapFunctional(c.default || c)),
   ArrowDown: () => import('../../components/ui/ArrowDown.vue' /* webpackChunkName: "components/arrow-down" */).then(c => wrapFunctional(c.default || c)),
   Arrows: () => import('../../components/ui/Arrows.vue' /* webpackChunkName: "components/arrows" */).then(c => wrapFunctional(c.default || c)),
+  BannerCircle: () => import('../../components/ui/BannerCircle.vue' /* webpackChunkName: "components/banner-circle" */).then(c => wrapFunctional(c.default || c)),
+  BlockText: () => import('../../components/ui/BlockText.vue' /* webpackChunkName: "components/block-text" */).then(c => wrapFunctional(c.default || c)),
   FloatingCircles: () => import('../../components/ui/FloatingCircles.vue' /* webpackChunkName: "components/floating-circles" */).then(c => wrapFunctional(c.default || c)),
   Lines: () => import('../../components/ui/Lines.vue' /* webpackChunkName: "components/lines" */).then(c => wrapFunctional(c.default || c)),
   Loading: () => import('../../components/ui/Loading.vue' /* webpackChunkName: "components/loading" */).then(c => wrapFunctional(c.default || c)),
@@ -21,8 +24,10 @@ const components = {
   Slashes: () => import('../../components/ui/Slashes.vue' /* webpackChunkName: "components/slashes" */).then(c => wrapFunctional(c.default || c)),
   Social: () => import('../../components/ui/Social.vue' /* webpackChunkName: "components/social" */).then(c => wrapFunctional(c.default || c)),
   SocialMedia: () => import('../../components/ui/SocialMedia.vue' /* webpackChunkName: "components/social-media" */).then(c => wrapFunctional(c.default || c)),
+  Text: () => import('../../components/ui/Text.vue' /* webpackChunkName: "components/text" */).then(c => wrapFunctional(c.default || c)),
   Logo: () => import('../../components/ui/logo/Logo.vue' /* webpackChunkName: "components/logo" */).then(c => wrapFunctional(c.default || c)),
   Logo2: () => import('../../components/ui/logo/Logo2.vue' /* webpackChunkName: "components/logo2" */).then(c => wrapFunctional(c.default || c)),
+  Logo3: () => import('../../components/ui/logo/Logo3.vue' /* webpackChunkName: "components/logo3" */).then(c => wrapFunctional(c.default || c)),
   LogoTopLeft: () => import('../../components/ui/logo/LogoTopLeft.vue' /* webpackChunkName: "components/logo-top-left" */).then(c => wrapFunctional(c.default || c)),
   Portfolio: () => import('../../components/portfolio/Portfolio.vue' /* webpackChunkName: "components/portfolio" */).then(c => wrapFunctional(c.default || c)),
   PortfolioItem: () => import('../../components/portfolio/PortfolioItem.vue' /* webpackChunkName: "components/portfolio-item" */).then(c => wrapFunctional(c.default || c)),

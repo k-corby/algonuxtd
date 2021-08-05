@@ -7,6 +7,7 @@ You can directly use them in pages and other components without the need to impo
 **Tip:** If a component is conditionally rendered with `v-if` and is big, it is better to use `Lazy` or `lazy-` prefix to lazy load.
 
 - `<Button>` | `<button>` (components/section/navigation/left/Button.vue)
+- `<Button2>` | `<button2>` (components/section/navigation/left/Button2.vue)
 - `<Copyright>` | `<copyright>` (components/section/navigation/left/Copyright.vue)
 - `<Menu>` | `<menu>` (components/section/navigation/left/Menu.vue)
 - `<MenuItems>` | `<menu-items>` (components/section/navigation/left/MenuItems.vue)
@@ -16,6 +17,8 @@ You can directly use them in pages and other components without the need to impo
 - `<Accordion>` | `<accordion>` (components/ui/Accordion.vue)
 - `<ArrowDown>` | `<arrow-down>` (components/ui/ArrowDown.vue)
 - `<Arrows>` | `<arrows>` (components/ui/Arrows.vue)
+- `<BannerCircle>` | `<banner-circle>` (components/ui/BannerCircle.vue)
+- `<BlockText>` | `<block-text>` (components/ui/BlockText.vue)
 - `<FloatingCircles>` | `<floating-circles>` (components/ui/FloatingCircles.vue)
 - `<Lines>` | `<lines>` (components/ui/Lines.vue)
 - `<Loading>` | `<loading>` (components/ui/Loading.vue)
@@ -25,8 +28,10 @@ You can directly use them in pages and other components without the need to impo
 - `<Slashes>` | `<slashes>` (components/ui/Slashes.vue)
 - `<Social>` | `<social>` (components/ui/Social.vue)
 - `<SocialMedia>` | `<social-media>` (components/ui/SocialMedia.vue)
+- `<Text>` | `<text>` (components/ui/Text.vue)
 - `<Logo>` | `<logo>` (components/ui/logo/Logo.vue)
 - `<Logo2>` | `<logo2>` (components/ui/logo/Logo2.vue)
+- `<Logo3>` | `<logo3>` (components/ui/logo/Logo3.vue)
 - `<LogoTopLeft>` | `<logo-top-left>` (components/ui/logo/LogoTopLeft.vue)
 - `<Portfolio>` | `<portfolio>` (components/portfolio/Portfolio.vue)
 - `<PortfolioItem>` | `<portfolio-item>` (components/portfolio/PortfolioItem.vue)

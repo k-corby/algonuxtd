@@ -4,15 +4,15 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _47fd2f56 = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
-const _05079790 = () => interopDefault(import('../pages/approach.vue' /* webpackChunkName: "pages/approach" */))
-const _08bc1f2a = () => interopDefault(import('../pages/index copy.vue' /* webpackChunkName: "pages/index copy" */))
-const _7b86c988 = () => interopDefault(import('../pages/index2.vue' /* webpackChunkName: "pages/index2" */))
-const _7b94e109 = () => interopDefault(import('../pages/index3.vue' /* webpackChunkName: "pages/index3" */))
-const _3c34f713 = () => interopDefault(import('../pages/portfolio/index.vue' /* webpackChunkName: "pages/portfolio/index" */))
-const _2cb79279 = () => interopDefault(import('../pages/work.vue' /* webpackChunkName: "pages/work" */))
-const _eea8bb8a = () => interopDefault(import('../pages/portfolio/_id.vue' /* webpackChunkName: "pages/portfolio/_id" */))
-const _088d79cc = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _4103852c = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
+const _3e2fa34a = () => interopDefault(import('../pages/approach.vue' /* webpackChunkName: "pages/approach" */))
+const _61b80076 = () => interopDefault(import('../pages/index copy.vue' /* webpackChunkName: "pages/index copy" */))
+const _30b6d1da = () => interopDefault(import('../pages/index2.vue' /* webpackChunkName: "pages/index2" */))
+const _309aa2d8 = () => interopDefault(import('../pages/index3.vue' /* webpackChunkName: "pages/index3" */))
+const _d7a39430 = () => interopDefault(import('../pages/portfolio/index.vue' /* webpackChunkName: "pages/portfolio/index" */))
+const _bf1d7278 = () => interopDefault(import('../pages/work.vue' /* webpackChunkName: "pages/work" */))
+const _6a209250 = () => interopDefault(import('../pages/portfolio/_id.vue' /* webpackChunkName: "pages/portfolio/_id" */))
+const _0193cfa2 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -27,39 +27,39 @@ export const routerOptions = {
 
   routes: [{
     path: "/about",
-    component: _47fd2f56,
+    component: _4103852c,
     name: "about"
   }, {
     path: "/approach",
-    component: _05079790,
+    component: _3e2fa34a,
     name: "approach"
   }, {
     path: "/index%20copy",
-    component: _08bc1f2a,
+    component: _61b80076,
     name: "index copy"
   }, {
     path: "/index2",
-    component: _7b86c988,
+    component: _30b6d1da,
     name: "index2"
   }, {
     path: "/index3",
-    component: _7b94e109,
+    component: _309aa2d8,
     name: "index3"
   }, {
     path: "/portfolio",
-    component: _3c34f713,
+    component: _d7a39430,
     name: "portfolio"
   }, {
     path: "/work",
-    component: _2cb79279,
+    component: _bf1d7278,
     name: "work"
   }, {
     path: "/portfolio/:id",
-    component: _eea8bb8a,
+    component: _6a209250,
     name: "portfolio-id"
   }, {
     path: "/",
-    component: _088d79cc,
+    component: _0193cfa2,
     name: "index"
   }],
 

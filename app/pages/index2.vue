@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="container-fluid bg-banner" style="position:relative;">
-      <div class="pb bg-orange" style="">
+      <div class="pb bg-blue" style="">
         <Banner2 />
         <QuarterCircle />
       </div>
@@ -18,6 +18,7 @@
               algo<br />
               Digital<br />agency.
             </h2>
+            
           </div>
           <p
             class="float-right"
