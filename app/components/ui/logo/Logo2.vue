@@ -12,12 +12,12 @@
 #logo {
   position: fixed;
   z-index: 2000;
-  top: 2vw;
-  left: 2vw;
+  top: 3vw;
+  left: 0vw;
   mix-blend-mode: normal;
 
   a {
-    font-size: max(35px, 2.9vw);
+    font-size: max(40px, 2.9vw);
     font-family: "", "", "Libre Baskerville", "hero-new", sans-serif;
     font-weight: 900;
     display: block;
@@ -26,7 +26,7 @@
     background-color: black;
     color: rgb(255, 255, 255); /*#e1ff00*/
     text-align: right;
-    padding: max(16px, 1vw) max(27px, 1.9vw) max(21px, 1.2vw) max(28px, 1.9vw);
+    padding: max(20px, 1.3vw) max(27px, 2.2vw) max(21px, 1.5vw) max(28px, 2.2vw);
     :hover {
       text-decoration: none;
     }

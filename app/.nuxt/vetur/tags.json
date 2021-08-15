@@ -5,6 +5,9 @@
   "Button2": {
     "description": "Auto imported from components/section/navigation/left/Button2.vue"
   },
+  "Button3": {
+    "description": "Auto imported from components/section/navigation/left/Button3.vue"
+  },
   "Copyright": {
     "description": "Auto imported from components/section/navigation/left/Copyright.vue"
   },

@@ -3,12 +3,12 @@
     <div class="container-fluid bg-banner" style="position:relative;">
       <div
         class="pb"
-        style=" top:0; z-index:100; position:relative; background-color:rgba(255,255,255,1);"
+        style=" top:0; z-index:100; position:relative; background-color:rgba(0,0,0,0.2);"
       >
-        <Banner3 />
+        <Banner2 />
       </div>
       <div
-        style="position:absolute; top:0; background-color: rgba(255,255,255,1);"
+        style="position:absolute; top:0; background-color: rgba(0,0,255,0.7);"
       >
         <img
           src="~/assets/img/app-dev.jpg"
@@ -22,10 +22,7 @@
         <div class="col-12">
           <div class="pl pr">
             <hr />
-            <h2
-              class="poppins uppercase"
-              style="line-height:85%; font-weight:400;"
-            >
+            <h2 class="uppercase" style="line-height:85%; font-weight:400;">
               algo<br />
               Digital<br />agency.
             </h2>

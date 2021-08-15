@@ -8,6 +8,7 @@ You can directly use them in pages and other components without the need to impo
 
 - `<Button>` | `<button>` (components/section/navigation/left/Button.vue)
 - `<Button2>` | `<button2>` (components/section/navigation/left/Button2.vue)
+- `<Button3>` | `<button3>` (components/section/navigation/left/Button3.vue)
 - `<Copyright>` | `<copyright>` (components/section/navigation/left/Copyright.vue)
 - `<Menu>` | `<menu>` (components/section/navigation/left/Menu.vue)
 - `<MenuItems>` | `<menu-items>` (components/section/navigation/left/MenuItems.vue)

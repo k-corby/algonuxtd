@@ -2,6 +2,7 @@ import { wrapFunctional } from './utils'
 
 export { default as Button } from '../../components/section/navigation/left/Button.vue'
 export { default as Button2 } from '../../components/section/navigation/left/Button2.vue'
+export { default as Button3 } from '../../components/section/navigation/left/Button3.vue'
 export { default as Copyright } from '../../components/section/navigation/left/Copyright.vue'
 export { default as Menu } from '../../components/section/navigation/left/Menu.vue'
 export { default as MenuItems } from '../../components/section/navigation/left/MenuItems.vue'
@@ -39,6 +40,7 @@ export { default as ApproachList2 } from '../../components/approach/ApproachList
 
 export const LazyButton = import('../../components/section/navigation/left/Button.vue' /* webpackChunkName: "components/button" */).then(c => wrapFunctional(c.default || c))
 export const LazyButton2 = import('../../components/section/navigation/left/Button2.vue' /* webpackChunkName: "components/button2" */).then(c => wrapFunctional(c.default || c))
+export const LazyButton3 = import('../../components/section/navigation/left/Button3.vue' /* webpackChunkName: "components/button3" */).then(c => wrapFunctional(c.default || c))
 export const LazyCopyright = import('../../components/section/navigation/left/Copyright.vue' /* webpackChunkName: "components/copyright" */).then(c => wrapFunctional(c.default || c))
 export const LazyMenu = import('../../components/section/navigation/left/Menu.vue' /* webpackChunkName: "components/menu" */).then(c => wrapFunctional(c.default || c))
 export const LazyMenuItems = import('../../components/section/navigation/left/MenuItems.vue' /* webpackChunkName: "components/menu-items" */).then(c => wrapFunctional(c.default || c))

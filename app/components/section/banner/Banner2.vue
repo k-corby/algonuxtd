@@ -11,7 +11,10 @@
             <span class="">&</span>
             <span>ideas</span>.
           </h1>
-          <p class="slogan text-offwhite " style="color:#CCC; display:block;">
+          <p
+            class="slogan text-offwhite text-center"
+            style="color:#CCC; display:block;"
+          >
             building modern brands.
           </p>
         </div>

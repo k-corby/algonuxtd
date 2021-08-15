@@ -3,7 +3,7 @@
     <div
       v-for="item in data.items"
       :key="item.id"
-      class="row fs mb-20 mt-20 pl-5 pr-5"
+      class="row mb-20 mt-20 pl-5 pr-5"
       style="position:relative;"
       data-scroll
       data-scroll-offset="100"
@@ -56,7 +56,6 @@ export default {
 }
 
 .row {
-  height: 90vh;
   opacity: 0;
   transform-origin: center top;
   transform-style: preserve-3d;
@@ -70,17 +69,6 @@ export default {
   opacity: 1;
   transition-delay: 0.2s;
   transform: none;
-}
-
-.scale-crop {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
-
-.row_fluid {
-}
-.row_fluid:nth-child(even) {
 }
 
 p.info {

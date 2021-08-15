@@ -7,16 +7,7 @@
       <div
         style="position:absolute; z-index:2; top:-5vw; right: 0; mix-blend-mode:difference;"
       >
-        <img
-          class="spinner"
-          src="~/assets/img/spin.svg"
-          width="1%"
-          style="
-
-    filter: invert(100%);
-    -webkit-filter: invert(100%);
-    opacity: 75%;"
-        />
+        <BannerCircle />
       </div>
       <p class="text-offwhite"></p>
       <h1 class="text-offwhite">
@@ -31,7 +22,7 @@
     </div>
     <p
       class="float-right"
-      style="position:absolute; right:1vw; top:25%; color:#FFF; writing-mode: vertical-rl; text-orientation: mixed; font-size:13px; letter-spacing:0.4vw; font-weight:400; text-transform:lowercase; font-family:'Libre Baskerville';"
+      style="position:absolute; right:1vw; top:20vw; color:#FFF; writing-mode: vertical-rl; text-orientation: mixed; font-size:13px; letter-spacing:0.4vw; font-weight:400; text-transform:lowercase; font-family:'Libre Baskerville';"
     >
       algo - established 2009
     </p>

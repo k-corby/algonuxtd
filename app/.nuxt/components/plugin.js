@@ -4,6 +4,7 @@ import { wrapFunctional } from './utils'
 const components = {
   Button: () => import('../../components/section/navigation/left/Button.vue' /* webpackChunkName: "components/button" */).then(c => wrapFunctional(c.default || c)),
   Button2: () => import('../../components/section/navigation/left/Button2.vue' /* webpackChunkName: "components/button2" */).then(c => wrapFunctional(c.default || c)),
+  Button3: () => import('../../components/section/navigation/left/Button3.vue' /* webpackChunkName: "components/button3" */).then(c => wrapFunctional(c.default || c)),
   Copyright: () => import('../../components/section/navigation/left/Copyright.vue' /* webpackChunkName: "components/copyright" */).then(c => wrapFunctional(c.default || c)),
   Menu: () => import('../../components/section/navigation/left/Menu.vue' /* webpackChunkName: "components/menu" */).then(c => wrapFunctional(c.default || c)),
   MenuItems: () => import('../../components/section/navigation/left/MenuItems.vue' /* webpackChunkName: "components/menu-items" */).then(c => wrapFunctional(c.default || c)),

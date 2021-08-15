@@ -3,7 +3,7 @@
     <div
       v-for="item in data.items"
       :key="item.id"
-      class="bg-white row_fluid fs mt_10 mb_15"
+      class="bg-white row_fluid mt_10 mb_15"
       data-aos="fade-up"
       data-aos-duration="2000"
     >
@@ -46,7 +46,7 @@ export default {
 }
 
 .row_fluid:nth-child(even) .service_img {
-  width: 80%;
+  width: 90%;
 }
 
 main #services p {

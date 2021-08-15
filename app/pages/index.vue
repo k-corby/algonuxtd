@@ -25,20 +25,22 @@
       </div>
     </section>-->
     <section
-      class="c-section container-fluid bg-white"
+      class="c-section container-fluid bg-black"
       data-scroll-section
-      style="padding-top:max(150px,10vw);"
+      style="padding-top:max(150px,10vw); height:115vh;"
     >
       <div class="o-container">
         <div class="row">
           <div class="col-12">
             <div class="pl">
               <hr />
-                <div style="position:fixed; top:0; right:0;">
-             <img class="" width="70%" src="~/assets/img/diamond.png" />
-          </div>
+              <BannerCirclec />
               <Social />
-              <h1 class="o-title text-black" data-scroll data-scroll-speed="4">
+              <h1
+                class="o-title text-offwhite"
+                data-scroll
+                data-scroll-speed="4"
+              >
                 <span
                   class="o-title-line"
                   style="padding-left:0vw; font-weight:600;"
@@ -51,7 +53,7 @@
                   class="o-title-line"
                   style="padding-left:0vw; font-weight:600;"
                   ><span style="font-weight:600; font-size:18vw;"
-                    >build</span
+                    >craft</span
                   ></span
                 >
                 <span

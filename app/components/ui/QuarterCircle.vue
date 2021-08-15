@@ -12,6 +12,6 @@
   right: -100vh;
   display: none;
   top: 25%;
-  border: max(300px, 27vw) solid var(--mustard);
+  border: max(300px, 27vw) solid var(--yellow);
 }
 </style>

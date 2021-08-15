@@ -18,10 +18,10 @@
           d=" M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 "
         />
       </defs>
-      <circle cx="150" cy="100" r="75" fill="none" />
+      <circle cx="150" cy="100" r="90" fill="none" />
       <g>
         <use xlink:href="#circlePath" fill="none" />
-        <text fill="#666">
+        <text fill="#999">
           <textPath xlink:href="#circlePath">
             ideas brands & concepts
           </textPath>
@@ -35,8 +35,8 @@
 section {
   position: absolute;
   z-index: 2;
-  top: -6vw;
-  right: 6vw;
+  top: -5vw;
+  right: 10vw;
   mix-blend-mode: normal;
 
   svg {
@@ -45,11 +45,11 @@ section {
     -ms-animation-name: rotate;
     -o-animation-name: rotate;
     animation-name: rotate;
-    -webkit-animation-duration: 15s;
-    -moz-animation-duration: 15s;
-    -ms-animation-duration: 15s;
-    -o-animation-duration: 15s;
-    animation-duration: 15s;
+    -webkit-animation-duration: 25s;
+    -moz-animation-duration: 25s;
+    -ms-animation-duration: 25s;
+    -o-animation-duration: 25s;
+    animation-duration: 25s;
     -webkit-animation-iteration-count: infinite;
     -moz-animation-iteration-count: infinite;
     -ms-animation-iteration-count: infinite;
@@ -64,7 +64,7 @@ section {
       font-family: "Poppins", "Libre Baskerville", "Cormorant+Garamond",
         Tiro Bangla, Georgia, "Times New Roman", Times, serif;
       text-transform: uppercase;
-      font-size: max(10px, 0.5vw);
+      font-size: max(9px, 0.4vw);
       letter-spacing: 0.7vw;
       font-weight: 500;
       color: rgb(189, 189, 189);
