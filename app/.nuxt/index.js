@@ -13,8 +13,8 @@ import { createStore } from './store.js'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_281c90f9 from 'nuxt_plugin_plugin_281c90f9' // Source: ./components/plugin.js (mode: 'all')
-import nuxt_plugin_bootstrapvue_08b788be from 'nuxt_plugin_bootstrapvue_08b788be' // Source: ./bootstrap-vue.js (mode: 'all')
+import nuxt_plugin_plugin_128e614e from 'nuxt_plugin_plugin_128e614e' // Source: ./components/plugin.js (mode: 'all')
+import nuxt_plugin_bootstrapvue_01e0cb93 from 'nuxt_plugin_bootstrapvue_01e0cb93' // Source: ./bootstrap-vue.js (mode: 'all')
 import nuxt_plugin_both_2a2312c0 from 'nuxt_plugin_both_2a2312c0' // Source: ../plugins/both.js (mode: 'all')
 import nuxt_plugin_client_035ad0d4 from 'nuxt_plugin_client_035ad0d4' // Source: ../plugins/client.js (mode: 'client')
 import nuxt_plugin_vuecursorfx_1f0c670b from 'nuxt_plugin_vuecursorfx_1f0c670b' // Source: ../plugins/vue-cursor-fx.js (mode: 'client')
@@ -211,12 +211,12 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_281c90f9 === 'function') {
-    await nuxt_plugin_plugin_281c90f9(app.context, inject)
+  if (typeof nuxt_plugin_plugin_128e614e === 'function') {
+    await nuxt_plugin_plugin_128e614e(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_bootstrapvue_08b788be === 'function') {
-    await nuxt_plugin_bootstrapvue_08b788be(app.context, inject)
+  if (typeof nuxt_plugin_bootstrapvue_01e0cb93 === 'function') {
+    await nuxt_plugin_bootstrapvue_01e0cb93(app.context, inject)
   }
 
   if (typeof nuxt_plugin_both_2a2312c0 === 'function') {
@@ -240,12 +240,14 @@ async function createApp(ssrContext, config = {}) {
 
   // Wait for async component to be resolved first
   await new Promise((resolve, reject) => {
-    const { route } = router.resolve(app.context.route.fullPath)
-    // Ignore 404s rather than blindly replacing URL
-    if (!route.matched.length && process.client) {
-      return resolve()
+    // Ignore 404s rather than blindly replacing URL in browser
+    if (process.client) {
+      const { route } = router.resolve(app.context.route.fullPath)
+      if (!route.matched.length) {
+        return resolve()
+      }
     }
-    router.replace(route, resolve, (err) => {
+    router.replace(app.context.route.fullPath, resolve, (err) => {
       // https://github.com/vuejs/vue-router/blob/v3.4.3/src/util/errors.js
       if (!err._isRouter) return reject(err)
       if (err.type !== 2 /* NavigationFailureType.redirected */) return resolve()

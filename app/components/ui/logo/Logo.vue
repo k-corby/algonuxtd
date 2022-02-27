@@ -14,7 +14,7 @@ section {
   left: max(60px, 4.5vw);
   z-index: 2000;
   a {
-    font-size: max(30px, 2.3vw);
+    font-size: max(30px, 2.5vw);
     text-align: center;
     width: 100%;
     font-family: "", "poppins", "Libre Baskerville", "hero-new", sans-serif;

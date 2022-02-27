@@ -15,76 +15,55 @@
       }
     }"
     data-scroll-container
+    class="bg-white"
   >
-    <!--<section class="c-section container-fluid bg-red" data-scroll-section>
+    <!--<section class="c-section container-fluid bg-white" data-scroll-section>
       <div class="container-fluid bg-banner" style="position:relative;">
-        <div class="pb bg-red" style="position:relative;">
-          <Banner2 />
+        <div class="pb bg-red" style="position:relative; ">
+          <Banner4 />
           <QuarterCircle />
         </div>
       </div>
     </section>-->
+
     <section
-      class="c-section container-fluid bg-black"
+      class="c-section container-fluid bg-white"
       data-scroll-section
-      style="padding-top:max(150px,10vw); height:115vh;"
+      style="padding-top:max(130px,10vw); height:140vh;"
     >
       <div class="o-container">
         <div class="row">
           <div class="col-12">
-            <div class="pl">
-              <hr />
-              <BannerCirclec />
-              <Social />
+            <div class="pl-7">
+              <!--<hr />-->
               <h1
-                class="o-title text-offwhite"
+                class="o-title text-black"
                 data-scroll
-                data-scroll-speed="4"
+                data-scroll-speed="3"
               >
-                <span
-                  class="o-title-line"
-                  style="padding-left:0vw; font-weight:600;"
-                  ><span style="font-weight:600; font-size:18vw;"
-                    >we</span
-                  ></span
+                <span class="o-title-line"> <span>we </span></span>
+                <span class="o-title-line trans_stroke">
+                  <span>craft</span></span
                 >
-
-                <span
-                  class="o-title-line"
-                  style="padding-left:0vw; font-weight:600;"
-                  ><span style="font-weight:600; font-size:18vw;"
-                    >craft</span
-                  ></span
-                >
-                <span
-                  class="o-title-line"
-                  style="padding-left:0vw; font-weight:600;"
-                  ><span style="font-weight:600; font-size:18vw;"
-                    >modern</span
-                  ></span
-                >
+                <span class="o-title-line"> <span>things</span></span>
               </h1>
               <p
+                class="caption "
                 data-scroll
                 data-scroll-speed="4"
-                style="display:block;  text-align: center;
-  font-weight: 500;
-  max-width: 100%;
-  font-size: max(18px, 1.2vw);
-  letter-spacing: 2vw;
-  margin-top: -7vw;
-  text-transform: lowercase;"
               >
                 building modern brands.
+
               </p>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="c-section container-fluid pt-10 pl" data-scroll-section>
+    <section class="c-section container-fluid pl" data-scroll-section>
       <div class="o-container">
         <div class="row justify-content-end">
+          <BannerCircles data-scroll data-scroll-speed="1" />
           <div class="col-9" data-scroll data-scroll-speed="2">
             <img class="" width="70%" src="~/assets/img/ink.jpg" />
           </div>
@@ -112,6 +91,16 @@
               approach?
             </h4>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="c-section container-fluid pt-10" data-scroll-section>
+      <div class="o-container">
+        <div class="row">
+          <p data-scroll data-scroll-speed="2">
+            <img src="~/assets/img/S1.png" />
+          </p>
         </div>
       </div>
     </section>
@@ -176,7 +165,9 @@
   </LocomotiveScroll>
 </template>
 <script>
+import Lines from "../components/ui/Lines.vue";
 export default {
+  components: { Lines },
   mounted() {
     const locomotive = this.$refs.scroller.locomotive;
     console.log(locomotive);
@@ -192,7 +183,7 @@ hr {
   background: linear-gradient(90deg, red 50%, blue 50%);
   height: 0.6vw;
   width: 10vw;
-  margin: 0 0 5vw 0;
+  margin: 0 0 3vw 0;
 }
 h2 {
   font-size: 17vw;
@@ -215,21 +206,15 @@ p {
   line-height: max(34px, 2.5vw);
   letter-spacing: max(3px, 0.2vw);
 }
-.circle {
-  width: 200vh;
-  height: 200vh;
-  border-radius: 100%;
-  position: absolute;
-  right: -100vh;
-  top: 25%;
-  border: max(300px, 27vw) solid var(--yellow);
-}
+
 .caption {
+  margin-left:5vw; display:block;  text-align: left; color:#888;
   font-weight: 300;
-  max-width: 60%;
-  font-size: min(24px, 1.8vw);
-  letter-spacing: 0.7vw;
-  font-family: "Martel", sans-serif;
+  max-width: 100%;
+  font-size: max(16px, 1.5vw);
+  margin-top: -6vw;
+  letter-spacing: max(1px, 2vw);
+  text-transform: lowercase;
 }
 
 .o-title.is-inview .o-title-line:first-child {
@@ -243,19 +228,21 @@ p {
 }
 
 .o-title-line span {
+  font-family:  Serif, "Montserrat", "Libre Baskerville", "Cormorant+Garamond",
+    Tiro Bangla, Serif, 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif, Georgia, "Times New Roman", Times, serif;
   display: inline-block;
-  font-size: 20vw;
-  line-height: 40%;
-  font-family: "", "Montserrat", "Libre Baskerville", "Cormorant+Garamond",
-    Tiro Bangla, Georgia, "Times New Roman", Times, serif;
+  font-size: 25vw;
+  line-height: 55%;
   text-transform: uppercase;
-  font-weight: 400;
-  letter-spacing: -1.7vw;
+  font-weight: 100;
+  letter-spacing: -1.4vw;
+  color:#111;
 }
 .o-title.is-inview .o-title-line {
   transform: none;
   opacity: 1;
 }
+
 .o-title-line {
   display: block;
   opacity: 0;

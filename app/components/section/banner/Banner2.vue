@@ -1,23 +1,11 @@
 <template>
   <div class="row pb" style="position:relative; z-index:100;">
     <div class="banner">
-      <div style="position">
-        <div style=" mix-blend-mode:normal; margin:0 auto;">
-          <h1
-            class="br-top text-offwhite title"
-            style="margin-top:max(130px, 19vw);"
-          >
-            brands<br />
-            <span class="">&</span>
-            <span>ideas</span>.
-          </h1>
-          <p
-            class="slogan text-offwhite text-center"
-            style="color:#CCC; display:block;"
-          >
-            building modern brands.
-          </p>
-        </div>
+      <div style=" mix-blend-mode:normal; margin:0 auto;">
+        <h1 class="br-top text-black" style="margin-top:max(130px, 15vw);">
+          We Craft<br />
+          Things.
+        </h1>
       </div>
       <p
         class="float-right"
@@ -25,6 +13,10 @@
       >
         established 2009
       </p>
+      <img
+        style="position:absolute; top:0; right:0; z-index:100; width:0%;"
+        src="~/assets/img/s2.png"
+      />
       <!--<p
         class="float-right"
         style="position:absolute; left:1vw; top:26vw; color:#FFF; writing-mode: vertical-rl; text-orientation: mixed; font-size:13px; letter-spacing:0.4vw; font-weight:400; text-transform:lowercase; font-family:'Libre Baskerville';"
@@ -50,11 +42,11 @@
 }
 
 p {
-  font-weight: 500;
+  font-weight: 400;
   max-width: 100%;
   font-size: max(18px, 1.2vw);
-  letter-spacing: 1.3vw;
-  margin-top: -4vw;
+  letter-spacing: 1.7vw;
+  margin-top: 0vw;
   font-family: "poppins", "Libre Baskerville", sans-serif;
   text-transform: lowercase;
 }
@@ -67,17 +59,16 @@ p {
 }
 
 h1 {
-  position: relative;
-  font-size: 14vw;
-  line-height: 90%;
-  letter-spacing: 0.1vw;
-  font-family: "", "", "Libre Baskerville", "hero-new", "Libre Baskerville",
-    "Poppins", Tiro Bangla, Georgia, "Times New Roman", Times, serif;
-  font-weight: 900;
+  display: inline-block;
+  color: var(--off-white);
+  font-size: 22vw;
+  line-height: 76%;
+  font-family: "", "Montserrat", "Libre Baskerville", "Cormorant+Garamond",
+    Tiro Bangla, Georgia, "Times New Roman", Times, serif;
   text-transform: uppercase;
-  margin: 0 0 5vw 0vw;
-  opacity: 0.95;
-  text-align: center;
+  font-weight: 700;
+  letter-spacing: -1.5vw;
+  margin: 0vw 0 0 7vw;
 
   u {
     text-decoration-color: var(--fluro-yellow);
@@ -85,7 +76,7 @@ h1 {
 }
 
 h1::before {
-  content: "-";
+  content: "";
   position: absolute;
   left: -7vw;
   top: 20%;
@@ -95,7 +86,7 @@ h1::before {
 }
 
 h1::after {
-  content: "-";
+  content: "";
   position: absolute;
   right: -7vw;
   top: 20%;

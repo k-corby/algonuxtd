@@ -1,10 +1,7 @@
 <template>
   <section>
     <input class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon" />
-    <label
-      style="mix-blend-mode:difference; z-index:1000; position:fixed; top:50%; left:2vw"
-      for="menu-icon"
-    ></label>
+    <label class="menu-button" for="menu-icon"></label>
     <nav class="nav">
       <ul class="pt-5">
         <li><a href="#">Work</a></li>
@@ -16,60 +13,85 @@
   </section>
 </template>
 <style lang="scss" scoped>
+
+@media screen and (min-width: 992px) {
+  .menu-button {
+    left: 0.75vw;
+    top: 50%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .menu-button {
+    right: 2vw;
+    top: 4vw;
+  }
+  .nav {
+    right: 30px;
+  }
+  h1 {
+    font-size: 9vw;
+    -webkit-text-stroke: 2px transparent;
+    text-stroke: 2px transparent;
+    -webkit-text-fill-color: #ffeba7;
+    text-fill-color: #ffeba7;
+    color: #ffeba7;
+  }
+  .nav ul li a {
+    font-size: 8vh;
+  }
+}
+.menu-button {
+  mix-blend-mode: difference;
+  z-index: 1000;
+  width: 50px;
+  position: fixed;
+  display: block;
+  cursor: pointer;
+}
 [type="checkbox"]:checked,
 [type="checkbox"]:not(:checked) {
   position: absolute;
   left: -9999px;
-}
-.menu-icon:checked + label,
-.menu-icon:not(:checked) + label {
-  position: fixed;
-  top: 63px;
-  right: 75px;
-  display: block;
-  width: 30px;
-  height: 30px;
-  padding: 0;
-  margin: 0;
-  cursor: pointer;
-  z-index: 10;
 }
 .menu-icon:checked + label:before,
 .menu-icon:not(:checked) + label:before {
   position: absolute;
   content: "";
   display: block;
-  width: 30px;
-  height: 20px;
+  width: max(3.4vw, 50px);
+  height: 24px;
   z-index: 20;
   top: 0;
   left: 0;
-  border-top: 2px solid #ececee;
-  border-bottom: 2px solid #ececee;
-  transition: border-width 100ms 1500ms ease,
+  border-top: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+  transition: border-width 100ms 500ms ease,
     top 100ms 1600ms cubic-bezier(0.23, 1, 0.32, 1),
     height 100ms 1600ms cubic-bezier(0.23, 1, 0.32, 1),
     background-color 200ms ease, transform 200ms cubic-bezier(0.23, 1, 0.32, 1);
 }
+
 .menu-icon:checked + label:after,
 .menu-icon:not(:checked) + label:after {
   position: absolute;
+  border-bottom: 2px solid #ffffff;
   content: "";
   display: block;
-  width: 22px;
-  height: 2px;
+  width: max(3vw, 50px);
+  height: 0px;
   z-index: 20;
-  top: 10px;
-  right: 4px;
+  top: 12px;
+  left: 0;
   background-color: #ececee;
   margin-top: -1px;
-  transition: width 100ms 1750ms ease, right 100ms 1750ms ease,
+  transition: width 100ms 1750ms ease, right 100ms 750ms ease,
     margin-top 100ms ease, transform 200ms cubic-bezier(0.23, 1, 0.32, 1);
 }
 .menu-icon:checked + label:before {
   top: 10px;
   transform: rotate(45deg);
-  height: 2px;
+  height: 2.5px;
   background-color: #ececee;
   border-width: 0;
   transition: border-width 100ms 340ms ease,
@@ -79,9 +101,10 @@
     transform 200ms 1700ms cubic-bezier(0.23, 1, 0.32, 1);
 }
 .menu-icon:checked + label:after {
-  width: 30px;
+  width: max(3.4vw, 50px);
   margin-top: 0;
-  right: 0;
+  height: 2.5px;
+  left: 0px;
   transform: rotate(-45deg);
   transition: width 100ms ease, right 100ms ease, margin-top 100ms 500ms ease,
     transform 200ms 1700ms cubic-bezier(0.23, 1, 0.32, 1);
@@ -98,50 +121,26 @@
   margin: 0;
   z-index: 9;
   overflow: hidden;
-  animation: border-transform 7s linear infinite;
+  /*animation: border-transform 7s linear infinite;
   transition: top 350ms 1100ms cubic-bezier(0.23, 1, 0.32, 1),
     right 350ms 1100ms cubic-bezier(0.23, 1, 0.32, 1),
     transform 250ms 1100ms ease,
     width 650ms 400ms cubic-bezier(0.23, 1, 0.32, 1),
-    height 650ms 400ms cubic-bezier(0.23, 1, 0.32, 1);
-}
-@keyframes border-transform {
-  0%,
-  100% {
-    border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
-  }
-  14% {
-    border-radius: 40% 60% 54% 46% / 49% 60% 40% 51%;
-  }
-  28% {
-    border-radius: 54% 46% 38% 62% / 49% 70% 30% 51%;
-  }
-  42% {
-    border-radius: 61% 39% 55% 45% / 61% 38% 62% 39%;
-  }
-  56% {
-    border-radius: 61% 39% 67% 33% / 70% 50% 50% 30%;
-  }
-  70% {
-    border-radius: 50% 50% 34% 66% / 56% 68% 32% 44%;
-  }
-  84% {
-    border-radius: 46% 54% 50% 50% / 35% 61% 39% 65%;
-  }
+    height 650ms 400ms cubic-bezier(0.23, 1, 0.32, 1);*/
 }
 
 .menu-icon:checked ~ .nav {
-  animation-play-state: paused;
   top: 50%;
   right: 50%;
   transform: translate(50%, -50%);
   width: 200%;
   height: 200%;
-  background-color: red;
-  transition: top 350ms 700ms cubic-bezier(0.23, 1, 0.32, 1),
-    right 350ms 700ms cubic-bezier(0.23, 1, 0.32, 1), transform 250ms 700ms ease,
-    width 750ms 1000ms cubic-bezier(0.23, 1, 0.32, 1),
-    height 750ms 1000ms cubic-bezier(0.23, 1, 0.32, 1);
+  background-color: blue;  /* rgb(255, 203, 48)  rgb(255, 203, 48);*/
+  transition: /*top 350ms 700ms cubic-bezier(0.23, 1, 0.32, 1),
+    right 350ms 700ms cubic-bezier(0.23, 1, 0.32, 1), transform 250ms 700ms ease,*/ background-color
+      100ms 300ms ease,
+    width 0ms 300ms cubic-bezier(0.23, 1, 0.32, 1),
+    height 0ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 .nav ul {
@@ -234,41 +233,5 @@
   transition-delay: 1640ms;
 }
 
-.logo {
-  position: absolute;
-  top: 60px;
-  left: 50px;
-  display: block;
-  z-index: 11;
-  transition: all 250ms linear;
-}
-.logo img {
-  height: 26px;
-  width: auto;
-  display: block;
-}
 
-@media screen and (max-width: 991px) {
-  .menu-icon:checked + label,
-  .menu-icon:not(:checked) + label {
-    right: 55px;
-  }
-  .logo {
-    left: 30px;
-  }
-  .nav {
-    right: 30px;
-  }
-  h1 {
-    font-size: 9vw;
-    -webkit-text-stroke: 2px transparent;
-    text-stroke: 2px transparent;
-    -webkit-text-fill-color: #ffeba7;
-    text-fill-color: #ffeba7;
-    color: #ffeba7;
-  }
-  .nav ul li a {
-    font-size: 8vh;
-  }
-}
 </style>

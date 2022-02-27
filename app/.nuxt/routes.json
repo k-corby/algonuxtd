@@ -2,64 +2,71 @@
   {
     "name": "about",
     "path": "/about",
-    "component": "/Users/kcorby/Documents/Documents/Applications/algonuxtd/app/pages/about.vue",
+    "component": "/Users/kanecorby/Documents/Applications/algonuxtd/app/pages/about.vue",
     "chunkName": "pages/about",
-    "_name": "_4103852c"
+    "_name": "_33295f96"
   },
   {
     "name": "approach",
     "path": "/approach",
-    "component": "/Users/kcorby/Documents/Documents/Applications/algonuxtd/app/pages/approach.vue",
+    "component": "/Users/kanecorby/Documents/Applications/algonuxtd/app/pages/approach.vue",
     "chunkName": "pages/approach",
-    "_name": "_3e2fa34a"
+    "_name": "_4133b8a0"
   },
   {
     "name": "index copy",
     "path": "/index%20copy",
-    "component": "/Users/kcorby/Documents/Documents/Applications/algonuxtd/app/pages/index copy.vue",
+    "component": "/Users/kanecorby/Documents/Applications/algonuxtd/app/pages/index copy.vue",
     "chunkName": "pages/index copy",
-    "_name": "_61b80076"
+    "_name": "_8ee416ea"
+  },
+  {
+    "name": "index copy 2",
+    "path": "/index%20copy%202",
+    "component": "/Users/kanecorby/Documents/Applications/algonuxtd/app/pages/index copy 2.vue",
+    "chunkName": "pages/index copy 2",
+    "_name": "_9dbe2246"
   },
   {
     "name": "index2",
     "path": "/index2",
-    "component": "/Users/kcorby/Documents/Documents/Applications/algonuxtd/app/pages/index2.vue",
+    "component": "/Users/kanecorby/Documents/Applications/algonuxtd/app/pages/index2.vue",
     "chunkName": "pages/index2",
-    "_name": "_30b6d1da"
+    "_name": "_834c44b0"
   },
   {
     "name": "index3",
     "path": "/index3",
-    "component": "/Users/kcorby/Documents/Documents/Applications/algonuxtd/app/pages/index3.vue",
+    "component": "/Users/kanecorby/Documents/Applications/algonuxtd/app/pages/index3.vue",
     "chunkName": "pages/index3",
-    "_name": "_309aa2d8"
+    "_name": "_833015ae"
   },
   {
     "name": "portfolio",
     "path": "/portfolio",
-    "component": "/Users/kcorby/Documents/Documents/Applications/algonuxtd/app/pages/portfolio/index.vue",
+    "component": "/Users/kanecorby/Documents/Applications/algonuxtd/app/pages/portfolio/index.vue",
     "chunkName": "pages/portfolio/index",
-    "_name": "_d7a39430"
+    "_name": "_8672f21a"
   },
   {
     "name": "work",
     "path": "/work",
-    "component": "/Users/kcorby/Documents/Documents/Applications/algonuxtd/app/pages/work.vue",
+    "component": "/Users/kanecorby/Documents/Applications/algonuxtd/app/pages/work.vue",
     "chunkName": "pages/work",
-    "_name": "_bf1d7278"
+    "_name": "_08fda2ce"
   },
   {
     "name": "portfolio-id",
     "path": "/portfolio/:id",
-    "component": "/Users/kcorby/Documents/Documents/Applications/algonuxtd/app/pages/portfolio/_id.vue",
+    "component": "/Users/kanecorby/Documents/Applications/algonuxtd/app/pages/portfolio/_id.vue",
     "chunkName": "pages/portfolio/_id",
-    "_name": "_6a209250"
+    "_name": "_d3c0abca"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/Users/kcorby/Documents/Documents/Applications/algonuxtd/app/pages/index.vue",
+    "component": "/Users/kanecorby/Documents/Applications/algonuxtd/app/pages/index.vue",
     "chunkName": "pages/index",
-    "_name": "_0193cfa2"
+    "_name": "_06232afa"
   }
 ]

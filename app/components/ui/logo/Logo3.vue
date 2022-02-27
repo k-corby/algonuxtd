@@ -9,12 +9,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Damion&family=Engagement&family=Molle:ital@1&family=Sulphur+Point:wght@400;700&display=swap");
 section {
   position: fixed;
-  top: max(30px, 2.2vw);
+  top: max(30px, 1vw);
   mix-blend-mode: difference;
   left: max(50px, 3vw);
   z-index: 2000;
   a {
-    font-size: max(25px, 1.6vw);
+    font-size: max(25px, 1.8vw);
     text-align: center;
     width: 100%;
     font-family: "", "poppins", "Libre Baskerville", "hero-new", sans-serif;

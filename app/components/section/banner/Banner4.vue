@@ -2,12 +2,12 @@
   <div class="row pb-5">
     <div
       class="banner"
-      style="margin-top:max(150px, 15vw); position:relative; mix-blend-mode:difference;"
+      style="margin-top:max(150px, 15vw); position:relative; mix-blend-mode:normal;"
     >
       <div
-        style="position:absolute; z-index:2; top:-5vw; right: 0; mix-blend-mode:difference;"
+        style="position:absolute; z-index:2; top:-5vw; right: 10vw; mix-blend-mode:normal;"
       >
-        <BannerCircle />
+        <BannerCirclee />
       </div>
       <p class="text-offwhite"></p>
       <h1 class="text-offwhite">

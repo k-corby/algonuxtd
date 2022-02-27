@@ -2,12 +2,6 @@
   "Button": {
     "description": "Auto imported from components/section/navigation/left/Button.vue"
   },
-  "Button2": {
-    "description": "Auto imported from components/section/navigation/left/Button2.vue"
-  },
-  "Button3": {
-    "description": "Auto imported from components/section/navigation/left/Button3.vue"
-  },
   "Copyright": {
     "description": "Auto imported from components/section/navigation/left/Copyright.vue"
   },
@@ -35,14 +29,8 @@
   "Arrows": {
     "description": "Auto imported from components/ui/Arrows.vue"
   },
-  "BannerCircle": {
-    "description": "Auto imported from components/ui/BannerCircle.vue"
-  },
   "BlockText": {
     "description": "Auto imported from components/ui/BlockText.vue"
-  },
-  "FloatingCircles": {
-    "description": "Auto imported from components/ui/FloatingCircles.vue"
   },
   "Lines": {
     "description": "Auto imported from components/ui/Lines.vue"
