@@ -37,8 +37,7 @@ export default {
     "~/components/section/",
     "~/components/section/footer",
     "~/components/section/navigation",
-    "~/components/section/navigation/left",
-    "~/components/section/navigation/top"
+    "~/components/section/navigation/left"
   ],
 
   buildModules: ["@nuxt/typescript-build", "@nuxtjs/tailwindcss"],

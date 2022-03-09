@@ -1,6 +1,6 @@
 <template>
   <section>
-    <NuxtLink to="/">algo</NuxtLink>
+    <NuxtLink to="/">a</NuxtLink>
   </section>
 </template>
 
@@ -9,26 +9,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Damion&family=Engagement&family=Molle:ital@1&family=Sulphur+Point:wght@400;700&display=swap");
 section {
   position: fixed;
-  top: max(20px, 2.5vw);
+  top: max(20px, 1.5vw);
   mix-blend-mode: difference;
-  left: max(60px, 4.5vw);
+  left: max(30px, 2vw);
   z-index: 2000;
   a {
-    font-size: max(30px, 2.5vw);
+    font-size: max(44px, 2.5vw);
     text-align: center;
     width: 100%;
-    font-family: "", "poppins", "Libre Baskerville", "hero-new", sans-serif;
+    font-family: "", "Times", "Libre Baskerville", "hero-new", sans-serif;
     font-weight: 800;
     display: block;
-    text-transform: lowercase;
+    text-transform: uppercase;
     letter-spacing: -3px;
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
     color: rgb(236, 236, 236); /*#e1ff00*/
-    text-decoration: none;
+    text-decoration: underline;
     opacity: 1;
-    text-decoration-thickness: max(1px, 0.17vw);
-    text-underline-offset: 1px;
+    text-decoration-thickness: max(1px, 0.25vw);
+    text-underline-offset: 3px;
     :hover {
       text-decoration: none;
     }

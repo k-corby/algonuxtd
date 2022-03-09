@@ -1,151 +1,50 @@
 <template>
-  <div class="row pb" style="position:relative; z-index:100;">
-    <div class="banner">
-      <div style=" mix-blend-mode:normal; margin:0 auto;">
-        <h1 class="br-top text-black" style="margin-top:max(130px, 15vw);">
-          We Craft<br />
-          Things.
-        </h1>
-      </div>
-      <p
-        class="float-right"
-        style="position:absolute; right:1vw; top:26vw; color:#FFF; writing-mode: vertical-rl; text-orientation: mixed; font-size:13px; letter-spacing:0.4vw; font-weight:400; text-transform:lowercase; font-family:'Libre Baskerville';"
-      >
-        established 2009
-      </p>
-      <img
-        style="position:absolute; top:0; right:0; z-index:100; width:0%;"
-        src="~/assets/img/s2.png"
-      />
-      <!--<p
-        class="float-right"
-        style="position:absolute; left:1vw; top:26vw; color:#FFF; writing-mode: vertical-rl; text-orientation: mixed; font-size:13px; letter-spacing:0.4vw; font-weight:400; text-transform:lowercase; font-family:'Libre Baskerville';"
-      >
-        digital agency
-      </p>
-      <p
-        class="float-right"
-        style="position:absolute; left:1vw; bottom:0vw; color:#F8F8F8; font-size:15px; letter-spacing:0vw; font-weight:800; text-transform:lowercase; font-family:'poppins';"
-      >
-        <span style="margin:0.1vw;">db</span><br />
-        <span style="margin:0.1vw;">ig</span><br />
-        <span style="margin:0.1vw;">tw</span>
-      </p>-->
+  <section>
+    <div>
+      <h1>
+        We Craft<br />
+        Things.
+      </h1>
     </div>
-  </div>
+    <div class="stack">
+      <img
+        src="~/assets/img/app-dev.jpg"
+        width="100%"
+      />
+    </div>
+  </section>
 </template>
 <style lang="scss" scoped>
-.banner {
-  padding: 0 0vw 0 0vw;
-  max-width: 1600px;
-  margin: 0 auto;
-}
+section{
+  position:relative;
+  padding-top:max(170px, 10vw);
+  height:100vh;
+   background: url("~/assets/img/app-dev.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
-p {
-  font-weight: 400;
-  max-width: 100%;
-  font-size: max(18px, 1.2vw);
-  letter-spacing: 1.7vw;
-  margin-top: 0vw;
-  font-family: "poppins", "Libre Baskerville", sans-serif;
-  text-transform: lowercase;
-}
+  .stack{
+    position:absolute;
+    top:0;
+    z-index:-1;
 
-.symbol {
-  font-size: 20vw;
-  letter-spacing: -2vw;
-  margin-left: -2vw;
-  border-color: #ffeb51;
+    img{
+      height:100vh;
+    }
+  }
 }
-
 h1 {
-  display: inline-block;
-  color: var(--off-white);
-  font-size: 22vw;
-  line-height: 76%;
-  font-family: "", "Montserrat", "Libre Baskerville", "Cormorant+Garamond",
-    Tiro Bangla, Georgia, "Times New Roman", Times, serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: -1.5vw;
-  margin: 0vw 0 0 7vw;
-
-  u {
-    text-decoration-color: var(--fluro-yellow);
-  }
-}
-
-h1::before {
-  content: "";
-  position: absolute;
-  left: -7vw;
-  top: 20%;
-  font-size: 8vw;
-  font-family: "poppins";
+  font-size: 20vw;
+  font-family: "Nanum Myeongjo", Serif, "Montserrat", "Libre Baskerville",
+    "Cormorant+Garamond", Tiro Bangla, Serif, "Times New Roman", Times, serif,
+    Geneva, Tahoma, sans-serif, Georgia, "Times New Roman", Times, serif;
   font-weight: 100;
-}
-
-h1::after {
-  content: "";
-  position: absolute;
-  right: -7vw;
-  top: 20%;
-  font-size: 8vw;
-  font-family: "poppins";
-  font-weight: 100;
-}
-
-.title2 {
-  font-size: 17vw;
-  line-height: 50%;
-  letter-spacing: -1.5vw;
-  font-family: "", "Libre Baskerville", "Poppins", Tiro Bangla, Georgia,
-    "Times New Roman", Times, serif;
-  font-weight: 900;
-  text-transform: lowercase;
-  margin: 0 0 5vw 0vw;
-  opacity: 0.95;
-}
-
-.title3 {
-  font-size: 12vw;
-  line-height: 90%;
-  letter-spacing: -0.8vw;
-  font-family: "hero-new", "Libre Baskerville", "Poppins", Tiro Bangla, Georgia,
-    "Times New Roman", Times, serif;
-  font-weight: 900;
+  letter-spacing: 0vw;
   text-transform: uppercase;
-  margin: 0 0 5vw 0vw;
-  opacity: 0.95;
-  text-align: initial;
-}
-
-.stroke {
-  -webkit-text-stroke: 0.7vw var(--fluro-yellow);
-  -webkit-text-fill-color: transparent;
   line-height: 80%;
+  color: #fff;
+  margin:0 0 0 5vw;
 }
-/*
-@media (max-width: 1000px) {
-  .banner {
-    padding: 0 0 0 4vw;
-  }
-  h1 {
-    font-size: 24vw;
-    letter-spacing: -2.5vw;
-    text-transform: lowercase;
-    line-height: 70%;
-  }
-
-  .symbol {
-    font-size: 25vw;
-    border-color: #ffeb51;
-    display: none;
-  }
-  .stroke {
-    -webkit-text-stroke: 1vw var(--fluro-yellow);
-    -webkit-text-fill-color: transparent;
-    line-height: 80%;
-  }
-}*/
 </style>

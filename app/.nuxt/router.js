@@ -4,16 +4,18 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _33295f96 = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
 const _4133b8a0 = () => interopDefault(import('../pages/approach.vue' /* webpackChunkName: "pages/approach" */))
-const _8ee416ea = () => interopDefault(import('../pages/index copy.vue' /* webpackChunkName: "pages/index copy" */))
-const _9dbe2246 = () => interopDefault(import('../pages/index copy 2.vue' /* webpackChunkName: "pages/index copy 2" */))
 const _834c44b0 = () => interopDefault(import('../pages/index2.vue' /* webpackChunkName: "pages/index2" */))
 const _833015ae = () => interopDefault(import('../pages/index3.vue' /* webpackChunkName: "pages/index3" */))
+const _8313e6ac = () => interopDefault(import('../pages/index4.vue' /* webpackChunkName: "pages/index4" */))
+const _82f7b7aa = () => interopDefault(import('../pages/index5.vue' /* webpackChunkName: "pages/index5" */))
 const _8672f21a = () => interopDefault(import('../pages/portfolio/index.vue' /* webpackChunkName: "pages/portfolio/index" */))
+const _5da38ade = () => interopDefault(import('../pages/studio.vue' /* webpackChunkName: "pages/studio" */))
 const _08fda2ce = () => interopDefault(import('../pages/work.vue' /* webpackChunkName: "pages/work" */))
 const _d3c0abca = () => interopDefault(import('../pages/portfolio/_id.vue' /* webpackChunkName: "pages/portfolio/_id" */))
 const _06232afa = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _4e375579 = () => interopDefault(import('../pages/_backup/index copy.vue' /* webpackChunkName: "pages/_backup/index copy" */))
+const _fc14676a = () => interopDefault(import('../pages/_backup/index copy 2.vue' /* webpackChunkName: "pages/_backup/index copy 2" */))
 
 const emptyFn = () => {}
 
@@ -27,21 +29,9 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
-    path: "/about",
-    component: _33295f96,
-    name: "about"
-  }, {
     path: "/approach",
     component: _4133b8a0,
     name: "approach"
-  }, {
-    path: "/index%20copy",
-    component: _8ee416ea,
-    name: "index copy"
-  }, {
-    path: "/index%20copy%202",
-    component: _9dbe2246,
-    name: "index copy 2"
   }, {
     path: "/index2",
     component: _834c44b0,
@@ -51,9 +41,21 @@ export const routerOptions = {
     component: _833015ae,
     name: "index3"
   }, {
+    path: "/index4",
+    component: _8313e6ac,
+    name: "index4"
+  }, {
+    path: "/index5",
+    component: _82f7b7aa,
+    name: "index5"
+  }, {
     path: "/portfolio",
     component: _8672f21a,
     name: "portfolio"
+  }, {
+    path: "/studio",
+    component: _5da38ade,
+    name: "studio"
   }, {
     path: "/work",
     component: _08fda2ce,
@@ -66,6 +68,14 @@ export const routerOptions = {
     path: "/",
     component: _06232afa,
     name: "index"
+  }, {
+    path: "/:backup/index%20copy",
+    component: _4e375579,
+    name: "backup-index copy"
+  }, {
+    path: "/:backup/index%20copy%202",
+    component: _fc14676a,
+    name: "backup-index copy 2"
   }],
 
   fallback: false

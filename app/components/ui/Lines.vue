@@ -21,11 +21,11 @@
 
 .line {
   position: absolute;
-  width: 1px;
+  width: 1.5px;
   height: 100%;
   top: 0;
   left: 50%;
-  background: rgba(255, 255, 255, 0.13);
+  background: rgba(0, 0, 0, 0.05);
   overflow: hidden;
 }
 .line::after {

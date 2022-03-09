@@ -1,31 +1,10 @@
 [
   {
-    "name": "about",
-    "path": "/about",
-    "component": "/Users/kanecorby/Documents/Applications/algonuxtd/app/pages/about.vue",
-    "chunkName": "pages/about",
-    "_name": "_33295f96"
-  },
-  {
     "name": "approach",
     "path": "/approach",
     "component": "/Users/kanecorby/Documents/Applications/algonuxtd/app/pages/approach.vue",
     "chunkName": "pages/approach",
     "_name": "_4133b8a0"
-  },
-  {
-    "name": "index copy",
-    "path": "/index%20copy",
-    "component": "/Users/kanecorby/Documents/Applications/algonuxtd/app/pages/index copy.vue",
-    "chunkName": "pages/index copy",
-    "_name": "_8ee416ea"
-  },
-  {
-    "name": "index copy 2",
-    "path": "/index%20copy%202",
-    "component": "/Users/kanecorby/Documents/Applications/algonuxtd/app/pages/index copy 2.vue",
-    "chunkName": "pages/index copy 2",
-    "_name": "_9dbe2246"
   },
   {
     "name": "index2",
@@ -42,11 +21,32 @@
     "_name": "_833015ae"
   },
   {
+    "name": "index4",
+    "path": "/index4",
+    "component": "/Users/kanecorby/Documents/Applications/algonuxtd/app/pages/index4.vue",
+    "chunkName": "pages/index4",
+    "_name": "_8313e6ac"
+  },
+  {
+    "name": "index5",
+    "path": "/index5",
+    "component": "/Users/kanecorby/Documents/Applications/algonuxtd/app/pages/index5.vue",
+    "chunkName": "pages/index5",
+    "_name": "_82f7b7aa"
+  },
+  {
     "name": "portfolio",
     "path": "/portfolio",
     "component": "/Users/kanecorby/Documents/Applications/algonuxtd/app/pages/portfolio/index.vue",
     "chunkName": "pages/portfolio/index",
     "_name": "_8672f21a"
+  },
+  {
+    "name": "studio",
+    "path": "/studio",
+    "component": "/Users/kanecorby/Documents/Applications/algonuxtd/app/pages/studio.vue",
+    "chunkName": "pages/studio",
+    "_name": "_5da38ade"
   },
   {
     "name": "work",
@@ -68,5 +68,19 @@
     "component": "/Users/kanecorby/Documents/Applications/algonuxtd/app/pages/index.vue",
     "chunkName": "pages/index",
     "_name": "_06232afa"
+  },
+  {
+    "name": "backup-index copy",
+    "path": "/:backup/index%20copy",
+    "component": "/Users/kanecorby/Documents/Applications/algonuxtd/app/pages/_backup/index copy.vue",
+    "chunkName": "pages/_backup/index copy",
+    "_name": "_4e375579"
+  },
+  {
+    "name": "backup-index copy 2",
+    "path": "/:backup/index%20copy%202",
+    "component": "/Users/kanecorby/Documents/Applications/algonuxtd/app/pages/_backup/index copy 2.vue",
+    "chunkName": "pages/_backup/index copy 2",
+    "_name": "_fc14676a"
   }
 ]

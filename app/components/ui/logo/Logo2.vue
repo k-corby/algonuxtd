@@ -10,28 +10,25 @@
 #logo {
   position: fixed;
   z-index: 2000;
-  top: 2vw;
-  left: 1.7vw;
   mix-blend-mode: difference;
-
+  left:0%;
+  top:0%;
   a {
-    font-size: max(40px, 2.4vw);
+    font-size: 44px;
     font-weight: 600;
     display: block;
     text-transform: lowercase;
-    background-color: var(--black);
     font-family: "Libre Baskerville", "hero-new", sans-serif, Georgia, 'Times New Roman', Times, serif, 'Times New Roman', Times, serif;
-    color: rgb(241, 236, 236); 
+    color: #000; 
     text-align: right;
+    background-color:#F9F9F9;
+    padding:28px 40px 36px 46px;
+    /*padding:30px 42px 38px 48px;*/
     :hover {
       text-decoration: none;
     }
 
-    .line-through{
-      text-decoration: line-through;
-      text-decoration-color: yellow;
-      text-decoration-thickness: 3px;
-    }
+    
   }
 }
 </style>

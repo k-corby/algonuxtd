@@ -1,55 +1,139 @@
 <template>
-  <div>
-    <div class="container-fluid bg-banner" style="position:relative;">
-      <div class="pb bg-red">
-        <Banner />
-        <QuarterCircle />
+  <LocomotiveScroll
+    ref="scroller"
+    :getted-options="{
+      smooth: true,
+      repeat: false,
+      direction: 'vertical',
+      smartphone: {
+        smooth: true,
+        direction: 'vertical',
+      },
+      tablet: {
+        smooth: false,
+        direction: 'vertical',
+      },
+    }"
+    data-scroll-container
+    class="bg-white"
+  >
+    <section class="c-section container-fluid bg-white" data-scroll-section>
+      <div class="container-fluid bg-banner" style="position: relative">
+        <div class="pb bg-black" style="position: relative">
+          <Banner4 />
+        </div>
       </div>
-    </div>
-    <div class="container-fluid pt-15">
-      <div class="row pb">
-        <div class="col-12">
-          <div class="pl pr">
-            <hr />
-            <h2
-              class="poppins uppercase"
-              style="line-height:85%; font-weight:400;"
-            >
-              algo<br />
-              Digital<br />agency.
-            </h2>
+    </section>
+    <section
+      class="c-section container-fluid pl full"
+      data-scroll-section
+    >
+      <div class="o-container">
+        <div class="row justify-content-end">
+          <div class="col-9" data-scroll data-scroll-speed="2">
+            <img class="" width="70%" src="~/assets/img/ink.jpg" />
           </div>
           <p
             class="float-right"
-            style="position:absolute; right:1vw; top:40%; color:#222; writing-mode: vertical-rl; text-orientation: mixed; font-size:15px; letter-spacing:0.4vw; font-weight:400; text-transform:lowercase; font-family:'Libre Baskerville';"
+            style="
+              position: absolute;
+              right: 2vw;
+              top: 40%;
+              color: #fff;
+              writing-mode: vertical-rl;
+              text-orientation: mixed;
+              font-size: max(15px, 1.5vw);
+              letter-spacing: 0.7vw;
+              font-weight: 400;
+              text-transform: lowercase;
+              font-family: 'Libre Baskerville';
+            "
           >
             We make special sh*t
           </p>
         </div>
       </div>
-
-      <div class="container-fluid pb">
+    </section>
+    <section
+      class="c-section container-fluid bg-white"
+      data-scroll-section
+      data-scroll-speed="2"
+    >
+      <div class="o-container">
         <div class="row pl pr pb pt">
-          <div class="col-9">
+          <div class="col-10">
             <h4>
               We are a Digital design and development partner for advertising &
               marketing agencies, for both large and small businesses. Would you
               like to know more about our expertise or are you curious about our
-              approach? Contact us without obligation for an appointment.
+              approach?
             </h4>
           </div>
         </div>
       </div>
-      <div class="container-fluid pb">
+    </section>
+
+    <section class="c-section container-fluid pt-15" data-scroll-section>
+      <div class="o-container">
         <div class="row">
-          <ApproachList2 />
+          <ApproachList />
         </div>
       </div>
-      <div class="container-fluid pb">
-        <div class="row" style="position:relative;">
+    </section>
+    <section class="c-section container-fluid pt-15" data-scroll-section>
+      <div class="o-container">
+        <div class="row pl pr pt-10 pb bg-blue text-white">
+          <h1 class="mt poppins trans_stroke">Recent work.</h1>
+          <p class="caption">applications, print and digital media.</p>
+        </div>
+
+        <article class="row" data-scroll>
+          <img class="" src="~/assets/img/ui-design.jpg" />
+        </article>
+        <article class="row" data-scroll>
+          <img class="" src="~/assets/img/ipad.jpg" />
+        </article>
+      </div>
+    </section>
+    <section class="c-section container-fluid pt-15" data-scroll-section>
+      <div class="o-container">
+        <div class="row pl pr pb pt-15">
+          <div class="col-12">
+            <h1
+              class="pb-5 d-flex justify-content-center"
+              style="
+                line-height: 85%;
+                font-size: max(20px, 3vw);
+                letter-spacing: 0.3vw;
+                font-weight: 400;
+              "
+            >
+              people we have worked with.
+            </h1>
+            <p>
+              <img src="~/assets/img/client.png" />
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="c-section container-fluid pt-15" data-scroll-section>
+      <div class="o-container">
+        <div class="row" style="position: relative">
           <h2
             class="pr pl pb"
-            style="font-family:poppins;position:absolute; z-index:2; bottom:0; right:0; color:white; text-align:right; line-height:80%; font-size:18vw; letter-spacing:-1vw;"
+            style="
+              font-family: poppins;
+              position: absolute;
+              z-index: 2;
+              bottom: 0;
+              right: 0;
+              color: white;
+              text-align: right;
+              line-height: 80%;
+              font-size: 18vw;
+              letter-spacing: -1vw;
+            "
           >
             We <br />Make<br />
             Different.
@@ -60,46 +144,30 @@
           />
         </div>
       </div>
-
-      <div class="row pl pr pb pt">
-        <div class="col-9">
-          <h4>
-            We are a Digital design and development partner for advertising &
-            marketing agencies, for both large and small businesses. Would you
-            like to know more about our expertise or are you curious about our
-            approach? Contact us without obligation for an appointment.
-          </h4>
-        </div>
-      </div>
-    </div>
-
-    <div class="bg-white container-fluid pt">
-      <div class="row pl pr pt-10 pb bg-blue text-white">
-        <h1 class="mt poppins trans_stroke">Recent work.</h1>
-        <p class="caption">
-          custom designs web, apps, print media utilising the technologies.
-        </p>
-      </div>
-
-      <article data-aos="fade-in" data-aos-duration="2000" class="row">
-        <img class="scale-crop" src="~/assets/img/ui-design.jpg" />
-      </article>
-      <article data-aos="fade-in" data-aos-duration="2000" class="row">
-        <img class="scale-crop" src="~/assets/img/ipad.jpg" />
-      </article>
-    </div>
-  </div>
+    </section>
+  </LocomotiveScroll>
 </template>
-<script></script>
+<script>
+export default {
+  mounted() {
+    const locomotive = this.$refs.scroller.locomotive;
+    console.log(locomotive);
+    setTimeout(function () {
+      locomotive.update();
+    }, 100);
+  },
+};
+</script>
 <style lang="scss" scoped>
 hr {
-  background-color: black;
-  margin: 4vw 0;
-  height: 0.5vw;
+  background-color: var(--fluro-yellow);
+  background: linear-gradient(90deg, red 50%, blue 50%);
+  height: 0.6vw;
   width: 10vw;
+  margin: 0 0 3vw 0;
 }
 h2 {
-  font-size: 15vw;
+  font-size: 17vw;
   font-weight: 700;
   line-height: 75%;
   letter-spacing: -0.4vw;
@@ -108,9 +176,9 @@ h2 {
 
 h4 {
   font-family: "hero-new";
-  font-size: max(22px, 1.85vw);
-  line-height: max(36px, 3.4vw);
-  letter-spacing: max(1px, 0.2vw);
+  font-size: max(28px, 3vw);
+  line-height: max(44px, 4.2vw);
+  letter-spacing: max(1px, 0.3vw);
 }
 
 p {
@@ -119,26 +187,121 @@ p {
   line-height: max(34px, 2.5vw);
   letter-spacing: max(3px, 0.2vw);
 }
-.circle {
-  width: 200vh;
-  height: 200vh;
-  border-radius: 100%;
-  position: absolute;
-  right: -100vh;
-  top: 25%;
-  border: max(300px, 27vw) solid var(--yellow);
-}
-.caption {
-  font-weight: 300;
-  max-width: 60%;
-  font-size: min(24px, 1.8vw);
-  letter-spacing: 0.7vw;
-  font-family: "Martel", sans-serif;
+
+.banner {
+  padding-top: max(180px, 8vw);
+  height: 140vh;
 }
 
-.bg-banner {
-  width: 100%;
-  overflow: hidden;
-  position: relative;
+.slogan {
+  display: block;
+  text-align: left;
+  color: #ccc;
+  font-weight: 300;
+  max-width: 100%;
+  font-size: max(16px, 1.2vw);
+  margin-top: -1vw;
+  letter-spacing: max(1px, 2.2vw);
+  text-transform: lowercase;
+}
+
+.caption {
+  display: block;
+  text-align: left;
+  color: #fff;
+  font-weight: 300;
+  max-width: 100%;
+  font-size: max(16px, 1vw);
+  letter-spacing: max(1px, 1.4vw);
+  text-transform: lowercase;
+}
+
+.o-title.is-inview .o-title-line:first-child {
+  transition-delay: 0.5s;
+}
+.o-title.is-inview .o-title-line:nth-child(2) {
+  transition-delay: 1s;
+}
+.o-title.is-inview .o-title-line:nth-child(3) {
+  transition-delay: 1.5s;
+}
+
+.o-title-line {
+  span {
+    display: inline-block;
+    line-height: 75%;
+    text-transform: uppercase;
+  }
+  .sans {
+    font-family: "Montserrat", "Libre Baskerville", "Cormorant+Garamond",
+      Tiro Bangla, Serif, "Times New Roman", Times, serif, Geneva, Tahoma,
+      sans-serif, Georgia, "Times New Roman", Times, serif;
+    font-weight: 600;
+    letter-spacing: 0vw;
+    font-size: 24vw;
+  }
+
+  .serif-slim {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    letter-spacing: -1vw;
+    font-size: 21vw;
+  }
+  .serif {
+    font-family: "Times New Roman", Times, serif, Geneva, Tahoma, sans-serif,
+      Georgia, "Times New Roman", Times, serif;
+    font-weight: 100;
+    letter-spacing: 0vw;
+    font-size: 23vw;
+  }
+}
+.o-title.is-inview .o-title-line {
+  transform: none;
+  opacity: 1;
+}
+
+.o-title-line {
+  display: block;
+  opacity: 0;
+  transform-origin: center top;
+  transform-style: preserve-3d;
+  transform: translateY(100%) rotateX(-80deg);
+  transition: opacity 0.8s cubic-bezier(0.215, 0.61, 0.355, 1),
+    transform 0.8s cubic-bezier(0.215, 0.61, 0.355, 1);
+  font-size: 0;
+}
+
+.o-title {
+  margin: 0;
+  perspective: 600px;
+  -webkit-perspective: 600px;
+}
+
+.has-scroll-smooth [data-scroll-container] {
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 991px) {
+  /*.banner{
+  height:auto;
+  padding-bottom:10vh;
+}*/
+
+  .col-10 {
+    flex: none;
+    max-width: none;
+  }
+  .full {
+    padding-left: 0;
+    .col-9 {
+      flex: none;
+      max-width: none;
+    }
+    img {
+      width: 100%;
+      height: 40vh;
+      object-fit: cover;
+    }
+  }
 }
 </style>
